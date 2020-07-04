@@ -1,0 +1,44 @@
+/* Style the testimonial with a rounded border, grey background and some padding and margin */
+.testimonial {
+    border: 2px solid #ccc;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: #eee;
+    border-radius: 5px;
+    padding: 16px;
+    margin: 16px 0;
+    color: black
+  }
+  
+  /* Clear floats after testimonials */
+  .testimonial::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Float images inside the testimonial to the left. Add a right margin, and style the image as a circle */
+  .testimonial img {
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+  
+  /* Increase the font-size of a span element */
+  .testimonial span {
+    font-size: 20px;
+    color: tomato;
+    margin-right: 15px;
+  }
+  
+  /* Add media queries for responsiveness. This will center both the text and the image inside the testimonial */
+  @media (max-width: 500px) {
+    .testimonial {
+      text-align: center;
+    }
+  
+    .testimonial img {
+      margin: auto;
+      float: none;
+      display: block;
+    }
+  }

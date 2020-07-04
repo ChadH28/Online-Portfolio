@@ -9,12 +9,12 @@ const About = () => {
       <div class="row">
         <div className='col-sm-12'>
           <p>An eager, motivated and a business-minded person who always looks for positivity and a way to
-      improve, whether it's in certain skills or my continuous character development. My love for
-      laughter and time with family and friends are my key interests and they my motivation to be
-      better every day.
-      I like problem solving and visual imagery, that's why I have a strong liking towards gaming and the
-      gaming development of that side as well. it's such a spectacle of seeing some code actually
-      translating to a work of art.</p>
+            improve, whether it's in certain skills or my continuous character development. My love for
+            laughter and time with family and friends are my key interests and they my motivation to be
+            better every day.
+            I like problem solving and visual imagery, that's why I have a strong liking towards gaming and the
+            gaming development of that side as well. it's such a spectacle of seeing some code actually
+            translating to a work of art.</p>
         </div>
 
         <div className='col-sm-6 bg-success'>
