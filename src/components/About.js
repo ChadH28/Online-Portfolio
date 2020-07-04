@@ -37,26 +37,34 @@ const About = () => {
           
           <p>Bootstrap</p>
           <div class="progress">
-            <div class="skills bootstrap">80%</div>
+            <div class="skills bootstrap progress-bar-striped progress-bar-animated">80%</div>
           </div>
           
           <p>JavaScript</p>
           <div class="progress">
-            <div class="skills js">60%</div>
+            <div class="skills js progress-bar-striped progress-bar-animated">60%</div>
           </div>
           
           <p>React</p>
           <div class="progress">
-            <div class="skills react">50%</div>
+            <div class="skills react progress-bar-striped progress-bar-animated">50%</div>
           </div>
           <p>Python</p>
           <div class="progress">
-            <div class="skills python">75%</div>
+            <div class="skills python progress-bar-striped progress-bar-animated">75%</div>
           </div>
           <p>mySQL</p>
           <div class="progress">
-            <div class="skills mysql">80%</div>
+            <div class="skills mysql progress-bar-striped progress-bar-animated">80%</div>
           </div>
+        </div>
+      </div>
+      <div className='row'>
+        <div className='col-sm-6 bg-info'>
+          <h4>Education</h4>
+        </div>
+        <div className='col-sm-6 bg-success'>
+          <h4>Work Experience</h4>
         </div>
       </div>
     </section>

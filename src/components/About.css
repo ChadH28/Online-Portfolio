@@ -3,21 +3,25 @@
     margin: 0 auto;
 }
 
+
+
 .progress {
     width: 100%; /* Full width */
-    background-color: #ddd; /* Grey background */
-  }
+    background-color: 0,0,0,0.3; /* Grey background */
+    border-radius: 50px;
+    margin-bottom: 5px;
+}
   
 .skills {
     text-align: right; /* Right-align text */
-    padding-top: 10px; /* Add top padding */
-    padding-bottom: 10px; /* Add bottom padding */
+    padding-right: 5px;
     color: white; /* White text color */
+    border-radius: 50px;
 }
   
 .html-css {width: 75%; background-color: #4CAF50;} /* Green */
 .bootstrap {width: 80%; background-color: #2196F3;} /* Blue */
-.js {width: 60%; background-color: #f44336;} /* Red */
-.react {width: 50%; background-color: #808080;} /* Dark Grey */
-.python {width: 75%; background-color: #808080;} /* Dark Grey */
-.mysql {width: 80%; background-color: #808080;} /* Dark Grey */
+.js {width: 60%; background-color: #808080;} /* Dark Grey */
+.react {width: 50%; background-color: #f44336;} /* Red */
+.python {width: 75%; background-color: #4CAF50;} /* Green */
+.mysql {width: 80%; background-color: #2196F3;} /* Blue */
