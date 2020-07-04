@@ -8,7 +8,7 @@ import Contact from './Contact'
 
 const Routes = () => (
         <Switch>
-            <Route exact path="/" component={LandingPage}/>
+            <Route exact path="/Student-Portfolio" component={LandingPage}/>
             <Route exact path="/aboutme" component={About}/>
             <Route exact path="/portfolio" component={Portfolio}/>
             <Route exact path="/testimonials" component={Testimonials}/>

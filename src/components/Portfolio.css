@@ -1,4 +1,4 @@
-.card {
+.project {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 400px;
     margin: auto;
@@ -25,8 +25,9 @@ button:hover {
     opacity: 0.7;
 }
 
-.grid {
-display: flex;
-grid: repeat(2, 1fr);
-padding: 5px
-}
+.grid-3 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1rem;
+  }
+  

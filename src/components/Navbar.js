@@ -12,7 +12,7 @@ const Navbar = ({ icon, title }) => {
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item">
-          <Link to="/" class="nav-link">Home</Link>
+          <Link to="/Student-Portfolio" class="nav-link">Home</Link>
         </li>
         <li class="nav-item">
           <Link to="/aboutme" class="nav-link">About</Link>

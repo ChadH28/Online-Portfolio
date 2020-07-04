@@ -1,0 +1,33 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: teal;
+    color: thistle;
+    line-height: 1.6;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    border-radius: 50%;
+    
+}
+
+section{
+    padding: 5em 2em
+}
+
+.section-title{
+    margin-bottom: .25em;
+
+}
+
+.section-sub{
+    margin: 0;
+    padding: .25em 1em;
+    background-color: tomato;
+}
