@@ -17,18 +17,28 @@ const About = () => {
             translating to a work of art.</p>
         </div>
 
-        <div className='col-sm-6 bg-success'>
+        <div className='col-sm-6'>
           <h4>Bio</h4>
           <div className='row'>
-            <div className='col-sm-6 bg-warning'>
-              Birthday:
+            <div className='col-sm-6'>
+              <h5>Birthday</h5>
+                <p>28<sup>th</sup> October 1997 (22)</p>
+              <h5>Location (suburb)</h5>
+                <p>Kensington (Northern Suburbs)</p>
+              <h5>Nationality</h5>
+                <p>South African</p>   
             </div>
-            <div className='col-sm-6 bg-danger'>
-              Direct Contact:
+            <div className='col-sm-6'>
+              <h5>Direct Contact</h5>
+                <p>(+27) 84 466 4783</p>
+              <h5>Website</h5>
+                <p>INSERT WEBSITE HERE</p>
+              <h5>Willing to relocate</h5>
+                <p>Yes, anywhere locally or abroad</p>
             </div>
           </div>
         </div>
-        <div className='col-sm-6 bg-info'>
+        <div className='col-sm-6'>
           <h4>Skills</h4>
           <p>HTML & CSS</p>
           <div class="progress">
