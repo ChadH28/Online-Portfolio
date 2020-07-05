@@ -6,7 +6,7 @@ const About = () => {
     <section className='about-me'>
       <h2 className='section-title'>About Me</h2>
       <p className='section-sub'>Developer & Entrepreneur based out of Sunny Cape Town</p>
-      <div class="row">
+      <div className="row">
         <div className='col-sm-12'>
           <p>An eager, motivated and a business-minded person who always looks for positivity and a way to
             improve, whether it's in certain skills or my continuous character development. My love for

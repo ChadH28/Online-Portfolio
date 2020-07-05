@@ -1,11 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
+import './Navbar.css';
 
-const Navbar = ({ icon, title }) => {
+const Navbar = ({ title }) => {
   return (
-  <nav class="navbar navbar-expand-sm navbar-dark bg-secondary">
-    <h2 class="navbar-brand" href="#"><i className={icon} /> {title}</h2>
+  <nav class="navbar navbar-expand-sm navbar-dark bg-secondary fixed-top">
+    <h2 class="navbar-brand">{title}</h2>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>   
@@ -33,13 +34,11 @@ const Navbar = ({ icon, title }) => {
 };
 
 Navbar.defaultProps = {
-  title: 'Chad',
-  icon: 'fab fa-twitter'
+  title: '< Chad />',
 };
 
 Navbar.propTypes = {
   title: PropTypes.string.isRequired,
-  icon: PropTypes.string.isRequired
 };
 
 export default Navbar;
