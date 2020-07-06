@@ -1,2 +1,59 @@
+.contact-card{
+    width: 200px;
+    height: 140px;
+    background-color: teal;
+    margin: 20px;
+    cursor:pointer;
+    display: flex;
+    align-items:  center;
+    justify-content: center;
+}
 
+.contact-content h3,
+.contact-content span {
+    
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 16px;
+}
 
+.contact-content h3 {
+    top: 20px;
+    text-transform: uppercase;
+    color: tomato;
+}
+
+.contact-content:hover h3 {
+    opacity:1;
+    top: 46px;
+    transition: .3s linear .3;
+}
+
+.contact-content span {
+    top: 20px;
+    color: white;
+    font-weight: 500;
+}
+
+.contact-card:hover span {
+    opacity:1;
+    bottom: 46px;
+    transition: .3s linear .3;
+}
+
+.contact-card i {
+    font-size: 32px;
+    color: tomato;
+    transition: .3s linear;
+}
+
+.contact-card:hover i {
+    transform: scale(4);
+    opacity: 0;
+}
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    grid-gap: .5px;
+}

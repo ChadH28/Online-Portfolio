@@ -41,40 +41,74 @@ const About = () => {
         <div className='col-sm-6'>
           <h4>Skills</h4>
           <p>HTML & CSS</p>
-          <div class="progress">
-            <div class="skills html-css progress-bar-striped progress-bar-animated">75%</div>
+          <div className="progress">
+            <div className="skills html-css progress-bar-striped progress-bar-animated">75%</div>
           </div>
           
           <p>Bootstrap</p>
-          <div class="progress">
-            <div class="skills bootstrap progress-bar-striped progress-bar-animated">80%</div>
+          <div className="progress">
+            <div className="skills bootstrap progress-bar-striped progress-bar-animated">80%</div>
           </div>
           
           <p>JavaScript</p>
-          <div class="progress">
-            <div class="skills js progress-bar-striped progress-bar-animated">60%</div>
+          <div className="progress">
+            <div className="skills js progress-bar-striped progress-bar-animated">60%</div>
           </div>
           
           <p>React</p>
-          <div class="progress">
-            <div class="skills react progress-bar-striped progress-bar-animated">50%</div>
+          <div className="progress">
+            <div className="skills react progress-bar-striped progress-bar-animated">50%</div>
           </div>
           <p>Python</p>
-          <div class="progress">
-            <div class="skills python progress-bar-striped progress-bar-animated">75%</div>
+          <div className="progress">
+            <div className="skills python progress-bar-striped progress-bar-animated">75%</div>
           </div>
           <p>mySQL</p>
-          <div class="progress">
-            <div class="skills mysql progress-bar-striped progress-bar-animated">80%</div>
+          <div className="progress">
+            <div className="skills mysql progress-bar-striped progress-bar-animated">80%</div>
           </div>
         </div>
       </div>
       <div className='row'>
-        <div className='col-sm-6 bg-info'>
-          <h4>Education</h4>
-        </div>
-        <div className='col-sm-6 bg-success'>
-          <h4>Work Experience</h4>
+      <div className='col-sm-6'>
+			  <h4>Education</h4>
+			    <ul className="timeline">
+				    <li>
+					    <h5>New Web Design</h5>
+					    <span className="float-right">21 March, 2014</span>
+					    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non nisi semper, et elementum lorem ornare. Maecenas placerat facilisis mollis. Duis sagittis ligula in sodales vehicula....</p>
+				    </li>
+				    <li>
+					    <h5>21 000 Job Seekers</h5>
+					    <span className="float-right">4 March, 2014</span>
+					    <p>Curabitur purus sem, malesuada eu luctus eget, suscipit sed turpis. Nam pellentesque felis vitae justo accumsan, sed semper nisi sollicitudin...</p>
+				    </li>
+				    <li>
+					    <h5>Awesome Employers</h5>
+					    <span className="float-right">1 April, 2014</span>
+					    <p>Fusce ullamcorper ligula sit amet quam accumsan aliquet. Sed nulla odio, tincidunt vitae nunc vitae, mollis pharetra velit. Sed nec tempor nibh...</p>
+				    </li>
+			    </ul>
+		  </div>
+      <div className='col-sm-6'>
+        <h4>Work Experience</h4>
+			    <ul className="timeline">
+				    <li>
+					    <h5>New Web Design</h5>
+					    <span className="float-right">21 March, 2014</span>
+					    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non nisi semper, et elementum lorem ornare. Maecenas placerat facilisis mollis. Duis sagittis ligula in sodales vehicula....</p>
+				    </li>
+				    <li>
+					    <h5>21 000 Job Seekers</h5>
+					    <span className="float-right">4 March, 2014</span>
+					    <p>Curabitur purus sem, malesuada eu luctus eget, suscipit sed turpis. Nam pellentesque felis vitae justo accumsan, sed semper nisi sollicitudin...</p>
+				    </li>
+				    <li>
+					    <h5>Awesome Employers</h5>
+					    <span className="float-right">1 April, 2014</span>
+					    <p>Fusce ullamcorper ligula sit amet quam accumsan aliquet. Sed nulla odio, tincidunt vitae nunc vitae, mollis pharetra velit. Sed nec tempor nibh...</p>
+				    </li>
+			    </ul>
         </div>
       </div>
     </section>
