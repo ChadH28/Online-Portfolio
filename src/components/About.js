@@ -84,9 +84,10 @@ const About = () => {
 					    <p>A university where I spent two years in the faculty of engineering doing my studies and trade to be a Mechanical Engineer.</p>
 				    </li>
 				    <li>
-					    <h5>Awesome Employers</h5>
+					    <h5>Lifechoices</h5>
 					    <span className="float-right">02/2020 - Current</span>
-					    <p>A 6-month bootcamp whats truly amazing each day, a place to code and grow as a person with their constant hands on approach.</p>
+              <p>A 6-month bootcamp where its truly amazing each day, a place to code with languages like HTML,CSS,JavaScript and Python and grow as a person with their constant hands on approach of their lifecoaches and therapists.</p>
+              <p>A place I highly recommend to people who want to learn coding, feel free to visit their website. It is quite inviting.</p>
 				    </li>
 			    </ul>
 		  </div>

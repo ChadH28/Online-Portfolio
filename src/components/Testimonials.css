@@ -1,7 +1,6 @@
 /* Style the testimonial with a rounded border, grey background and some padding and margin */
 .testimonial {
     border: 2px solid #ccc;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     background-color: #eee;
     border-radius: 5px;
     padding: 16px;

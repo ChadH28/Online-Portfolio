@@ -7,39 +7,35 @@ const Contact = () => {
       <h2 className='section-title'>Lets Interact</h2>
       <p className='section-sub'>Swing by for a cup of coffee at my favourite Boristas, or leave me a message</p>
       <div className='row'>
-        <div className='col-sm-6 bg-warning' >
+        <div className='col-sm-6' >
           <h4>Contact Details</h4>
           <div className='grid-2'>
-            <div class='contact-card'>
-              <i className="fas fa-phone"></i> 
-                <span>084 466 4783</span>
+            <div class='contact-card call'>
+              <div><i className="fas fa-phone"></i></div> 
+              <div><span>084 466 4783</span></div>
             </div>
-            <div class='contact-card'>
-              <i className="fas fa-map-marker-alt"></i> 
-                <span>14 Hampden Avenue, Kensington</span>
-            </div>
-            <div class='contact-card'>
-              <i className="far fa-envelope"></i> 
-                <span>chadhoosain@gmail.com</span>
-            </div>
-            <div class='contact-card'>
-              <i className="fab fa-linkedin-in"></i> 
-                <span>Chad Hoosain</span>
-            </div>
-            <div class='contact-card'>
-              <i className="fab fa-github text-center"></i> 
+            <a href='https://www.google.com/maps/' class='contact-card maps'>
+              <div><i className="fas fa-map-marker-alt"></i></div> 
+              <div><span>14 Hampden Avenue, Kensington</span></div>
+            </a>
+            <a href='https://mail.google.com/mail/u/0/#inbox?compose=new' className='contact-card google'>
+              <div><i className="far fa-envelope"></i></div>
+              <div><span>chadhoosain @gmail.com</span></div>
+            </a>
+            <a href='https://www.linkedin.com/in/chad-hoosain-3660641a6/' className='contact-card linkedin'>
+              <div><i className="fab fa-linkedin-in"></i></div> 
+              <div><span>Chad Hoosain</span></div>
+            </a>
+            <a href='https://github.com/ChadH28' className='contact-card github'>
+            <div><i className="fab fa-github text-center"></i></div>
                 <div className='text-center'><span >ChadH28</span></div>
-            </div>
-            <div class='contact-card'>
+            </a>
+            <a href='https://codepen.io/chadh28' className='contact-card code-pen'>
               <div><i className="fab fa-codepen"></i></div>
               <div><span>ChadH28</span></div>
-            </div>
-            <div class="card">
-            <div class="card-header text-center"><i className="fab fa-codepen"></i></div>
-            <div class="card-body text-center">ChadH28</div> 
-          </div>
-          </div>
+            </a>
         </div>
+      </div>
         <div className='col-sm-6'>
           <h4>Reach out through formspree</h4>
             <form action="https://formspree.io/chadhoosain@gmail.com" method="POST">

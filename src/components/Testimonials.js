@@ -1,6 +1,7 @@
 import React from 'react';
 import godwin from './img/godwin.jpg';
 import oslin from './img/oslin.jpeg';
+import sajjaad from './img/sajjaad.jpg';
 import './Testimonials.css'
 
 const Testimonials = () => {
@@ -21,7 +22,7 @@ const Testimonials = () => {
     </div>
 
     <div class="testimonial">
-      <img src={oslin} alt="Avatar" style={{width:"120px",height:"120px"}}/>
+      <img src={sajjaad} alt="Avatar" style={{width:"120px",height:"120px"}}/>
       <p><span>-Sajjaad Francis</span>Fellow Peer</p>
       <p>Chad is a critical thinker, a hard worker, a problem solver, and lastly, extremely creative. I am sure that he will be a valuable asset to any and every company out there.</p>
     </div>
