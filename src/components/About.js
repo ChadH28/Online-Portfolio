@@ -74,19 +74,19 @@ const About = () => {
 			  <h4>Education</h4>
 			    <ul className="timeline">
 				    <li>
-					    <h5>New Web Design</h5>
-					    <span className="float-right">21 March, 2014</span>
-					    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non nisi semper, et elementum lorem ornare. Maecenas placerat facilisis mollis. Duis sagittis ligula in sodales vehicula....</p>
+					    <h5>Oude Molen Technical High School)</h5>
+					    <span className="float-right">2011 - 2015</span>
+					    <p>A highschool where I spent four great years, made good friends and recieved a bachelors pass.</p>
 				    </li>
 				    <li>
-					    <h5>21 000 Job Seekers</h5>
-					    <span className="float-right">4 March, 2014</span>
-					    <p>Curabitur purus sem, malesuada eu luctus eget, suscipit sed turpis. Nam pellentesque felis vitae justo accumsan, sed semper nisi sollicitudin...</p>
+					    <h5>Cape Peninsula University of Technology (Bellville Campus)</h5>
+					    <span className="float-right">2016 - 2018</span>
+					    <p>A university where I spent two years in the faculty of engineering doing my studies and trade to be a Mechanical Engineer.</p>
 				    </li>
 				    <li>
 					    <h5>Awesome Employers</h5>
-					    <span className="float-right">1 April, 2014</span>
-					    <p>Fusce ullamcorper ligula sit amet quam accumsan aliquet. Sed nulla odio, tincidunt vitae nunc vitae, mollis pharetra velit. Sed nec tempor nibh...</p>
+					    <span className="float-right">02/2020 - Current</span>
+					    <p>A 6-month bootcamp whats truly amazing each day, a place to code and grow as a person with their constant hands on approach.</p>
 				    </li>
 			    </ul>
 		  </div>
@@ -94,21 +94,33 @@ const About = () => {
         <h4>Work Experience</h4>
 			    <ul className="timeline">
 				    <li>
-					    <h5>New Web Design</h5>
-					    <span className="float-right">21 March, 2014</span>
-					    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non nisi semper, et elementum lorem ornare. Maecenas placerat facilisis mollis. Duis sagittis ligula in sodales vehicula....</p>
+					    <h5>Industaff Solutions</h5>
+					    <span className="float-right">12/2014 - 12/2015</span>
+              <p>Role: Sweeper and Maintenance</p>
+              <p>Duties:</p>
+                <li>Street cleanse and swept various areas around Cape Town.</li>
+                <li>Picked up dispose bags filled with rubbish and transported it to the Rubbish Truck.</li>
 				    </li>
 				    <li>
-					    <h5>21 000 Job Seekers</h5>
-					    <span className="float-right">4 March, 2014</span>
-					    <p>Curabitur purus sem, malesuada eu luctus eget, suscipit sed turpis. Nam pellentesque felis vitae justo accumsan, sed semper nisi sollicitudin...</p>
+					    <h5>Impact Wholesalers</h5>
+					    <span className="float-right">12/2017-02/2018</span>
+              <p>Role: Floor and Storeroom Packer</p>
+              <p>Duties:</p>
+                <li>Did the Packing and stock-taking</li>
+                <li>Off-loaded heavy boxes and packed accordingly in the company’s Warehouse.</li>
+                <li>Made rolls of toilet paper.</li>
 				    </li>
 				    <li>
-					    <h5>Awesome Employers</h5>
-					    <span className="float-right">1 April, 2014</span>
-					    <p>Fusce ullamcorper ligula sit amet quam accumsan aliquet. Sed nulla odio, tincidunt vitae nunc vitae, mollis pharetra velit. Sed nec tempor nibh...</p>
-				    </li>
-			    </ul>
+					    <h5>3i Solutions</h5>
+					    <span className="float-right">06/2018 - 05/2019</span>
+              <p>Role: Sales, Customer service in Quality Advising and data capturing</p>
+              <p>Duties:</p>
+                <li>Listened and rated one-on-one calls from the Sales Agent to the Customer and give feedback to the
+                Agent on where they can improve</li>
+                <li>Took on Sales calls to sell a certain product based in the UK.</li>
+                <li>Data Captured customers details onto a google spreadsheet and updated information on the companies database.</li>
+            </li>
+          </ul>
         </div>
       </div>
     </section>
