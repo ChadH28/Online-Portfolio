@@ -32,7 +32,7 @@ const About = () => {
               <h5>Direct Contact</h5>
                 <p>(+27) 84 466 4783</p>
               <h5>Website</h5>
-                <p>INSERT WEBSITE HERE</p>
+                <a href='https://chadh28.github.io/Student-Portfolio/'>Link to my website</a>
               <h5>Willing to relocate</h5>
                 <p>Yes, anywhere locally or abroad</p>
             </div>
