@@ -22,8 +22,14 @@ strong{
 .intro-img{
     grid-area: img;
     min-width: 250px;
+    height: 300px;
     position: relative;
-    box-shadow: 0.25em 0.25em 0.75em rgba(0, 0, 0, 0.25) ;
+    box-shadow: 0.25em 0.25em 0.75em rgba(0, 0, 0, 0.25);
+    transition: .4s;
+}
+
+.intro-img:hover{
+    box-shadow: 0.25em 0.25em 0.75em rgba(0, 0, 0, 0.4);
 }
 
 .intro > .section-sub {

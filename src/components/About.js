@@ -97,7 +97,8 @@ const About = () => {
 				    <li>
 					    <h5>Industaff Solutions</h5>
 					    <span className="float-right">12/2014 - 12/2015</span>
-              <p>Role: Sweeper and Maintenance</p>
+              <p>Role:</p>
+                <p> Sweeper and Maintenance</p>
               <p>Duties:</p>
                 <li>Street cleanse and swept various areas around Cape Town.</li>
                 <li>Picked up dispose bags filled with rubbish and transported it to the Rubbish Truck.</li>
@@ -105,21 +106,23 @@ const About = () => {
 				    <li>
 					    <h5>Impact Wholesalers</h5>
 					    <span className="float-right">12/2017-02/2018</span>
-              <p>Role: Floor and Storeroom Packer</p>
+              <p>Role:</p>
+                <p>Floor and Storeroom Packer</p>
               <p>Duties:</p>
-                <li>Did the Packing and stock-taking</li>
-                <li>Off-loaded heavy boxes and packed accordingly in the company’s Warehouse.</li>
-                <li>Made rolls of toilet paper.</li>
+                <p>Did the Packing and stock-taking</p>
+                <p>Off-loaded heavy boxes and packed accordingly in the company’s Warehouse.</p>
+                <p>Made rolls of toilet paper.</p>
 				    </li>
 				    <li>
 					    <h5>3i Solutions</h5>
 					    <span className="float-right">06/2018 - 05/2019</span>
-              <p>Role: Sales, Customer service in Quality Advising and data capturing</p>
+              <p>Role:</p>
+                <p>Sales, Customer service in Quality Advising and data capturing</p>
               <p>Duties:</p>
-                <li>Listened and rated one-on-one calls from the Sales Agent to the Customer and give feedback to the
-                Agent on where they can improve</li>
-                <li>Took on Sales calls to sell a certain product based in the UK.</li>
-                <li>Data Captured customers details onto a google spreadsheet and updated information on the companies database.</li>
+                <p>Listened and rated one-on-one calls from the Sales Agent to the Customer and give feedback to the
+                Agent on where they can improve</p>
+                <p>Took on Sales calls to sell a certain product based in the UK.</p>
+                <p>Data Captured customers details onto a google spreadsheet and updated information on the companies database.</p>
             </li>
           </ul>
         </div>
