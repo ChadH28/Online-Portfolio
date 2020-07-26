@@ -1,10 +1,20 @@
 .about-me {
     max-width: 1000px;
     margin: 0 auto;
-    letter-spacing: 1px;
+    letter-spacing: 1px
 }
 
+.paragraph{
+    margin-top: 15px;
+}
 
+.bio{
+    padding: 20px;
+}
+
+.bio h5{
+    font-weight: bold;
+}
 
 .progress {
     width: 100%; /* Full width */
@@ -34,7 +44,8 @@ ul.timeline {
 
 ul.timeline:before {
     content: ' ';
-    background: #d4d9df;
+    background: #b71c1c;
+    box-shadow: 0 4px 4px 0 #b71c1c;
     display: inline-block;
     position: absolute;
     left: 29px;
@@ -50,13 +61,23 @@ ul.timeline > li {
 
 ul.timeline > li:before {
     content: ' ';
-    background: white;
+    background: #b71c1c;
+    box-shadow: 0 0 4px 4px #b71c1c;
     display: inline-block;
     position: absolute;
     border-radius: 50%;
-    border: 3px solid #22c0e8;
+    border: 3px solid #b71c1c;
     left: 20px;
     width: 20px;
     height: 20px;
     z-index: 400;
+}
+
+.experience, .education {
+    margin-top: 25px;
+}
+
+ul.timeline span {
+    font-style: italic;
+    color: #b71c1c;
 }

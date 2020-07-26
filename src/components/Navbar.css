@@ -3,6 +3,28 @@
     border-radius: 50px;
 }
 
-.nav-item:hover{
+.nav-item > *:hover{
+    color: #b71c1c;
+}
+
+.nav-item > a:focus{
     color: tomato;
 }
+
+.navbar-brand > a {
+    text-decoration: none;
+    color: #b71c1c;
+}
+
+.nav-item > * {
+    color:white;
+}
+
+.navbar {
+    background-color: #212121;
+}
+
+#aboutme a:focus { color: red }
+#portfolio a:focus { color: red }
+#testimonials a:focus { color: red }
+#contactme a:focus { color: red }

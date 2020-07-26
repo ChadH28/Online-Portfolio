@@ -1,31 +1,26 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-import { Link } from 'react-router-dom';
 import './Navbar.css';
 
-const Navbar = ({ title }) => {
+const Navbar = () => {
   return (
-  <nav class="navbar navbar-expand-sm navbar-dark bg-secondary fixed-top">
-    <h2 class="navbar-brand">{title}</h2>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+  <nav className="navbar navbar-expand-sm fixed-top">
+    <h2 className="navbar-brand"><a href="#top">Chad</a></h2>
+    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span className="navbar-toggler-icon"></span>
     </button>   
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item">
-          <Link to="/Student-Portfolio" class="nav-link">Home</Link>
+    <div className="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul className="navbar-nav mr-auto">
+        <li className="nav-item">
+          <a href="#aboutme" className="nav-link">About</a>
         </li>
-        <li class="nav-item">
-          <Link to="/aboutme" class="nav-link">About</Link>
+        <li className="nav-item">
+          <a href="#portfolio" className="nav-link">Portfolio</a>
         </li>
-        <li class="nav-item">
-          <Link to="/portfolio" class="nav-link">Portfolio</Link>
+        <li className="nav-item">
+          <a href="#testimonials" className="nav-link">Testimonials</a>
         </li>
-        <li class="nav-item">
-          <Link to="/testimonials" class="nav-link">Testimonials</Link>
-        </li>
-        <li class="nav-item">
-          <Link to="/contactme" class="nav-link">Contact details</Link>
+        <li className="nav-item">
+          <a href="#contactme" className="nav-link">Contact details</a>
         </li>
       </ul>
     </div>
@@ -33,12 +28,5 @@ const Navbar = ({ title }) => {
   );
 };
 
-Navbar.defaultProps = {
-  title: '< Chad />',
-};
-
-Navbar.propTypes = {
-  title: PropTypes.string.isRequired,
-};
 
 export default Navbar;

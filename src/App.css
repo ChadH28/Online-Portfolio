@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: teal;
+    background-color:#212121;
     color: white;
     line-height: 1.6;
 }
@@ -27,5 +27,5 @@ section{
 .section-sub{
     margin: 0;
     padding: .25em 1em;
-    background-color: tomato;
+    background-color: #b71c1c;
 }

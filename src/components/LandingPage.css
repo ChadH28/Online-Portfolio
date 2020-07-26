@@ -3,7 +3,7 @@
 }
 
 strong{
-    color: tomato;
+    color: #b71c1c;
 }
 
 @media (min-width: 600px) {
@@ -40,5 +40,5 @@ strong{
     text-align: right;
     position: relative;
     left: -1.5em;
-    width: calc(100% + 1.5em)
+    width: calc(100% + 4.5em)
 }

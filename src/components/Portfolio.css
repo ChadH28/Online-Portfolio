@@ -4,21 +4,23 @@
 
 
 .project {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 4px 0 #b71c1c;
     max-width: 400px;
-    margin: auto;
+    margin: 5px;
     text-align: center;
     padding:10px;
+    background-color: #212121
 }
   
 .title {
-    color: black;
+    color: white;
     font-size: 18px; 
 }
 
 .project-img {
     transition: all .5s ease-in-out;
     height: 250px;
+    max-width: 400px;
     opacity: 250ms linear;
 }
 
@@ -27,7 +29,7 @@
     opacity: .75;   
 }
 
-.overflow{
+.overflow {
     overflow: hidden;
     width: 100%;
    
@@ -48,7 +50,7 @@ button:hover {
 
 .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
-    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px,2fr));
+    grid-gap: 10px;
 }
   

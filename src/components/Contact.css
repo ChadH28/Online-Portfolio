@@ -70,5 +70,9 @@
 .grid-2 {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px,2fr));
-    grid-gap: 10px;
+    grid-gap: 5px;
+}
+
+.contact-container, .form-container {
+    margin-top: 25px
 }
