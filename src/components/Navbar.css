@@ -10,7 +10,7 @@
 }
 
 .nav-item > a:focus{
-    color: tomato;
+    color: #b71c1c;
 }
 
 .navbar-brand > a {

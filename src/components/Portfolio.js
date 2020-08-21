@@ -4,6 +4,7 @@ import snake from './img/snake.jpg';
 import gitfinder from './img/Gitfinder.jpg';
 import logger from './img/it-logger.jpg';
 import pong from './img/pong.jpg';
+import ecommerce from './img/e-commerce.jpg';
 
 const Portfolio = () => {
   return (
@@ -38,6 +39,13 @@ const Portfolio = () => {
           <div className='overflow'><img src={snake} alt="Avatar" className='project-img'/></div>
           <p className="text">The nostalgic Nokia 3310 game everybody used to play and rave about in the early 2000s.</p>
             <button href="https://github.com/ChadH28/Python_TurtleGames/blob/master/slang%2Cslang.py">GITHUB</button>
+        </div>
+        {/*Project5*/}
+        <div className="project">
+          <h3 className="title">E-commerce Site</h3>
+          <div className='overflow'><img src={ecommerce} alt="Avatar" className='project-img'/></div>
+          <p className="text">E-commerce based web app which allows users to buy plain unprinted clothes with the option to buy as is or use the companies facilities</p>
+            <button href="https://github.com/ChadH28/End-of-year-Project">GITHUB</button>
         </div>
       </div>
     </section>
