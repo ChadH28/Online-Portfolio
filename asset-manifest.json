@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/Student-Portfolio/static/css/main.59b428cf.chunk.css",
-    "main.js": "/Student-Portfolio/static/js/main.1444f81c.chunk.js",
-    "main.js.map": "/Student-Portfolio/static/js/main.1444f81c.chunk.js.map",
+    "main.css": "/Student-Portfolio/static/css/main.c0ebec06.chunk.css",
+    "main.js": "/Student-Portfolio/static/js/main.d2fc09e7.chunk.js",
+    "main.js.map": "/Student-Portfolio/static/js/main.d2fc09e7.chunk.js.map",
     "runtime-main.js": "/Student-Portfolio/static/js/runtime-main.8b487e31.js",
     "runtime-main.js.map": "/Student-Portfolio/static/js/runtime-main.8b487e31.js.map",
-    "static/js/2.73900a6b.chunk.js": "/Student-Portfolio/static/js/2.73900a6b.chunk.js",
-    "static/js/2.73900a6b.chunk.js.map": "/Student-Portfolio/static/js/2.73900a6b.chunk.js.map",
+    "static/js/2.bd1b6a0f.chunk.js": "/Student-Portfolio/static/js/2.bd1b6a0f.chunk.js",
+    "static/js/2.bd1b6a0f.chunk.js.map": "/Student-Portfolio/static/js/2.bd1b6a0f.chunk.js.map",
     "index.html": "/Student-Portfolio/index.html",
-    "precache-manifest.b480d6b8ed4e4e9b53ac9d5eb975a83b.js": "/Student-Portfolio/precache-manifest.b480d6b8ed4e4e9b53ac9d5eb975a83b.js",
+    "precache-manifest.8cb9b87c75579c94720d9e1b2c0e2576.js": "/Student-Portfolio/precache-manifest.8cb9b87c75579c94720d9e1b2c0e2576.js",
     "service-worker.js": "/Student-Portfolio/service-worker.js",
-    "static/css/main.59b428cf.chunk.css.map": "/Student-Portfolio/static/css/main.59b428cf.chunk.css.map",
-    "static/js/2.73900a6b.chunk.js.LICENSE.txt": "/Student-Portfolio/static/js/2.73900a6b.chunk.js.LICENSE.txt",
+    "static/css/main.c0ebec06.chunk.css.map": "/Student-Portfolio/static/css/main.c0ebec06.chunk.css.map",
+    "static/js/2.bd1b6a0f.chunk.js.LICENSE.txt": "/Student-Portfolio/static/js/2.bd1b6a0f.chunk.js.LICENSE.txt",
     "static/media/Gitfinder.jpg": "/Student-Portfolio/static/media/Gitfinder.c09545bd.jpg",
     "static/media/chad.jpg": "/Student-Portfolio/static/media/chad.a5ac02ef.jpg",
+    "static/media/e-commerce.jpg": "/Student-Portfolio/static/media/e-commerce.d4e4cbb4.jpg",
     "static/media/godwin.jpg": "/Student-Portfolio/static/media/godwin.60e56287.jpg",
     "static/media/it-logger.jpg": "/Student-Portfolio/static/media/it-logger.639e7c9b.jpg",
     "static/media/oslin.jpeg": "/Student-Portfolio/static/media/oslin.b4e390ae.jpeg",
@@ -23,8 +24,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.8b487e31.js",
-    "static/js/2.73900a6b.chunk.js",
-    "static/css/main.59b428cf.chunk.css",
-    "static/js/main.1444f81c.chunk.js"
+    "static/js/2.bd1b6a0f.chunk.js",
+    "static/css/main.c0ebec06.chunk.css",
+    "static/js/main.d2fc09e7.chunk.js"
   ]
 }
