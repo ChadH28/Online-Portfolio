@@ -1,61 +1,60 @@
 .mywork > .section-sub {
-    margin-bottom: 2em;
+  margin-bottom: 2em;
 }
-
 
 .project {
-    box-shadow: 0 2px 4px 0 #b71c1c;
-    max-width: 400px;
-    margin: 5px;
-    text-align: center;
-    padding:10px;
-    background-color: #212121
+  box-shadow: 0 2px 4px 0 #b71c1c;
+  max-width: 400px;
+  margin: 5px;
+  text-align: center;
+  padding: 10px;
+  background-color: #212121;
 }
-  
+
 .title {
-    color: white;
-    font-size: 18px; 
+  color: white;
+  font-size: 18px;
 }
 
 .project-img {
-    transition: all .5s ease-in-out;
-    height: 250px;
-    max-width: 400px;
-    width: 400px;
-    opacity: 250ms linear;
+  transition: all 0.5s ease-in-out;
+  height: 250px;
+  max-width: 400px;
+  width: 400px;
+  opacity: 250ms linear;
 }
 
 .project-img:hover {
-    transform: scale(1.2);
-    opacity: .75;   
+  transform: scale(1.2);
+  opacity: 0.75;
 }
 
 .overflow {
-    overflow: hidden;
-    width: 100%;
-   
+  overflow: hidden;
+  width: 100%;
 }
-  
+
 .button {
-    text-decoration: none;
-    font-size: 22px;
-    color: black;
-    background-color: ivory;
-    padding: 5px;
-    margin-right: 10px;
-    border: none;
-    opacity: .75;
+  text-decoration: none;
+  border-radius: 5.5px;
+  font-size: 16px;
+  color: black;
+  background-color: white;
+  padding: 8px;
+  margin-right: 10px;
+  border: none;
+  opacity: 0.75;
 }
-  
+
 .button:hover {
-    opacity: 0.7;
-    text-decoration: none;
-    color: #b71c1c;
+  opacity: 0.7;
+  text-decoration: none;
+  background-color: #b71c1c;
+  color:   #212121;
 }
 
 .grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px,2fr));
-    grid-gap: 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
+  grid-gap: 10px;
 }
-  

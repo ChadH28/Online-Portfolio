@@ -32,7 +32,7 @@ const Contact = () => {
             </a>
         </div>
       </div>
-        <div className='col-sm-12 form-container'>
+        <div className='col-sm-6 form-container'>
           <h4>Reach out through formspree</h4>
             <form action="https://formspree.io/chadhoosain@gmail.com" method="POST">
               <div className="form-group">
