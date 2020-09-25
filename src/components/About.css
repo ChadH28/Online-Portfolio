@@ -86,3 +86,9 @@ ul.timeline span {
 ul.timeline p,h5 {
     padding-bottom: 15px;
 }
+
+ul.timeline p {
+    font-size: 15px;
+    font-weight: 10px;
+    letter-spacing: 2px;
+}
