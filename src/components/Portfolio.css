@@ -36,17 +36,21 @@
    
 }
   
-button {
+.button {
     text-decoration: none;
     font-size: 22px;
     color: black;
+    background-color: ivory;
+    padding: 5px;
     margin-right: 10px;
     border: none;
     opacity: .75;
 }
   
-button:hover {
+.button:hover {
     opacity: 0.7;
+    text-decoration: none;
+    color: #b71c1c;
 }
 
 .grid {

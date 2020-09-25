@@ -47,7 +47,7 @@ const Contact = () => {
                 <label htmlFor="message">Your message:</label>
                 <textarea type="message" row='3' className="form-control" placeholder="Compose message" id="message"/>
               </div>
-              <button type="submit" className="btn btn-success"><i className="fas fa-paper-plane"></i></button>
+              <button type="submit" className="btn btn-danger"><i className="fas fa-paper-plane"></i></button>
             </form>
         </div>
       </div>

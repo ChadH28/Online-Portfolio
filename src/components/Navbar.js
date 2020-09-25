@@ -6,7 +6,7 @@ const Navbar = () => {
   <nav className="navbar navbar-expand-sm fixed-top">
     <h2 className="navbar-brand"><a href="#top">Chad</a></h2>
     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span className="navbar-toggler-icon"></span>
+      <span className="navbar-toggler-icon"><i className="fas fa-bars"></i></span>
     </button>   
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav mr-auto">
@@ -24,7 +24,7 @@ const Navbar = () => {
         </li>
       </ul>
     </div>
-</nav>
+  </nav>
   );
 };
 
