@@ -1,5 +1,6 @@
 import React from 'react';
-import './About.css'
+import './About.css';
+import CV from './img/CV.docx';
 
 const About = () => {
   return (
@@ -21,7 +22,7 @@ const About = () => {
           <div className='row bio'>
             <div className='col-sm-6'>
               <h5>Birthday</h5>
-                <p>28<sup>th</sup> October 1997 (22)</p>
+                <p>28<sup>th</sup> of October 1997</p>
               <h5>Location (suburb)</h5>
                 <p>Kensington (Northern Suburbs)</p>
               <h5>Nationality</h5>
@@ -31,7 +32,8 @@ const About = () => {
               <h5>Direct Contact</h5>
                 <p>(+27) 84 466 4783</p>
               <h5>Willing to relocate</h5>
-                <p>Yes, anywhere locally or abroad</p>
+                <p className='travel'>Yes, anywhere locally or abroad</p>
+                <a className='download-link' href={CV} download>DOWNLOAD CV</a>
             </div>
           </div>
         </div>
@@ -67,7 +69,7 @@ const About = () => {
         </div>
       </div>
       <div className='row'>
-      <div className='col-sm-6 education'>
+      <div className='col-sm-6 education animate__animated animate__slideInLeft animate__slow'>
 			  <h4>Education</h4>
           <ul className="timeline">
 				    <li>
@@ -84,13 +86,13 @@ const About = () => {
 					    <p>A university where I spent two years in the faculty of engineering doing my studies and trade to be a Mechanical Engineer. (Course incomplete)</p>
 				    </li>
 				    <li>
-					    <h5>Oude Molen Technical High School)</h5>
+					    <h5>Oude Molen Technical High School</h5>
 					    <span className="float-right">2011 - 2016</span>
 					    <p>A highschool where I spent five great years, made good friends and recieved a bachelors pass.</p>
 				    </li>
 			    </ul>
 		  </div>
-      <div className='col-sm-6 experience'>
+      <div className='col-sm-6 experience animate__animated animate__slideInRight animate__slow'>
         <h4>Work Experience</h4>
           <ul className="timeline">
 				    <li>

@@ -43,6 +43,7 @@
 
 .contact-card span {
     color: white;
+    padding-bottom: 40px;
     font-weight: 500;
     transition: .3s linear;
     opacity: 0;
@@ -57,6 +58,7 @@
 }
 
 .contact-card i {
+    padding-top: 20px;
     font-size: 32px;
     color: white;
     transition: .3s linear;
