@@ -33,7 +33,8 @@ const About = () => {
                 <p>(+27) 84 466 4783</p>
               <h5>Willing to relocate</h5>
                 <p className='travel'>Yes, anywhere locally or abroad</p>
-                <a className='download-link' href={CV} download>DOWNLOAD CV</a>
+                <p><a className='download-link' href={CV} download>DOWNLOAD CV</a></p>
+                <p><a className='download-link' href='#contactme' download>HIRE ME</a></p>
             </div>
           </div>
         </div>

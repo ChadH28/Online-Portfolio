@@ -1,6 +1,6 @@
 import React from 'react';
 import './LandingPage.css';
-import chad from './img/chad.jpg';
+import chad from './img/chad-removebg.png';
 
 const LandingPage = () => {
   return (

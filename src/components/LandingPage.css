@@ -1,6 +1,12 @@
 .intro{
-    padding-top: 150px;
+    padding-top: 270px;
+    padding-bottom: 100px;
 }
+
+
+.intro .section-title {
+    margin-bottom: 0.25em;
+  }
 
 strong{
     color: #b71c1c;
@@ -21,18 +27,19 @@ strong{
 
 .intro-img{
     grid-area: img;
-    min-width: 250px;
-    height: 350px;
+    min-width: 350px;
+    height: 545px;
     position: relative;
-    box-shadow: 0.25em 0.25em 0.75em rgba(0, 0, 0, 0.25);
+    /* shape-shadow: 0.25em 0.25em 0.75em rgba(0, 0, 0, 0.25); */
     transition: .4s;
 }
 
 .intro-img:hover{
-    box-shadow: 0.25em 0.25em 0.75em rgba(0, 0, 0, 0.4);
+    text-shadow: 0.25em 0.25em 0.75em rgba(0, 0, 0, 0.4);
 }
 
 .intro > .section-sub {
+    color: #fff;
     align-self: start;
     letter-spacing: 0.5px;
     margin-bottom: 0.5em;
@@ -43,6 +50,6 @@ strong{
     font-size: 16px;
     font-weight:40px;
     position: relative;
-    left: -1.5em;
-    width: calc(100% + 7em)
+    left: 2.5em;
+    width: calc(100% + 1.5em)
 }

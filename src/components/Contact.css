@@ -76,5 +76,31 @@
 }
 
 .contact-container, .form-container {
-    margin-top: 25px
+    margin-top: 30px
+}
+
+.contact-container h4,
+.form-container h4 {
+    margin-bottom: 20px;
+}
+
+.form-section{
+    text-align: center;
+}
+
+form {
+    display: inline-block;
+    max-width: 700px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 45px;
+    padding-bottom: 20px;
+}
+
+form button {
+    margin-left: 15px;
+    margin-top: 15px;
 }
