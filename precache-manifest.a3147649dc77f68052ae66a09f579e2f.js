@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2a2abafeeb4b9291c7a85c8cf9774bb8",
+    "revision": "5cbf6e48581e9e96c288cf89815d2193",
     "url": "/Student-Portfolio/index.html"
   },
   {
-    "revision": "806dff81d7ce7cb99509",
-    "url": "/Student-Portfolio/static/css/main.bcc13128.chunk.css"
+    "revision": "420493daae572a7dfea8",
+    "url": "/Student-Portfolio/static/css/main.0af446c5.chunk.css"
   },
   {
-    "revision": "1ef8acc8d0f51776b26e",
-    "url": "/Student-Portfolio/static/js/2.88516d65.chunk.js"
+    "revision": "11d7efee13b0c85f9b38",
+    "url": "/Student-Portfolio/static/js/2.18d3715b.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/Student-Portfolio/static/js/2.88516d65.chunk.js.LICENSE.txt"
+    "url": "/Student-Portfolio/static/js/2.18d3715b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "806dff81d7ce7cb99509",
-    "url": "/Student-Portfolio/static/js/main.35b4bc98.chunk.js"
+    "revision": "420493daae572a7dfea8",
+    "url": "/Student-Portfolio/static/js/main.f699a831.chunk.js"
   },
   {
     "revision": "1d889daf6d92359bc61a",
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Student-Portfolio/static/media/Gitfinder.c09545bd.jpg"
   },
   {
-    "revision": "a5ac02ef8d6f831ee9d89244ec172e26",
-    "url": "/Student-Portfolio/static/media/chad.a5ac02ef.jpg"
+    "revision": "9e3dadac96d0ccd44c63fa7a40a8a182",
+    "url": "/Student-Portfolio/static/media/chad-removebg.9e3dadac.png"
   },
   {
     "revision": "d4e4cbb4c9c4ad562c36a0b210a862cf",
@@ -46,6 +46,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "639e7c9be51b99c51be12db16bbdbec0",
     "url": "/Student-Portfolio/static/media/it-logger.639e7c9b.jpg"
+  },
+  {
+    "revision": "e04148989caddd3551d55e4fcce5fea0",
+    "url": "/Student-Portfolio/static/media/logo.e0414898.png"
   },
   {
     "revision": "b4e390ae109891d2eb773eb3feef0e0a",
