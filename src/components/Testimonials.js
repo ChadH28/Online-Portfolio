@@ -6,7 +6,7 @@ import './Testimonials.css'
 
 const Testimonials = () => {
   return (
-    <section id="testimonials">
+    <section id="testimonials" className='container'>
       <h2 className='section-title'>Testimonials</h2>
       <p className='section-sub'>What other people think of me or my work</p>
       <div className="testimonial">

@@ -8,7 +8,7 @@
     color: #b71c1c;
 }
 
-.nav-item > a:focus{
+.nav-link .active a{
     color: #b71c1c;
 }
 
@@ -17,15 +17,17 @@
     color: #b71c1c;
 }
 
-.nav-item > * {
+.nav-item a {
     color:white;
 }
 
 .navbar {
     background-color: #212121;
+    height: 80px;
 }
 
-#aboutme a:focus { color: #b71c1c; }
-#portfolio a:focus { color: #b71c1c; }
-#testimonials a:focus { color: #b71c1c; }
-#contactme a:focus { color: #b71c1c; }
+
+.navbar img {
+    height: 140px;
+    width: 160px;
+}

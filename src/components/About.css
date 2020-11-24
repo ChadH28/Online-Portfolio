@@ -119,17 +119,17 @@ ul.timeline p {
 
 .download-link {
   border-radius: 5.5px;
+  margin-bottom: 20px;
+  padding: 15px;
   font-size: 16px;
   font-weight: bold;
-  color: #b71c1c;
-  background-color: #212121;
-  padding: 15px;
-  border: solid 0.5px #b71c1c;
-  opacity: 0.6;
+  color: #212121;
+  background-color: #b71c1c;
 }
 
 .download-link:hover {
-  opacity: 0.8;
   text-decoration: none;
   color: #b71c1c;
+  background-color: #212121 ;
+  border: solid 0.5px #b71c1c;
 }

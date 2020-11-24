@@ -3,7 +3,7 @@ import './Contact.css'
 
 const Contact = () => {
   return (
-    <section id="contactme" className='contact'>
+    <section id="contactme" className='contact container'>
       <h2 className='section-title'>Lets Interact</h2>
       <p className='section-sub'>Swing by for a cup of coffee at my favourite Boristas, or leave me a message</p>
       <div className='row'>
@@ -32,23 +32,31 @@ const Contact = () => {
             </a>
         </div>
       </div>
-        <div className='col-sm-6 form-container'>
+        <div className='col-sm-12 form-container'>
           <h4>Reach out through formspree</h4>
+            <div className='form-section'>
             <form action="https://formspree.io/chadhoosain@gmail.com" method="POST">
-              <div className="form-group">
-                <label htmlFor="name">Name / Fullname:</label>
-                <input type="text" className="form-control" placeholder="Enter Name or Fullname" id="name"/>
+              <div className='row'>
+              <div className="form-group col-sm-6">
+                <input type="text" className="form-control" placeholder="Enter Name" id="name"/>
               </div>
-              <div className="form-group">
-                <label htmlFor="email">Email address:</label>
+              <div className="form-group col-sm-6">
+                <input type="text" className="form-control" placeholder="Enter Last Name" id="fname"/>
+              </div>
+              <div className="form-group col-sm-6">
                 <input type="email" className="form-control" placeholder="Enter email" id="email"/>
               </div>
-              <div className="form-group">
-                <label htmlFor="message">Your message:</label>
+              <div className="form-group col-sm-6">
+                <input type="tel" className="form-control" placeholder="Enter Contact Number" id="number"/>
+              </div>
+              <div className="form-group col-sm-12">
                 <textarea type="message" row='3' className="form-control" placeholder="Compose message" id="message"/>
               </div>
               <button type="submit" className="btn btn-danger"><i className="fas fa-paper-plane"></i></button>
+              </div>
             </form>
+            </div>
+            
         </div>
       </div>
     </section>
