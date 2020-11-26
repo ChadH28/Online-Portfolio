@@ -8,7 +8,7 @@ import ecommerce from './img/e-commerce.jpg';
 
 const Portfolio = () => {
   return (
-    <section id="portfolio" className='mywork'>
+    <section id="portfolio" className='mywork container'>
       <h2 className='section-title'>My Portfolio</h2>
       <p className='section-sub'>A special selection of my range of work through coding</p>
       <div className='grid'>

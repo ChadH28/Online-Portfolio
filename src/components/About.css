@@ -10,6 +10,7 @@
 
 .bio {
   padding: 20px;
+  margin-bottom: 5px;
 }
 
 .bio h5 {
@@ -114,12 +115,12 @@ ul.timeline p {
 }
 
 .travel{
-    margin-bottom: 22.5px;
+  margin-bottom: 22.5px;
 }
 
 .download-link {
   border-radius: 5.5px;
-  margin-bottom: 20px;
+  margin-top: 15px;
   padding: 15px;
   font-size: 16px;
   font-weight: bold;
@@ -127,7 +128,17 @@ ul.timeline p {
   background-color: #b71c1c;
 }
 
-.download-link:hover {
+.hire-me {
+  border-radius: 5.5px;
+  padding: 15px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #212121;
+  background-color: #b71c1c;
+}
+
+.download-link:hover,
+.hire-me:hover {
   text-decoration: none;
   color: #b71c1c;
   background-color: #212121 ;
