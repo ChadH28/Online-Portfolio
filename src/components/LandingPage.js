@@ -12,7 +12,7 @@ const LandingPage = () => {
   return (
     <section className="intro">
       <h1 className='section-mainTitle animate__animated animate__bounce'>Hello World, I am <strong>Chad Hoosain</strong></h1>
-        <p className='section-sub'>Aspiring Full-Stack Developer</p>
+        {/* <p className='section-sub'>Aspiring Full-Stack Developer</p> */}
         <img src={chad} alt='intro-image' className='intro-img'/>
     </section>
   );

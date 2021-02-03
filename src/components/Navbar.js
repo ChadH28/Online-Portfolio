@@ -27,7 +27,7 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-sm fixed-top">
       <h2 className="navbar-brand">
-        <a href="#top"><img src={logo} class='img-fluid' alt='dummy img'/></a>
+        <a href="#top"><img src={logo} class='img-fluid' alt='logo'/></a>
       </h2>
       <button
         className="navbar-toggler"

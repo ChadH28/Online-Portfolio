@@ -4,7 +4,7 @@
   background-color: rgba(238, 238, 238,0,05);
   height: auto;
   min-height: 200px;
-  max-height: 400px;
+  max-height: 500px;
   border-radius: 5px;
   font-size: 18px;
   padding: 16px;
@@ -37,22 +37,6 @@
   margin-right: 15px;
 }
 
-/* Add media queries for responsiveness. This will center both the text and the image inside the testimonial */
-@media (max-width: 500px) {
-  .testimonial {
-    text-align: center;
-  }
-
-  .testimonial img {
-    margin: auto;
-    float: none;
-    display: block;
-  }
-}
-
-
-
-
 
 .carousel-control-prev,
 .carousel-control-next {
@@ -82,4 +66,20 @@
 .carousel {
     margin-top: 80px;
 }
+
+
+/* Add media queries for responsiveness. This will center both the text and the image inside the testimonial */
+@media (max-width: 500px) {
+  .testimonial {
+    text-align: center;
+    min-height: 500px;
+  }
+
+  .testimonial img {
+    margin: auto;
+    float: none;
+    display: block;
+  }
+}
+
 

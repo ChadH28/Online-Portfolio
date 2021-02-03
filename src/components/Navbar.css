@@ -1,7 +1,5 @@
 .navbar-toggler{
-    border-radius: 50%;
     color: #b71c1c;
-
 }
 
 .nav-item > *:hover{
@@ -12,22 +10,20 @@
     color: #b71c1c;
 }
 
-.navbar-brand > a {
-    text-decoration: none;
-    color: #b71c1c;
-}
+
 
 .nav-item a {
     color:white;
 }
 
 .navbar {
-    background-color: #212121;
+    /* background-color: #212121; */
+    background-color: white;
     height: auto;
 }
 
 
 .navbar img {
-    height: 140px;
-    width: 160px;
+    max-height: 120px;
+    width: 140px;
 }
