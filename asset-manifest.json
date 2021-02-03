@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Student-Portfolio/static/css/main.0af446c5.chunk.css",
-    "main.js": "/Student-Portfolio/static/js/main.f699a831.chunk.js",
-    "main.js.map": "/Student-Portfolio/static/js/main.f699a831.chunk.js.map",
+    "main.css": "/Student-Portfolio/static/css/main.bb40fdf4.chunk.css",
+    "main.js": "/Student-Portfolio/static/js/main.820b9c1b.chunk.js",
+    "main.js.map": "/Student-Portfolio/static/js/main.820b9c1b.chunk.js.map",
     "runtime-main.js": "/Student-Portfolio/static/js/runtime-main.8b487e31.js",
     "runtime-main.js.map": "/Student-Portfolio/static/js/runtime-main.8b487e31.js.map",
-    "static/js/2.18d3715b.chunk.js": "/Student-Portfolio/static/js/2.18d3715b.chunk.js",
-    "static/js/2.18d3715b.chunk.js.map": "/Student-Portfolio/static/js/2.18d3715b.chunk.js.map",
+    "static/js/2.f80a284d.chunk.js": "/Student-Portfolio/static/js/2.f80a284d.chunk.js",
+    "static/js/2.f80a284d.chunk.js.map": "/Student-Portfolio/static/js/2.f80a284d.chunk.js.map",
     "index.html": "/Student-Portfolio/index.html",
-    "precache-manifest.a3147649dc77f68052ae66a09f579e2f.js": "/Student-Portfolio/precache-manifest.a3147649dc77f68052ae66a09f579e2f.js",
+    "precache-manifest.c6970a250a51fc3003846f8fb0888d71.js": "/Student-Portfolio/precache-manifest.c6970a250a51fc3003846f8fb0888d71.js",
     "service-worker.js": "/Student-Portfolio/service-worker.js",
-    "static/css/main.0af446c5.chunk.css.map": "/Student-Portfolio/static/css/main.0af446c5.chunk.css.map",
-    "static/js/2.18d3715b.chunk.js.LICENSE.txt": "/Student-Portfolio/static/js/2.18d3715b.chunk.js.LICENSE.txt",
+    "static/css/main.bb40fdf4.chunk.css.map": "/Student-Portfolio/static/css/main.bb40fdf4.chunk.css.map",
+    "static/js/2.f80a284d.chunk.js.LICENSE.txt": "/Student-Portfolio/static/js/2.f80a284d.chunk.js.LICENSE.txt",
     "static/media/CV.docx": "/Student-Portfolio/static/media/CV.fdcf9095.docx",
     "static/media/Gitfinder.jpg": "/Student-Portfolio/static/media/Gitfinder.c09545bd.jpg",
     "static/media/chad-removebg.png": "/Student-Portfolio/static/media/chad-removebg.9e3dadac.png",
@@ -26,8 +26,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.8b487e31.js",
-    "static/js/2.18d3715b.chunk.js",
-    "static/css/main.0af446c5.chunk.css",
-    "static/js/main.f699a831.chunk.js"
+    "static/js/2.f80a284d.chunk.js",
+    "static/css/main.bb40fdf4.chunk.css",
+    "static/js/main.820b9c1b.chunk.js"
   ]
 }
