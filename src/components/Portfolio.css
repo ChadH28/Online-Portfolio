@@ -1,9 +1,9 @@
 .mywork > .section-sub {
-  margin-bottom: 2em;
+  margin-bottom: 80px;
 }
 
 .project {
-  box-shadow: 0 2px 4px 0 #b71c1c;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   max-width: 400px;
   margin: 5px;
   text-align: center;
@@ -53,8 +53,93 @@
   color: #212121;
 }
 
-.grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
-  grid-gap: 10px;
+/* Container needed to position the overlay. Adjust the width as needed */
+.image-container {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  margin-bottom: 15px;
 }
+
+.image-container img {
+  margin-top: 8px;  
+  /* vertical-align: middle; */
+  width: 100%;
+  min-height: 400px;
+  min-width: 400px;
+  flex-grow: initial;
+  display: block;
+  opacity: 0.8;
+  object-fit: fill;
+  border-radius: 8px;
+}
+
+/* The overlay effect - lays on top of the container and over the image */
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  /* Black see-through */
+  width: 100%;
+  transition: 0.5s ease;
+  opacity: 0;
+  color: white;
+  font-size: 20px;
+  padding: 15px;
+  text-align: center;
+}
+
+/* When you mouse over the container, fade in the overlay title */
+.image-container:hover .overlay {
+  opacity: 1;
+}
+
+.overlay-top {
+  position: absolute;
+  top: 0;
+  background: rgba(0, 0, 0, 0.6);
+  /* Black see-through */
+  width: 100%;
+  transition: 0.5s ease;
+  opacity: 0;
+  color: white;
+  font-size: 20px;
+  padding: 15px;
+  text-align: center;
+}
+
+/* When you mouse over the container, fade in the overlay title */
+.image-container:hover .overlay-top {
+  opacity: 1;
+}
+
+.image-container:hover img {
+  opacity: 1;
+  scale: 1.01;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 5px 15px;
+}
+
+.image-container:hover {
+  cursor: pointer;
+}
+
+/* ads section */
+.gallery {
+  margin: auto;
+  max-width: 1300px;
+  width: 100%;
+  min-width: 300px;
+  height: 600px;
+  overflow-x: hidden;
+  overflow-x: hidden;
+  position: static;
+  padding:10px;
+}
+
+.card-link i{
+  font-size: 35px;
+  color: white;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
