@@ -58,7 +58,7 @@ const Contact = () => {
   }
 
   return (
-    <section id="contactme" className="contact container">
+    <section id="contactme" className="contact">
       <h2 className="section-title">Lets Interact</h2>
       <p className="section-sub">
         Swing by for a cup of coffee at my favourite Boristas, or leave me a
@@ -70,7 +70,7 @@ const Contact = () => {
             <form
               class="needs-validation"
               id="form"
-              novalidate
+              noValidate
               onSubmit={sendEmail}
             >
               <div class="form-row">
