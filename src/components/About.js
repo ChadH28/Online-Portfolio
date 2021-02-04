@@ -6,6 +6,7 @@ const About = () => {
   return (
     <section id="aboutme" className="about-me">
       <h2 className="section-title">About Me</h2>
+
       <p className="section-sub">
         Developer & Entrepreneur in the making, based out of Sunny Cape Town
       </p>
@@ -41,7 +42,7 @@ const About = () => {
           <div className="row row-cols-md-3 row-cols-sm-2">
             <div className="col">
               <div
-                class="language-card"
+                className="language-card"
                 data-toggle="modal"
                 data-target="#myModal"
               >
@@ -57,29 +58,29 @@ const About = () => {
                 data-target="#myModal2"
               >
                 <div>
-                  <i class="fab fa-css3-alt"></i>
+                  <i className="fab fa-css3-alt"></i>
                 </div>
               </div>
             </div>
             <div className="col">
               <div
-                class="language-card"
+                className="language-card"
                 data-toggle="modal"
                 data-target="#myModal3"
               >
                 <div>
-                  <i class="fab fa-bootstrap"></i>
+                  <i className="fab fa-bootstrap"></i>
                 </div>
               </div>
             </div>
             <div className="col">
               <div
-                class="language-card"
+                className="language-card"
                 data-toggle="modal"
                 data-target="#myModal4"
               >
                 <div>
-                  <i class="fab fa-react"></i>
+                  <i className="fab fa-react"></i>
                 </div>
               </div>
             </div>
@@ -90,7 +91,7 @@ const About = () => {
                 data-target="#myModal5"
               >
                 <div>
-                  <i class="fab fa-python"></i>
+                  <i className="fab fa-python"></i>
                 </div>
               </div>
             </div>
@@ -101,7 +102,7 @@ const About = () => {
                 data-target="#myModal6"
               >
                 <div>
-                  <i class="fab fa-node"></i>
+                  <i className="fab fa-node"></i>
                 </div>
               </div>
             </div>
@@ -112,7 +113,7 @@ const About = () => {
                 data-target="#myModal7"
               >
                 <div>
-                  <i class="fas fa-database"></i>
+                  <i className="fas fa-database"></i>
                 </div>
               </div>
             </div>
@@ -123,7 +124,7 @@ const About = () => {
                 data-target="#myModal8"
               >
                 <div>
-                  <i class="fab fa-js"></i>
+                  <i className="fab fa-js"></i>
                 </div>
               </div>
             </div>
@@ -146,9 +147,9 @@ const About = () => {
           <ul className="timeline">
             <li>
               <div className="card mb-3">
-                <div class="card-header">Lifechoices</div>
-                <div class="card-body">
-                  <p class="card-text">
+                <div className="card-header">Lifechoices</div>
+                <div className="card-body">
+                  <p className="card-text">
                     A 6-month bootcamp where we focused on the following
                     languages HTML,CSS,JavaScript and Python. I feel that I had
                     a wonderful opportunity to grow as a person as this course
@@ -157,7 +158,7 @@ const About = () => {
                     want to learn coding.
                   </p>
                 </div>
-                <div class="card-footer">
+                <div className="card-footer">
                   <span className="float-right">Feb 2020 - Current</span>
                 </div>
               </div>
@@ -167,28 +168,28 @@ const About = () => {
                 <div class="card-header">
                   Cape Peninsula University of Technology (Bellville Campus)
                 </div>
-                <div class="card-body">
-                  <p class="card-text">
+                <div className="card-body">
+                  <p className="card-text">
                     A university where I spent two years in the faculty of
                     engineering doing my studies and trade to be a Mechanical
                     Engineer. (Course incomplete)
                   </p>
                 </div>
-                <div class="card-footer">
+                <div className="card-footer">
                   <span className="float-right">2016 - 2018</span>
                 </div>
               </div>
             </li>
             <li>
               <div className="card mb-3">
-                <div class="card-header">Oude Molen Technical High School</div>
-                <div class="card-body">
-                  <p class="card-text">
+                <div className="card-header">Oude Molen Technical High School</div>
+                <div className="card-body">
+                  <p className="card-text">
                     A highschool where I spent five great years, made good
                     friends and recieved a bachelors pass.
                   </p>
                 </div>
-                <div class="card-footer">
+                <div className="card-footer">
                   <span className="float-right">2011 - 2016</span>
                 </div>
               </div>
@@ -200,68 +201,68 @@ const About = () => {
           <ul className="timeline">
             <li>
               <div className="card mb-3">
-                <div class="card-header">3i Solutions</div>
-                <div class="card-body">
-                  <h5 class="card-title">Role</h5>
-                  <p class="card-text">
+                <div className="card-header">3i Solutions</div>
+                <div className="card-body">
+                  <h5 className="card-title">Role</h5>
+                  <p className="card-text">
                     Sales, Customer service in Quality Advising and data
                     capturing
                   </p>
-                  <h5 class="card-title">Duties</h5>
-                  <p class="card-text">
+                  <h5 className="card-title">Duties</h5>
+                  <p className="card-text">
                     Listened and rated one-on-one calls from the Sales Agent to
                     the Customer and give feedback to the Agent on where they
                     can improve
                   </p>
-                  <p class="card-text">
+                  <p className="card-text">
                     Took on Sales calls to sell a certain product based in the
                     UK.
                   </p>
-                  <p class="card-text">
+                  <p className="card-text">
                     Data Captured customers details onto a google spreadsheet
                     and updated information on the companies database.
                   </p>
                 </div>
-                <div class="card-footer">
+                <div className="card-footer">
                   <span className="float-right">Jun 2018 - Jul 2019</span>
                 </div>
               </div>
             </li>
             <li>
               <div className="card mb-3">
-                <div class="card-header">Impact Wholesalers</div>
-                <div class="card-body">
-                  <h5 class="card-title">Role</h5>
-                  <p class="card-text">Floor and storeroom packer</p>
-                  <h5 class="card-title">Duties</h5>
-                  <p class="card-text">Did the packing and stock-taking</p>
-                  <p class="card-text">
+                <div className="card-header">Impact Wholesalers</div>
+                <div className="card-body">
+                  <h5 className="card-title">Role</h5>
+                  <p className="card-text">Floor and storeroom packer</p>
+                  <h5 className="card-title">Duties</h5>
+                  <p className="card-text">Did the packing and stock-taking</p>
+                  <p className="card-text">
                     Off-loaded heavy boxes and packed accordingly in the
                     company’s Warehouse.
                   </p>
-                  <p class="card-text">Made rolls of toilet paper.</p>
+                  <p className="card-text">Made rolls of toilet paper.</p>
                 </div>
-                <div class="card-footer">
+                <div className="card-footer">
                   <span className="float-right">Dec 2017 - Feb 2018</span>
                 </div>
               </div>
             </li>
             <li>
               <div className="card mb-3">
-                <div class="card-header">Industaff Solutions</div>
-                <div class="card-body">
-                  <h5 class="card-title">Role</h5>
-                  <p class="card-text">Sweeper and Maintenance</p>
-                  <h5 class="card-title">Duties</h5>
-                  <p class="card-text">
+                <div className="card-header">Industaff Solutions</div>
+                <div className="card-body">
+                  <h5 className="card-title">Role</h5>
+                  <p className="card-text">Sweeper and Maintenance</p>
+                  <h5 className="card-title">Duties</h5>
+                  <p className="card-text">
                     Street clean various areas around Cape Town.
                   </p>
-                  <p class="card-text">
+                  <p className="card-text">
                     Pick up bags filled with dirt and transport it to the
                     Rubbish Truck.
                   </p>
                 </div>
-                <div class="card-footer">
+                <div className="card-footer">
                   <span className="float-right">Dec 2014 - Dec 2015</span>
                 </div>
               </div>
@@ -270,27 +271,27 @@ const About = () => {
         </div>
       </div>
       {/* <!-- modal content(HTML) --> */}
-      <div class="modal fade" id="myModal">
-        <span data-dismiss="modal" class="closer">
+      <div className="modal fade" id="myModal">
+        <span data-dismiss="modal" className="closer">
           &times;
         </span>
-        <div class="modal-dialog"></div>
-        <div class="modal-section container">
-          <div class="row">
-            <div class="col-sm-6">
-              <div class="modal-content">
+        <div className="modal-dialog"></div>
+        <div className="modal-section container">
+          <div className="row">
+            <div className="col-sm-6">
+              <div className="modal-content">
                 <i className="fab fa-html5 img-fluid"></i>
               </div>
             </div>
-            <div class="col-sm-6">
-              <div class="modal-content">
+            <div className="col-sm-6">
+              <div className="modal-content">
                 {/* <!-- Modal Header --> */}
-                <div class="modal-header">
-                  <h5 class="modal-title">HTML 5</h5>
+                <div className="modal-header">
+                  <h5 className="modal-title">HTML 5</h5>
                 </div>
                 {/* <!-- Modal body --> */}
-                <div class="modal-body">
-                  <h6 class="modal-title">Description</h6>
+                <div className="modal-body">
+                  <h6 className="modal-title">Description</h6>
                   <p>
                     HTML stands for Hyper Text Markup Language. HTML is the
                     standard markup language for creating Web pages. HTML allows
@@ -298,7 +299,7 @@ const About = () => {
                     headings, links, and blockquotes for web pages and
                     applications.
                   </p>
-                  <h6 class="modal-title">Skill level</h6>
+                  <h6 className="modal-title">Skill level</h6>
                   <div className="progress">
                     <div className="skills html progress-bar-striped progress-bar-animated">
                       90%
@@ -312,32 +313,32 @@ const About = () => {
       </div>
       {/* <!-- closing of modal content  --> */}
       {/* <!-- modal content (CSS)--> */}
-      <div class="modal fade" id="myModal2">
-        <span data-dismiss="modal" class="closer">
+      <div className="modal fade" id="myModal2">
+        <span data-dismiss="modal" className="closer">
           &times;
         </span>
-        <div class="modal-dialog"></div>
-        <div class="modal-section container">
-          <div class="row">
-            <div class="col-sm-6">
-              <div class="modal-content">
-                <i className="fab fa-css3-alt"></i>
+        <div className="modal-dialog"></div>
+        <div className="modal-section container">
+          <div className="row">
+            <div className="col-sm-6">
+              <div className="modal-content">
+                <i className="fab fa-css3-alt  img-fluid"></i>
               </div>
             </div>
-            <div class="col-sm-6">
-              <div class="modal-content">
+            <div className="col-sm-6">
+              <div className="modal-content">
                 {/* <!-- Modal Header --> */}
-                <div class="modal-header">
-                  <h5 class="modal-title">CSS 3</h5>
+                <div className="modal-header">
+                  <h5 className="modal-title">CSS 3</h5>
                 </div>
                 {/* <!-- Modal body --> */}
-                <div class="modal-body">
-                  <h6 class="modal-title">Description</h6>
+                <div className="modal-body">
+                  <h6 className="modal-title">Description</h6>
                   <p>
                     CSS is the language for describing the presentation of Web
                     pages, including colors, layout, and fonts.
                   </p>
-                  <h6 class="modal-title">Skill level</h6>
+                  <h6 className="modal-title">Skill level</h6>
                   <div className="progress">
                     <div className="skills css progress-bar-striped progress-bar-animated">
                       75%
@@ -351,27 +352,27 @@ const About = () => {
       </div>
       {/* <!-- closing of modal content --> */}
       {/* <!-- modal content(Bootstrap) --> */}
-      <div class="modal fade" id="myModal3">
-        <span data-dismiss="modal" class="closer">
+      <div className="modal fade" id="myModal3">
+        <span data-dismiss="modal" className="closer">
           &times;
         </span>
-        <div class="modal-dialog"></div>
-        <div class="modal-section container">
-          <div class="row">
-            <div class="col-sm-6">
-              <div class="modal-content">
-                <i className="fab fa-bootstrap"></i>
+        <div className="modal-dialog"></div>
+        <div className="modal-section container">
+          <div className="row">
+            <div className="col-sm-6">
+              <div className="modal-content">
+                <i className="fab fa-bootstrap  img-fluid"></i>
               </div>
             </div>
-            <div class="col-sm-6">
-              <div class="modal-content">
+            <div className="col-sm-6">
+              <div className="modal-content">
                 {/* <!-- Modal Header --> */}
-                <div class="modal-header">
-                  <h5 class="modal-title">Bootstrap 4</h5>
+                <div className="modal-header">
+                  <h5 className="modal-title">Bootstrap 4</h5>
                 </div>
                 {/* <!-- Modal body --> */}
-                <div class="modal-body">
-                  <h6 class="modal-title">Description</h6>
+                <div className="modal-body">
+                  <h6 className="modal-title">Description</h6>
                   <p>
                     Bootstrap is a potent front-end framework used to create
                     modern websites, web apps and mobile applications.
@@ -390,27 +391,27 @@ const About = () => {
       </div>
       {/* <!-- closing of modal content --> */}
       {/* <!-- modal content(React) --> */}
-      <div class="modal fade" id="myModal4">
-        <span data-dismiss="modal" class="closer">
+      <div className="modal fade" id="myModal4">
+        <span data-dismiss="modal" className="closer">
           &times;
         </span>
-        <div class="modal-dialog"></div>
-        <div class="modal-section container">
-          <div class="row">
-            <div class="col-sm-6">
-              <div class="modal-content">
-                <i class="fab fa-react"></i>
+        <div className="modal-dialog"></div>
+        <div className="modal-section container">
+          <div className="row">
+            <div className="col-sm-6">
+              <div className="modal-content">
+                <i className="fab fa-react  img-fluid"></i>
               </div>
             </div>
-            <div class="col-sm-6">
-              <div class="modal-content">
+            <div className="col-sm-6">
+              <div className="modal-content">
                 {/* <!-- Modal Header --> */}
-                <div class="modal-header">
-                  <h5 class="modal-title">React js</h5>
+                <div className="modal-header">
+                  <h5 className="modal-title">React js</h5>
                 </div>
                 {/* <!-- Modal body --> */}
-                <div class="modal-body">
-                  <h6 class="modal-title">Description</h6>
+                <div className="modal-body">
+                  <h6 className="modal-title">Description</h6>
                   <p>
                     React is an open-source, front end, JavaScript library for
                     building user interfaces and the creation of using reusable
@@ -419,7 +420,7 @@ const About = () => {
                     can be used as a base in the development of single-page or
                     mobile applications.
                   </p>
-                  <h6 class="modal-title">Skill level</h6>
+                  <h6 className="modal-title">Skill level</h6>
                   <div className="progress">
                     <div className="skills react progress-bar-striped progress-bar-animated">
                       50%
@@ -433,27 +434,27 @@ const About = () => {
       </div>
       {/* <!-- closing of modal content --> */}
       {/* <!-- modal content(Python) --> */}
-      <div class="modal fade" id="myModal5">
-        <span data-dismiss="modal" class="closer">
+      <div className="modal fade" id="myModal5">
+        <span data-dismiss="modal" className="closer">
           &times;
         </span>
-        <div class="modal-dialog"></div>
-        <div class="modal-section container">
-          <div class="row">
-            <div class="col-sm-6">
-              <div class="modal-content">
-                <i class="fab fa-python"></i>
+        <div className="modal-dialog"></div>
+        <div className="modal-section container">
+          <div className="row">
+            <div className="col-sm-6">
+              <div className="modal-content">
+                <i className="fab fa-python  img-fluid"></i>
               </div>
             </div>
-            <div class="col-sm-6">
-              <div class="modal-content">
+            <div className="col-sm-6">
+              <div className="modal-content">
                 {/* <!-- Modal Header --> */}
-                <div class="modal-header">
-                  <h5 class="modal-title">Python</h5>
+                <div className="modal-header">
+                  <h5 className="modal-title">Python</h5>
                 </div>
                 {/* <!-- Modal body --> */}
-                <div class="modal-body">
-                  <h6 class="modal-title">Description</h6>
+                <div className="modal-body">
+                  <h6 className="modal-title">Description</h6>
                   <p>
                     Python is an interpreted, high-level and general-purpose
                     programming language. Python's design philosophy emphasizes
@@ -462,7 +463,7 @@ const About = () => {
                     approach aim to help programmers write clear, logical code
                     for small and large-scale projects.
                   </p>
-                  <h6 class="modal-title">Skill level</h6>
+                  <h6 className="modal-title">Skill level</h6>
                   <div className="progress">
                     <div className="skills python progress-bar-striped progress-bar-animated">
                       75%
@@ -485,7 +486,7 @@ const About = () => {
           <div class="row">
             <div class="col-sm-6">
               <div class="modal-content">
-                <i id="node" className="fab fa-node"></i>
+                <i id="node" className="fab fa-node  img-fluid"></i>
               </div>
             </div>
             <div class="col-sm-6">
@@ -525,7 +526,7 @@ const About = () => {
           <div class="row">
             <div class="col-sm-6">
               <div class="modal-content">
-                <i className="fas fa-database"></i>
+                <i className="fas fa-database  img-fluid"></i>
               </div>
             </div>
             <div class="col-sm-6">
@@ -563,7 +564,7 @@ const About = () => {
           <div class="row">
             <div class="col-sm-6">
               <div class="modal-content">
-                <i className="fab fa-js"></i>
+                <i className="fab fa-js  img-fluid"></i>
               </div>
             </div>
             <div class="col-sm-6">

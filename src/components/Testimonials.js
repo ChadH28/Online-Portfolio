@@ -7,7 +7,7 @@ import $ from "jquery";
 
 const Testimonials = () => {
   return (
-    <section id="testimonials" className="container">
+    <section id="testimonials">
       <h2 className="section-title">Testimonials</h2>
       <p className="section-sub">What other people think of me or my work</p>
 

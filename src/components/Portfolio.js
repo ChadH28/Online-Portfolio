@@ -9,7 +9,7 @@ import ecommerce_qr from "./img/e-commerce_qrcode.png";
 
 const Portfolio = () => {
   return (
-    <section id="portfolio" className="mywork container">
+    <section id="portfolio" className="mywork">
       <h2 className="section-title">My Portfolio</h2>
       <p className="section-sub">
         A special selection of my range of work through coding

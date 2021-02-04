@@ -1,6 +1,7 @@
 .intro{
     padding-top: 270px;
     padding-bottom: 100px;
+    /* background-color: rgba(255, 255, 255,0.4); */
 }
 
 
@@ -55,4 +56,42 @@ strong{
     position: relative;
     left: 2.5em;
     width: calc(75% + 1.5em)
+}
+
+.landing-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 350px;
+    width: 100%;
+    height: 600px;
+    position: relative;
+    object-fit: fill;
+}
+
+.header{
+    margin-bottom: 0.25em;
+}
+
+.sub-header {
+    margin-top: 0.75em;
+    font-size: 36px;
+    font-weight:40px;
+}
+
+hr{
+    border-color: white;
+}
+
+
+#color-selector{
+    background-color: red;
+    border-radius: 50%;
+    padding:20px;
+    width:40px;
+    height: 40px;
+    position: static;
+    bottom: 50px;
+    right: 50px;
+
 }
