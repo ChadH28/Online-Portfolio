@@ -236,9 +236,6 @@ const Contact = () => {
                   <i className="fas fa-phone"></i>
                 </a>
               </div>
-              {/* <div>
-                <span>084 466 4783</span>
-              </div> */}
             </div>
             <a
               href="https://mail.google.com/mail/u/0/#inbox?compose=new"
@@ -247,9 +244,6 @@ const Contact = () => {
               <div>
                 <i className="far fa-envelope"></i>
               </div>
-              {/* <div>
-                <span>chadhoosain @gmail.com</span>
-              </div> */}
             </a>
             <a
               href="https://www.linkedin.com/in/chad-hoosain-3660641a6/"
@@ -258,9 +252,6 @@ const Contact = () => {
               <div>
                 <i className="fab fa-linkedin-in"></i>
               </div>
-              {/* <div>
-                <span>Chad Hoosain</span>
-              </div> */}
             </a>
             <a
               href="https://github.com/ChadH28"
@@ -269,9 +260,6 @@ const Contact = () => {
               <div>
                 <i className="fab fa-github text-center"></i>
               </div>
-              {/* <div className="text-center">
-                <span>ChadH28</span>
-              </div> */}
             </a>
             <a
               href="https://codepen.io/chadh28"
@@ -280,9 +268,6 @@ const Contact = () => {
               <div>
                 <i className="fab fa-codepen"></i>
               </div>
-              {/* <div>
-                <span>ChadH28</span>
-              </div> */}
             </a>
           </div>
         </div>

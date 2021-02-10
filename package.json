@@ -1,12 +1,13 @@
 {
-  "homepage": "http://ChadH28.github.io/Student-Portfolio",
-  "name": "student-portfolio",
+  "homepage": "http://ChadH28.github.io/Online-Portfolio",
+  "name": "online-portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
+    "aos": "^2.3.4",
     "emailjs-com": "^2.6.4",
     "gh-pages": "^3.1.0",
     "jquery": "^3.5.1",

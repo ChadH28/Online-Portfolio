@@ -26,7 +26,7 @@ const About = () => {
           <h4>Bio</h4>
           <h5>Birthday</h5>
           <p>
-            28<sup>th</sup> of October 1997
+            28<sup>th</sup> October 1997
           </p>
           <h5>Location (suburb)</h5>
           <p>Kensington (Northern Suburbs) , Cape Town</p>
@@ -280,7 +280,7 @@ const About = () => {
           <div className="row">
             <div className="col-sm-6">
               <div className="modal-content">
-                <i className="fab fa-html5 img-fluid"></i>
+                <i id='html5' className="fab fa-html5 img-fluid"></i>
               </div>
             </div>
             <div className="col-sm-6">
@@ -322,7 +322,7 @@ const About = () => {
           <div className="row">
             <div className="col-sm-6">
               <div className="modal-content">
-                <i className="fab fa-css3-alt  img-fluid"></i>
+                <i id='css' className="fab fa-css3-alt  img-fluid"></i>
               </div>
             </div>
             <div className="col-sm-6">
@@ -361,7 +361,7 @@ const About = () => {
           <div className="row">
             <div className="col-sm-6">
               <div className="modal-content">
-                <i className="fab fa-bootstrap  img-fluid"></i>
+                <i id='bootstrap'className="fab fa-bootstrap  img-fluid"></i>
               </div>
             </div>
             <div className="col-sm-6">
@@ -400,7 +400,7 @@ const About = () => {
           <div className="row">
             <div className="col-sm-6">
               <div className="modal-content">
-                <i className="fab fa-react  img-fluid"></i>
+                <i id='react' className="fab fa-react  img-fluid"></i>
               </div>
             </div>
             <div className="col-sm-6">
@@ -443,7 +443,7 @@ const About = () => {
           <div className="row">
             <div className="col-sm-6">
               <div className="modal-content">
-                <i className="fab fa-python  img-fluid"></i>
+                <i id='python' className="fab fa-python img-fluid"></i>
               </div>
             </div>
             <div className="col-sm-6">
@@ -564,7 +564,7 @@ const About = () => {
           <div class="row">
             <div class="col-sm-6">
               <div class="modal-content">
-                <i className="fab fa-js  img-fluid"></i>
+                <i className="fab fa-js img-fluid"></i>
               </div>
             </div>
             <div class="col-sm-6">

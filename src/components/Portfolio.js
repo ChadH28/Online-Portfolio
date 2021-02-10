@@ -31,17 +31,24 @@ const Portfolio = () => {
               <div class="overlay container">
                 <a
                   href="https://github.com/ChadH28/Github-Finder"
-                  class="card-link text-start"
+                  class="card-link "
+                  title="Visit github repository"
                 >
                   <i class="fab fa-github"></i>
                 </a>
-                <a href="#" class="card-link text-centre">
+                <a
+                  data-toggle="modal"
+                  data-target="#noLive-modal"
+                  class="card-link "
+                  title="Visit live website"
+                >
                   <i class="fas fa-globe"></i>
                 </a>
                 <a
                   data-toggle="modal"
                   data-target="#detail-modal1"
-                  class="card-link text-end"
+                  class="card-link "
+                  title="Description"
                 >
                   <i class="fas fa-info-circle"></i>
                 </a>
@@ -60,17 +67,24 @@ const Portfolio = () => {
               <div class="overlay container">
                 <a
                   href="https://github.com/ChadH28/IT-Logger"
-                  class="card-link text-start"
+                  class="card-link"
+                  title="Visit github repository"
                 >
                   <i class="fab fa-github"></i>
                 </a>
-                <a href="#" class="card-link text-centre">
+                <a
+                  data-toggle="modal"
+                  data-target="#noLive-modal"
+                  class="card-link "
+                  title="Visit live website"
+                >
                   <i class="fas fa-globe"></i>
                 </a>
                 <a
                   data-toggle="modal"
                   data-target="#detail-modal2"
-                  class="card-link text-end"
+                  class="card-link "
+                  title="Description"
                 >
                   <i class="fas fa-info-circle"></i>
                 </a>
@@ -84,17 +98,24 @@ const Portfolio = () => {
               <div class="overlay container">
                 <a
                   href="https://github.com/ChadH28/Python_TurtleGames/blob/master/pong.py"
-                  class="card-link text-start"
+                  class="card-link "
+                  title="Visit github repository"
                 >
                   <i class="fab fa-github"></i>
                 </a>
-                <a href="#" class="card-link text-centre">
+                <a
+                  data-toggle="modal"
+                  data-target="#noLive-modal"
+                  class="card-link "
+                  title="Visit live website"
+                >
                   <i class="fas fa-globe"></i>
                 </a>
                 <a
                   data-toggle="modal"
                   data-target="#detail-modal3"
-                  class="card-link text-end"
+                  class="card-link "
+                  title="Description"
                 >
                   <i class="fas fa-info-circle"></i>
                 </a>
@@ -113,17 +134,24 @@ const Portfolio = () => {
               <div class="overlay container">
                 <a
                   href="https://github.com/ChadH28/Python_TurtleGames/blob/master/slang%2Cslang.py"
-                  class="card-link text-start"
+                  class="card-link "
+                  title="Visit github repository"
                 >
                   <i class="fab fa-github"></i>
                 </a>
-                <a href="#" class="card-link text-centre">
+                <a
+                  data-toggle="modal"
+                  data-target="#noLive-modal"
+                  class="card-link "
+                  title="Visit live website"
+                >
                   <i class="fas fa-globe"></i>
                 </a>
                 <a
                   data-toggle="modal"
                   data-target="#detail-modal4"
-                  class="card-link text-end"
+                  class="card-link "
+                  title="Description"
                 >
                   <i class="fas fa-info-circle"></i>
                 </a>
@@ -144,20 +172,23 @@ const Portfolio = () => {
               <div class="overlay container">
                 <a
                   href="https://github.com/ChadH28/End-of-year-Project"
-                  class="card-link text-start"
+                  class="card-link "
+                  title="Visit github repository"
                 >
                   <i class="fab fa-github"></i>
                 </a>
                 <a
                   href="https://fineprint-ecommerce.herokuapp.com/"
-                  class="card-link text-centre"
+                  class="card-link "
+                  title="Visit live website"
                 >
                   <i class="fas fa-globe"></i>
                 </a>
                 <a
                   data-toggle="modal"
                   data-target="#detail-modal5"
-                  class="card-link text-end"
+                  class="card-link "
+                  title="Description"
                 >
                   <i class="fas fa-info-circle"></i>
                 </a>
@@ -166,6 +197,30 @@ const Portfolio = () => {
           </div>
         </div>
       </div>
+
+      {/* <!-- modal content(Not deployed) --> */}
+      <div class="modal fade" id="noLive-modal">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-section container">
+            <div
+              class="alert alert-warning alert-dismissible fade show"
+              role="alert"
+            >
+              <strong>Bad News!</strong> This project is not live yet
+              <span
+                type="button"
+                id='close'
+                class="btn-close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                &times;
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* <!-- closing of modal content --> */}
 
       {/* <!-- modal content(gitfinder) --> */}
       <div class="modal fade" id="detail-modal1">
@@ -186,7 +241,7 @@ const Portfolio = () => {
               <div class="modal-content">
                 {/* <!-- Modal Header --> */}
                 <div class="modal-header">
-                  <h5 class="modal-title">Details</h5>
+                  <h5 class="modal-title">Description</h5>
                 </div>
                 {/* <!-- Modal body --> */}
                 <div class="modal-body">
@@ -220,7 +275,7 @@ const Portfolio = () => {
               <div class="modal-content">
                 {/* <!-- Modal Header --> */}
                 <div class="modal-header">
-                  <h5 class="modal-title">Details</h5>
+                  <h5 class="modal-title">Description</h5>
                 </div>
                 {/* <!-- Modal body --> */}
                 <div class="modal-body">
@@ -253,7 +308,7 @@ const Portfolio = () => {
               <div class="modal-content">
                 {/* <!-- Modal Header --> */}
                 <div class="modal-header">
-                  <h5 class="modal-title">Details</h5>
+                  <h5 class="modal-title">Description</h5>
                 </div>
                 {/* <!-- Modal body --> */}
                 <div class="modal-body">
@@ -284,7 +339,7 @@ const Portfolio = () => {
               <div class="modal-content">
                 {/* <!-- Modal Header --> */}
                 <div class="modal-header">
-                  <h5 class="modal-title">Details</h5>
+                  <h5 class="modal-title">Description</h5>
                 </div>
                 {/* <!-- Modal body --> */}
                 <div class="modal-body">
@@ -321,7 +376,7 @@ const Portfolio = () => {
               <div class="modal-content">
                 {/* <!-- Modal Header --> */}
                 <div class="modal-header">
-                  <h5 class="modal-title">Details</h5>
+                  <h5 class="modal-title">Description</h5>
                 </div>
                 {/* <!-- Modal body --> */}
                 <div class="modal-body">
