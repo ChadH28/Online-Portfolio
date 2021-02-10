@@ -92,6 +92,7 @@
 /* When you mouse over the container, fade in the overlay title */
 .image-container:hover .overlay {
   opacity: 1;
+  cursor: pointer;
 }
 
 .overlay-top {
@@ -119,9 +120,6 @@
   box-shadow: rgba(0, 0, 0, 0.4) 0px 5px 15px;
 }
 
-.image-container:hover {
-  cursor: pointer;
-}
 
 /* ads section */
 .gallery {
@@ -139,7 +137,23 @@
 .card-link i{
   font-size: 35px;
   color: white;
-  padding-left: 25px;
-  padding-right: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
+.alert .btn-close{
+  position: absolute;
+  top: -12px;
+  right: 20px;
+  font-size: 40px;
+  font-weight: bold;
+  text-decoration: none;
+  z-index: 500;
+}
+
+
+#close:hover {
+  opacity: 1;
+  text-decoration: none;
+  cursor: pointer;
+}

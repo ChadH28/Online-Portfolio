@@ -1,7 +1,7 @@
 import React from "react";
 import "./Navbar.css";
 import logo from "./img/logo.png";
-import {$, ready } from "jquery";
+import {$} from "jquery";
 
 const Navbar = () => {
   /* Code for changing active  
@@ -16,13 +16,13 @@ const Navbar = () => {
     });
   }
 
+
+  
   return (
     <nav className="navbar navbar-expand-sm fixed-top container">
-      <h2 className="navbar-brand">
-        <a href="#top">
-          <img src={logo} className="img-fluid" alt="logo" />
+        <a  className="navbar-brand" href="#top">
+          <img src={logo} className="img-fluid" alt="logo" title='mylogo' />
         </a>
-      </h2>
       <button
         className="navbar-toggler"
         type="button"
@@ -37,9 +37,9 @@ const Navbar = () => {
         </span>
       </button>
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul className="navbar-nav mr-auto justify-content-end" id="nav-cont">
+        <ul className="navbar-nav justify-content-end" id="nav-cont">
           <li className="nav-item ">
-            <a href="#aboutme" className="nav-link active">
+            <a href="#aboutme" className="nav-link">
               About
             </a>
           </li>
@@ -53,9 +53,14 @@ const Navbar = () => {
               Testimonials
             </a>
           </li>
+          {/* <li className="nav-item">
+            <a href="#services" className="nav-link">
+              Services
+            </a>
+          </li> */}
           <li className="nav-item">
             <a href="#contactme" className="nav-link">
-              Contact details
+              Contact
             </a>
           </li>
         </ul>

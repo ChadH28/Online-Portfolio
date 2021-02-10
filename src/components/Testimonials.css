@@ -3,10 +3,10 @@
   /* border: 1px solid #ccc; */
   background-color: rgba(238, 238, 238,0,05);
   height: auto;
-  min-height: 200px;
+  min-height: 250px;
   max-height: 500px;
   border-radius: 5px;
-  font-size: 18px;
+  font-size: 22px;
   padding: 16px;
   margin: 16px 0;
   color: white;
@@ -73,6 +73,7 @@
   .testimonial {
     text-align: center;
     min-height: 500px;
+    font-size: 16px;
   }
 
   .testimonial img {
