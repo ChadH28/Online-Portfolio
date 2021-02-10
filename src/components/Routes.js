@@ -4,7 +4,7 @@ import LandingPage from './LandingPage';
 
 const Routes = () => (
         <Switch>
-            <Route exact path="/Student-Portfolio" component={LandingPage}/>           
+            <Route exact path="/Online-Portfolio" component={LandingPage}/>           
         </Switch>
 )
 
