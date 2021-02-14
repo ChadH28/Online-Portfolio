@@ -1,6 +1,14 @@
 import React from "react";
 import "./About.css";
 import CV from "./img/CV.docx";
+import html5 from "./img/html-5.png";
+import css3 from "./img/css.png";
+import bootstrap4 from "./img/bootstrap-4.png";
+import python from "./img/python.png";
+import react from "./img/react.png";
+import nodejs from "./img/nodejs.png";
+import javascript from "./img/javascript.png";
+import sql from "./img/sql-server.png";
 
 const About = () => {
   return (
@@ -280,7 +288,7 @@ const About = () => {
           <div className="row">
             <div className="col-sm-6">
               <div className="modal-content">
-                <i id='html5' className="fab fa-html5 img-fluid"></i>
+                <img src={html5} alt="Avatar" className="img-fluid" title="html5" />
               </div>
             </div>
             <div className="col-sm-6">
@@ -322,7 +330,7 @@ const About = () => {
           <div className="row">
             <div className="col-sm-6">
               <div className="modal-content">
-                <i id='css' className="fab fa-css3-alt  img-fluid"></i>
+                <img src={css3} alt="css3logo" className="img-fluid" title="css3" />
               </div>
             </div>
             <div className="col-sm-6">
@@ -361,7 +369,7 @@ const About = () => {
           <div className="row">
             <div className="col-sm-6">
               <div className="modal-content">
-                <i id='bootstrap'className="fab fa-bootstrap  img-fluid"></i>
+                <img src={bootstrap4} alt="Avatar" className="img-fluid" title="bootstrap" />
               </div>
             </div>
             <div className="col-sm-6">
@@ -400,7 +408,7 @@ const About = () => {
           <div className="row">
             <div className="col-sm-6">
               <div className="modal-content">
-                <i id='react' className="fab fa-react  img-fluid"></i>
+                <img src={react} alt="Avatar" className="img-fluid" title="react" />
               </div>
             </div>
             <div className="col-sm-6">
@@ -443,7 +451,7 @@ const About = () => {
           <div className="row">
             <div className="col-sm-6">
               <div className="modal-content">
-                <i id='python' className="fab fa-python img-fluid"></i>
+                <img src={python} alt="Avatar" className="img-fluid" title="python" />
               </div>
             </div>
             <div className="col-sm-6">
@@ -486,7 +494,7 @@ const About = () => {
           <div class="row">
             <div class="col-sm-6">
               <div class="modal-content">
-                <i id="node" className="fab fa-node  img-fluid"></i>
+                <img src={nodejs} alt="Avatar" className="img-fluid" title="nodejs" />
               </div>
             </div>
             <div class="col-sm-6">
@@ -526,7 +534,7 @@ const About = () => {
           <div class="row">
             <div class="col-sm-6">
               <div class="modal-content">
-                <i className="fas fa-database  img-fluid"></i>
+                <img src={sql} alt="Avatar" className="img-fluid" title="sqlserver" />
               </div>
             </div>
             <div class="col-sm-6">
@@ -564,7 +572,7 @@ const About = () => {
           <div class="row">
             <div class="col-sm-6">
               <div class="modal-content">
-                <i className="fab fa-js img-fluid"></i>
+                <img src={javascript} alt="Avatar" className="img-fluid" title="javascript" />
               </div>
             </div>
             <div class="col-sm-6">

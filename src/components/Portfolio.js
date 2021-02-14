@@ -11,8 +11,11 @@ import gitfinder_qr from "./img/gitfinder_qrcode.png";
 import itlogger_qr from "./img/it-logger_qrcode.png";
 import codeplayer from "./img/codeplayer.png";
 import reactor from "./img/reactor_game.png";
+import reactor_qrcode from "./img/reactor_qrcode.png";
 import contact_assist from "./img/contact_assistant.png";
 import lmj from "./img/module_project.png";
+import lmj_qrcode from "./img/lmj_qrcode.png";
+
 
 const Portfolio = () => {
   return (
@@ -453,7 +456,10 @@ const Portfolio = () => {
           <div class="row">
             <div class="col-sm-6">
               <div class="modal-content">
-                <div class="modal-header">
+              <div class="modal-header">
+                  <h5 class="modal-title">Barcode</h5>
+                </div>
+                <div class="modal-body">
                   <h5 class="modal-title">Barcode coming soon</h5>
                 </div>
               </div>
@@ -484,7 +490,10 @@ const Portfolio = () => {
           <div class="row">
             <div class="col-sm-6">
               <div class="modal-content">
-                <div class="modal-header">
+              <div class="modal-header">
+                  <h5 class="modal-title">Barcode</h5>
+                </div>
+                <div class="modal-body">
                   <h5 class="modal-title">Barcode coming soon</h5>
                 </div>
               </div>
@@ -635,7 +644,7 @@ const Portfolio = () => {
                   <h5 class="modal-title">Barcode</h5>
                 </div>
                 <div class="modal-body">
-                  <h5 class="modal-title">Barcode coming soon</h5>
+                  <img src={reactor_qrcode} alt="Avatar" className="img-fluid" title="google QR code generator" />
                 </div>
               </div>
             </div>
@@ -669,7 +678,7 @@ const Portfolio = () => {
                   <h5 class="modal-title">Barcode</h5>
                 </div>
                 <div class="modal-body">
-                  <h5 class="modal-title">Barcode coming soon</h5>
+                  <img src={lmj_qrcode} alt="Avatar" className="img-fluid" title="google QR code generator" />
                 </div>
               </div>
             </div>
