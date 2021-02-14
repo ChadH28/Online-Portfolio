@@ -1,11 +1,18 @@
 import React from "react";
 import "./Portfolio.css";
 import snake from "./img/snake.jpg";
-import gitfinder from "./img/Gitfinder.jpg";
+import gitfinder from "./img/GitFinder.png";
 import logger from "./img/it-logger.jpg";
 import pong from "./img/pong.jpg";
 import ecommerce from "./img/e-commerce.jpg";
 import ecommerce_qr from "./img/e-commerce_qrcode.png";
+import codeplayer_qr from "./img/qrcode_cp.png";
+import gitfinder_qr from "./img/gitfinder_qrcode.png";
+import itlogger_qr from "./img/it-logger_qrcode.png";
+import codeplayer from "./img/codeplayer.png";
+import reactor from "./img/reactor_game.png";
+import contact_assist from "./img/contact_assistant.png";
+import lmj from "./img/module_project.png";
 
 const Portfolio = () => {
   return (
@@ -37,8 +44,7 @@ const Portfolio = () => {
                   <i class="fab fa-github"></i>
                 </a>
                 <a
-                  data-toggle="modal"
-                  data-target="#noLive-modal"
+                  href="https://gitfinderv1.netlify.app/"
                   class="card-link "
                   title="Visit live website"
                 >
@@ -73,8 +79,7 @@ const Portfolio = () => {
                   <i class="fab fa-github"></i>
                 </a>
                 <a
-                  data-toggle="modal"
-                  data-target="#noLive-modal"
+                  href="https://it-loggerv1.netlify.app/"
                   class="card-link "
                   title="Visit live website"
                 >
@@ -195,6 +200,147 @@ const Portfolio = () => {
               </div>
             </div>
           </div>
+          <div class="col">
+            <div class="image-container">
+              <div class="overlay-top container">Contact Assistant</div>
+              <img
+                src={contact_assist}
+                alt="Avatar"
+                className="img-fluid"
+                title="Contact Assistant"
+              />
+              <div class="overlay container">
+                <a
+                  href="https://github.com/ChadH28/Contact-Keeper"
+                  class="card-link "
+                  title="Visit github repository"
+                >
+                  <i class="fab fa-github"></i>
+                </a>
+                <a
+                  href="https://contact-assistant.herokuapp.com/"
+                  class="card-link "
+                  title="Visit live website"
+                >
+                  <i class="fas fa-globe"></i>
+                </a>
+                <a
+                  data-toggle="modal"
+                  data-target="#detail-modal6"
+                  class="card-link "
+                  title="Description"
+                >
+                  <i class="fas fa-info-circle"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="image-container">
+              <div class="overlay-top container">
+                Codeplayer: JQuery made code editor
+              </div>
+              <img
+                src={codeplayer}
+                alt="Avatar"
+                className="img-fluid"
+                title="Codeplayer"
+              />
+              <div class="overlay container">
+                <a
+                  href="https://github.com/ChadH28/Codeplayer--Code-editor-using-JQuery"
+                  class="card-link "
+                  title="Visit github repository"
+                >
+                  <i class="fab fa-github"></i>
+                </a>
+                <a
+                  href="https://chadh28.github.io/Codeplayer--Code-editor-using-JQuery/"
+                  class="card-link "
+                  title="Visit live website"
+                >
+                  <i class="fas fa-globe"></i>
+                </a>
+                <a
+                  data-toggle="modal"
+                  data-target="#detail-modal7"
+                  class="card-link "
+                  title="Description"
+                >
+                  <i class="fas fa-info-circle"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="image-container">
+              <div class="overlay-top container">
+                Reactor: Test your reactions
+              </div>
+              <img
+                src={reactor}
+                alt="Avatar"
+                className="img-fluid"
+                title="Reactor"
+              />
+              <div class="overlay container">
+                <a
+                  href="https://github.com/ChadH28/Reactor--Javascript-game"
+                  class="card-link "
+                  title="Visit github repository"
+                >
+                  <i class="fab fa-github"></i>
+                </a>
+                <a
+                  href="https://chadh28.github.io/Reactor--Javascript-game/"
+                  class="card-link "
+                  title="Visit live website"
+                >
+                  <i class="fas fa-globe"></i>
+                </a>
+                <a
+                  data-toggle="modal"
+                  data-target="#detail-modal8"
+                  class="card-link "
+                  title="Description"
+                >
+                  <i class="fas fa-info-circle"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="image-container">
+              <div class="overlay-top container">
+                Lmj: A page to do with all things funny
+              </div>
+              <img src={lmj} alt="Avatar" className="img-fluid" title="Lmj" />
+              <div class="overlay container">
+                <a
+                  href="https://github.com/ChadH28/Web-Design-End-of-module-Project"
+                  class="card-link "
+                  title="Visit github repository"
+                >
+                  <i class="fab fa-github"></i>
+                </a>
+                <a
+                  href="https://chadh28.github.io/Web-Design-End-of-module-Project/"
+                  class="card-link "
+                  title="Visit live website"
+                >
+                  <i class="fas fa-globe"></i>
+                </a>
+                <a
+                  data-toggle="modal"
+                  data-target="#detail-modal9"
+                  class="card-link "
+                  title="Description"
+                >
+                  <i class="fas fa-info-circle"></i>
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -209,7 +355,7 @@ const Portfolio = () => {
               <strong>Bad News!</strong> This project is not live yet
               <span
                 type="button"
-                id='close'
+                id="close"
                 class="btn-close"
                 data-dismiss="modal"
                 aria-label="Close"
@@ -232,8 +378,11 @@ const Portfolio = () => {
           <div class="row">
             <div class="col-sm-6">
               <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title">Barcode coming soon</h5>
+              <div class="modal-header">
+                  <h5 class="modal-title">Barcode</h5>
+                </div>
+                <div class="modal-body">
+                  <img src={gitfinder_qr} alt="Avatar" title="google QR code generator" />
                 </div>
               </div>
             </div>
@@ -246,8 +395,9 @@ const Portfolio = () => {
                 {/* <!-- Modal body --> */}
                 <div class="modal-body">
                   <p>
-                    Made through React to search and view users through Github
-                    with a different UI/UX feel to it
+                    React app to search Github profiles. This app uses the
+                    Context API along with the useContext and useReducer hooks
+                    for state management within the app.
                   </p>
                 </div>
               </div>
@@ -266,8 +416,11 @@ const Portfolio = () => {
           <div class="row">
             <div class="col-sm-6">
               <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title">Barcode coming soon</h5>
+              <div class="modal-header">
+                  <h5 class="modal-title">Barcode</h5>
+                </div>
+                <div class="modal-body">
+                  <img src={itlogger_qr} alt="Avatar" title="google QR code generator" />
                 </div>
               </div>
             </div>
@@ -280,7 +433,8 @@ const Portfolio = () => {
                 {/* <!-- Modal body --> */}
                 <div class="modal-body">
                   <p>
-                    Made through React for IT contactability in a workplace.
+                    React app to track IT department tasks and issues. Uses
+                    JSON-Server as a mock backend.
                   </p>
                 </div>
               </div>
@@ -345,7 +499,8 @@ const Portfolio = () => {
                 <div class="modal-body">
                   <p>
                     The nostalgic Nokia 3310 game everybody used to play and
-                    rave about in the early 2000s.
+                    rave about in the early 2000s made through turtle module in
+                    pycharm.
                   </p>
                 </div>
               </div>
@@ -368,7 +523,7 @@ const Portfolio = () => {
                   <h5 class="modal-title">Barcode</h5>
                 </div>
                 <div class="modal-body">
-                  <img src={ecommerce_qr} alt="Avatar" />
+                  <img src={ecommerce_qr} alt="Avatar" title="google QR code generator" />
                 </div>
               </div>
             </div>
@@ -381,9 +536,154 @@ const Portfolio = () => {
                 {/* <!-- Modal body --> */}
                 <div class="modal-body">
                   <p>
-                    E-commerce based web app which allows users to buy plain
-                    unprinted clothes with the option to buy as is or use the
-                    companies facilities
+                    React app to create an E-commerce platform which allows
+                    users to buy plain unprinted clothes with the option to buy
+                    as is or use the companies printing facilities.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* <!-- closing of modal content --> */}
+      {/* <!-- modal content(contact assistan) --> */}
+      <div class="modal fade" id="detail-modal6">
+        <span data-dismiss="modal" class="closer">
+          &times;
+        </span>
+        <div class="modal-dialog"></div>
+        <div class="modal-section container">
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Barcode</h5>
+                </div>
+                <div class="modal-body">
+                  <h5 class="modal-title">Barcode coming soon</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="modal-content">
+                {/* <!-- Modal Header --> */}
+                <div class="modal-header">
+                  <h5 class="modal-title">Description</h5>
+                </div>
+                {/* <!-- Modal body --> */}
+                <div class="modal-body">
+                  <p>
+                    Full stack React project which has contact manager with
+                    React hooks, context, sessions & JWT authentication.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* <!-- closing of modal content --> */}
+      {/* <!-- modal content(codeplayer) --> */}
+      <div class="modal fade" id="detail-modal7">
+        <span data-dismiss="modal" class="closer">
+          &times;
+        </span>
+        <div class="modal-dialog"></div>
+        <div class="modal-section container">
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Barcode</h5>
+                </div>
+                <div class="modal-body">
+                  <img src={codeplayer_qr} alt="Avatar" />
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="modal-content">
+                {/* <!-- Modal Header --> */}
+                <div class="modal-header">
+                  <h5 class="modal-title">Description</h5>
+                </div>
+                {/* <!-- Modal body --> */}
+                <div class="modal-body">
+                  <p>
+                    A JQuery made code generator similiar to codepen where users
+                    can learn to code on
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* <!-- closing of modal content --> */}
+      {/* <!-- modal content(reactor) --> */}
+      <div class="modal fade" id="detail-modal8">
+        <span data-dismiss="modal" class="closer">
+          &times;
+        </span>
+        <div class="modal-dialog"></div>
+        <div class="modal-section container">
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Barcode</h5>
+                </div>
+                <div class="modal-body">
+                  <h5 class="modal-title">Barcode coming soon</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="modal-content">
+                {/* <!-- Modal Header --> */}
+                <div class="modal-header">
+                  <h5 class="modal-title">Description</h5>
+                </div>
+                {/* <!-- Modal body --> */}
+                <div class="modal-body">
+                  <p>A Javascript made game to test users reactions.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* <!-- closing of modal content --> */}
+      {/* <!-- modal content(lmj) --> */}
+      <div class="modal fade" id="detail-modal9">
+        <span data-dismiss="modal" class="closer">
+          &times;
+        </span>
+        <div class="modal-dialog"></div>
+        <div class="modal-section container">
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Barcode</h5>
+                </div>
+                <div class="modal-body">
+                  <h5 class="modal-title">Barcode coming soon</h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="modal-content">
+                {/* <!-- Modal Header --> */}
+                <div class="modal-header">
+                  <h5 class="modal-title">Description</h5>
+                </div>
+                {/* <!-- Modal body --> */}
+                <div class="modal-body">
+                  <p>
+                    First end of Module task. Used form-validation, modals,
+                    cards and a navbar. Used Bootstrap and custom css stylings.
                   </p>
                 </div>
               </div>
