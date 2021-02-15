@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Online-Portfolio/static/css/main.a0ffb391.chunk.css",
-    "main.js": "/Online-Portfolio/static/js/main.86d271d6.chunk.js",
-    "main.js.map": "/Online-Portfolio/static/js/main.86d271d6.chunk.js.map",
+    "main.css": "/Online-Portfolio/static/css/main.0239580a.chunk.css",
+    "main.js": "/Online-Portfolio/static/js/main.2dce8bda.chunk.js",
+    "main.js.map": "/Online-Portfolio/static/js/main.2dce8bda.chunk.js.map",
     "runtime-main.js": "/Online-Portfolio/static/js/runtime-main.ebbbecde.js",
     "runtime-main.js.map": "/Online-Portfolio/static/js/runtime-main.ebbbecde.js.map",
     "static/css/2.4707e12a.chunk.css": "/Online-Portfolio/static/css/2.4707e12a.chunk.css",
-    "static/js/2.18fdab1d.chunk.js": "/Online-Portfolio/static/js/2.18fdab1d.chunk.js",
-    "static/js/2.18fdab1d.chunk.js.map": "/Online-Portfolio/static/js/2.18fdab1d.chunk.js.map",
+    "static/js/2.e665bfb8.chunk.js": "/Online-Portfolio/static/js/2.e665bfb8.chunk.js",
+    "static/js/2.e665bfb8.chunk.js.map": "/Online-Portfolio/static/js/2.e665bfb8.chunk.js.map",
     "index.html": "/Online-Portfolio/index.html",
-    "precache-manifest.21abbe0fcef53ad9dc9af9fd6124843c.js": "/Online-Portfolio/precache-manifest.21abbe0fcef53ad9dc9af9fd6124843c.js",
+    "precache-manifest.613be407ba510873e347d3dc25ee1e31.js": "/Online-Portfolio/precache-manifest.613be407ba510873e347d3dc25ee1e31.js",
     "service-worker.js": "/Online-Portfolio/service-worker.js",
     "static/css/2.4707e12a.chunk.css.map": "/Online-Portfolio/static/css/2.4707e12a.chunk.css.map",
-    "static/css/main.a0ffb391.chunk.css.map": "/Online-Portfolio/static/css/main.a0ffb391.chunk.css.map",
-    "static/js/2.18fdab1d.chunk.js.LICENSE.txt": "/Online-Portfolio/static/js/2.18fdab1d.chunk.js.LICENSE.txt",
+    "static/css/main.0239580a.chunk.css.map": "/Online-Portfolio/static/css/main.0239580a.chunk.css.map",
+    "static/js/2.e665bfb8.chunk.js.LICENSE.txt": "/Online-Portfolio/static/js/2.e665bfb8.chunk.js.LICENSE.txt",
     "static/media/CV2.docx": "/Online-Portfolio/static/media/CV2.659bca08.docx",
     "static/media/GitFinder.png": "/Online-Portfolio/static/media/GitFinder.9f0cf63b.png",
     "static/media/bootstrap-4.png": "/Online-Portfolio/static/media/bootstrap-4.584d9f32.png",
@@ -41,8 +41,8 @@
   "entrypoints": [
     "static/js/runtime-main.ebbbecde.js",
     "static/css/2.4707e12a.chunk.css",
-    "static/js/2.18fdab1d.chunk.js",
-    "static/css/main.a0ffb391.chunk.css",
-    "static/js/main.86d271d6.chunk.js"
+    "static/js/2.e665bfb8.chunk.js",
+    "static/css/main.0239580a.chunk.css",
+    "static/js/main.2dce8bda.chunk.js"
   ]
 }
