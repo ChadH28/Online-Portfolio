@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import CV from "./img/CV.docx";
+import CV from "./img/CV2.docx";
 import html5 from "./img/html-5.png";
 import css3 from "./img/css.png";
 import bootstrap4 from "./img/bootstrap-4.png";
