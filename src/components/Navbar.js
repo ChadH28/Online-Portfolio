@@ -1,8 +1,7 @@
 import React from "react";
 import "./Navbar.css";
 import logo from "./img/logo.png";
-import { $ } from "jquery";
-import { NavLink } from "react-router-dom";
+
 
 const Navbar = () => {
   /* Code for changing active  
@@ -46,7 +45,6 @@ const Navbar = () => {
             <li className="nav-item ">
               <a
                 href="#aboutme"
-                activeClassName="active"
                 className="nav-link"
                 data-aos="fade-right"
                 data-aos-duration="1800"
@@ -57,7 +55,6 @@ const Navbar = () => {
             <li className="nav-item">
               <a
                 href="#portfolio"
-                activeClassName="active"
                 className="nav-link"
                 data-aos="fade-right"
                 data-aos-duration="2000"
@@ -69,7 +66,6 @@ const Navbar = () => {
               <a
                 href="#testimonials"
                 className="nav-link"
-                activeClassName="active"
                 data-aos="fade-right"
                 data-aos-duration="2200"
               >
@@ -84,7 +80,6 @@ const Navbar = () => {
             <li className="nav-item">
               <a
                 href="#contactme"
-                activeClassName="active"
                 className="nav-link"
                 data-aos="fade-right"
                 data-aos-duration="2400"

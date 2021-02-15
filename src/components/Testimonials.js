@@ -3,7 +3,6 @@ import godwin from "./img/godwin.jpg";
 import oslin from "./img/oslin.jpeg";
 import sajjaad from "./img/sajjaad.jpg";
 import "./Testimonials.css";
-import $ from "jquery";
 
 const Testimonials = () => {
   return (
@@ -11,15 +10,15 @@ const Testimonials = () => {
       <h2 className="section-title">Testimonials</h2>
       <p className="section-sub" data-aos="fade-right">What other people think of me or my work</p>
 
-      <div id="demo" class="carousel slide" data-ride="carousel" data-aos="zoom-in-left">
-        <ul class="carousel-indicators">
-          <li class="indicator" data-target="#demo" data-slide-to="0" class="active"></li>
+      <div id="demo" className="carousel slide" data-ride="carousel" data-aos="zoom-in-left">
+        <ul className="carousel-indicators">
+          <li className="indicator active" data-target="#demo" data-slide-to="0"></li>
           <li data-target="#demo" data-slide-to="1"></li>
           <li data-target="#demo" data-slide-to="2"></li>
         </ul>
 
-        <div class="carousel-inner">
-          <div class="carousel-item active">
+        <div className="carousel-inner">
+          <div className="carousel-item active">
             <div className="testimonial  h-100">
               <img
                 src={godwin}
@@ -37,7 +36,7 @@ const Testimonials = () => {
               </p>
             </div>
           </div>
-          <div class="carousel-item">
+          <div className="carousel-item">
             <div className="testimonial  h-100">
               <img
                 src={oslin}
@@ -56,7 +55,7 @@ const Testimonials = () => {
               </p>
             </div>
           </div>
-          <div class="carousel-item">
+          <div className="carousel-item">
             <div className="testimonial  h-100">
               <img
                 src={sajjaad}
@@ -75,11 +74,11 @@ const Testimonials = () => {
           </div>
         </div>
 
-        <a class="carousel-control-prev" href="#demo" data-slide="prev">
-          <span class="carousel-control-prev-icon"></span>
+        <a className="carousel-control-prev" href="#demo" data-slide="prev">
+          <span className="carousel-control-prev-icon"></span>
         </a>
-        <a class="carousel-control-next" href="#demo" data-slide="next">
-          <span class="carousel-control-next-icon"></span>
+        <a className="carousel-control-next" href="#demo" data-slide="next">
+          <span className="carousel-control-next-icon"></span>
         </a>
       </div>
     </section>

@@ -32,7 +32,7 @@ const About = () => {
           </p>
         </div>
 
-        <div className="col-sm-6 bio" data-aos="fade-down-right" data-aos="fade-right">
+        <div className="col-sm-6 bio" data-aos="fade-right">
           <h4>Bio</h4>
           <h5>Birthday</h5>
           <p>
@@ -63,7 +63,7 @@ const About = () => {
             </div>
             <div className="col" data-aos="fade-down">
               <div
-                class="language-card"
+                className="language-card"
                 data-toggle="modal"
                 data-target="#myModal2"
               >
@@ -96,7 +96,7 @@ const About = () => {
             </div>
             <div className="col"  data-aos="fade-up">
               <div
-                class="language-card"
+                className="language-card"
                 data-toggle="modal"
                 data-target="#myModal5"
               >
@@ -107,7 +107,7 @@ const About = () => {
             </div>
             <div className="col" data-aos="fade-left">
               <div
-                class="language-card"
+                className="language-card"
                 data-toggle="modal"
                 data-target="#myModal6"
               >
@@ -118,7 +118,7 @@ const About = () => {
             </div>
             <div className="col" data-aos="fade-up-right">
               <div
-                class="language-card"
+                className="language-card"
                 data-toggle="modal"
                 data-target="#myModal7"
               >
@@ -129,7 +129,7 @@ const About = () => {
             </div>
             <div className="col" data-aos="fade-up">
               <div
-                class="language-card"
+                className="language-card"
                 data-toggle="modal"
                 data-target="#myModal8"
               >
@@ -175,7 +175,7 @@ const About = () => {
             </li>
             <li>
               <div className="card mb-3" data-aos="flip-left">
-                <div class="card-header">
+                <div className="card-header">
                   Cape Peninsula University of Technology (Bellville Campus)
                 </div>
                 <div className="card-body">
@@ -404,7 +404,7 @@ const About = () => {
                     Bootstrap is a potent front-end framework used to create
                     modern websites, web apps and mobile applications.
                   </p>
-                  <h6 class="modal-title">Skill level</h6>
+                  <h6 className="modal-title">Skill level</h6>
                   <div className="progress">
                     <div className="skills bootstrap progress-bar-striped progress-bar-animated">
                       80%
@@ -504,33 +504,33 @@ const About = () => {
       </div>
       {/* <!-- closing of modal content --> */}
       {/* <!-- modal content(node) --> */}
-      <div class="modal fade" id="myModal6">
-        <span data-dismiss="modal" class="closer">
+      <div className="modal fade" id="myModal6">
+        <span data-dismiss="modal" className="closer">
           &times;
         </span>
-        <div class="modal-dialog"></div>
-        <div class="modal-section container">
-          <div class="row">
-            <div class="col-sm-6">
-              <div class="modal-content">
+        <div className="modal-dialog"></div>
+        <div className="modal-section container">
+          <div className="row">
+            <div className="col-sm-6">
+              <div className="modal-content">
                 <img src={nodejs} alt="Avatar" className="img-fluid" title="nodejs" />
               </div>
             </div>
-            <div class="col-sm-6">
-              <div class="modal-content">
+            <div className="col-sm-6">
+              <div className="modal-content">
                 {/* <!-- Modal Header --> */}
-                <div class="modal-header">
-                  <h5 class="modal-title">Node js</h5>
+                <div className="modal-header">
+                  <h5 className="modal-title">Node js</h5>
                 </div>
                 {/* <!-- Modal body --> */}
-                <div class="modal-body">
-                  <h6 class="modal-title">Description</h6>
+                <div className="modal-body">
+                  <h6 className="modal-title">Description</h6>
                   <p>
                     Node.js is used for traditional web sites and back-end API
                     services, but was designed with real-time, push-based
                     architectures in mind.
                   </p>
-                  <h6 class="modal-title">Skill level</h6>
+                  <h6 className="modal-title">Skill level</h6>
                   <div className="progress">
                     <div className="skills node progress-bar-striped progress-bar-animated">
                       65%
@@ -544,31 +544,31 @@ const About = () => {
       </div>
       {/* <!-- closing of modal content --> */}
       {/* <!-- modal content(sql) --> */}
-      <div class="modal fade" id="myModal7">
-        <span data-dismiss="modal" class="closer">
+      <div className="modal fade" id="myModal7">
+        <span data-dismiss="modal" className="closer">
           &times;
         </span>
-        <div class="modal-dialog"></div>
-        <div class="modal-section container">
-          <div class="row">
-            <div class="col-sm-6">
-              <div class="modal-content">
+        <div className="modal-dialog"></div>
+        <div className="modal-section container">
+          <div className="row">
+            <div className="col-sm-6">
+              <div className="modal-content">
                 <img src={sql} alt="Avatar" className="img-fluid" title="sqlserver" />
               </div>
             </div>
-            <div class="col-sm-6">
-              <div class="modal-content">
+            <div className="col-sm-6">
+              <div className="modal-content">
                 {/* <!-- Modal Header --> */}
-                <div class="modal-header">
-                  <h5 class="modal-title">mySQL database</h5>
+                <div className="modal-header">
+                  <h5 className="modal-title">mySQL database</h5>
                 </div>
                 {/* <!-- Modal body --> */}
-                <div class="modal-body">
-                  <h6 class="modal-title">Description</h6>
+                <div className="modal-body">
+                  <h6 className="modal-title">Description</h6>
                   <p>
                     MySQL is an open-source relational database management system like storing, manipulating and retrieving data in databases.
                   </p>
-                  <h6 class="modal-title">Skill level</h6>
+                  <h6 className="modal-title">Skill level</h6>
                   <div className="progress">
                     <div className="skills mysql progress-bar-striped progress-bar-animated">
                       90%
@@ -582,33 +582,33 @@ const About = () => {
       </div>
       {/* <!-- closing of modal content --> */}
       {/* <!-- modal content(javascript) --> */}
-      <div class="modal fade" id="myModal8">
-        <span data-dismiss="modal" class="closer">
+      <div className="modal fade" id="myModal8">
+        <span data-dismiss="modal" className="closer">
           &times;
         </span>
-        <div class="modal-dialog"></div>
-        <div class="modal-section container">
-          <div class="row">
-            <div class="col-sm-6">
-              <div class="modal-content">
+        <div className="modal-dialog"></div>
+        <div className="modal-section container">
+          <div className="row">
+            <div className="col-sm-6">
+              <div className="modal-content">
                 <img src={javascript} alt="Avatar" className="img-fluid" title="javascript" />
               </div>
             </div>
-            <div class="col-sm-6">
-              <div class="modal-content">
+            <div className="col-sm-6">
+              <div className="modal-content">
                 {/* <!-- Modal Header --> */}
-                <div class="modal-header">
-                  <h5 class="modal-title">JavaScript</h5>
+                <div className="modal-header">
+                  <h5 className="modal-title">JavaScript</h5>
                 </div>
                 {/* <!-- Modal body --> */}
-                <div class="modal-body">
-                  <h6 class="modal-title">Description</h6>
+                <div className="modal-body">
+                  <h6 className="modal-title">Description</h6>
                   <p>
                     JavaScript is a text-based programming language used both on
                     the client-side and server-side that allows you to make web
                     pages interactive.
                   </p>
-                  <h6 class="modal-title">Skill level</h6>
+                  <h6 className="modal-title">Skill level</h6>
                   <div className="progress">
                     <div className="skills js progress-bar-striped progress-bar-animated">
                       60%

@@ -7,7 +7,7 @@ import About from "./components/About";
 import Portfolio from "./components/Portfolio";
 import Testimonials from "./components/Testimonials";
 import Contact from "./components/Contact";
-import Services from "./components/Services";
+// import Services from "./components/Services";
 import aos from "aos";
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
@@ -21,7 +21,7 @@ const App = () => {
 
   return (
     <Router>
-      <div data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="0" tabindex="0">
+      <div data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="0" tabIndex="0">
         <Navbar />
         <Routes  />
         <About />
