@@ -77,11 +77,11 @@ const LandingPage = () => {
               <strong>Chad Hoosain</strong>
             </h1>
             <hr />
-            <p id="sub-sequence" className="sub-header">
+            <p id="sub-sequence" className="sub-header" data-aos="zoom-in-right">
               Aspiring Web Developer
             </p>
           </div>
-          <div id="right" class="col-sm-4">
+          <div id="right" class="col-sm-4" data-aos="zoom-out-down">
             <img src={chad} alt="intro-image" className="landing-img" />
           </div>
         </div>

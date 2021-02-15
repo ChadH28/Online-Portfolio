@@ -59,14 +59,14 @@ const Contact = () => {
 
   return (
     <section id="contactme" className="contact">
-      <h2 className="section-title">Lets Interact</h2>
-      <p className="section-sub">
+      <h2 className="section-title" >Lets Interact</h2>
+      <p className="section-sub" data-aos="fade-left">
         Swing by for a cup of coffee at my favourite Boristas, or leave me a
         message
       </p>
       <div className="row">
         <div className="col-sm-12">
-          <div className="form-container">
+          <div className="form-container" data-aos="zoom-in-right">
             <form
               class="needs-validation"
               id="form"
@@ -230,7 +230,7 @@ const Contact = () => {
         <div className="col-sm-12">
           {/* <h3>Socials</h3> */}
           <div className="grid-2 contact-container">
-            <div class="contact-card call">
+            <div class="contact-card call" data-aos="zoom-in-up" data-aos-duration="1600">
               <div>
                 <a href="tel:084-466-4783">
                   <i className="fas fa-phone"></i>
@@ -239,7 +239,7 @@ const Contact = () => {
             </div>
             <a
               href="https://mail.google.com/mail/u/0/#inbox?compose=new"
-              className="contact-card google"
+              className="contact-card google" data-aos="zoom-in-up" data-aos-duration="1800"
             >
               <div>
                 <i className="far fa-envelope"></i>
@@ -247,7 +247,7 @@ const Contact = () => {
             </a>
             <a
               href="https://www.linkedin.com/in/chad-hoosain-3660641a6/"
-              className="contact-card linkedin"
+              className="contact-card linkedin" data-aos="zoom-in-up" data-aos-duration="2000"
             >
               <div>
                 <i className="fab fa-linkedin-in"></i>
@@ -255,7 +255,7 @@ const Contact = () => {
             </a>
             <a
               href="https://github.com/ChadH28"
-              className="contact-card github"
+              className="contact-card github" data-aos="zoom-in-up" data-aos-duration="2200"
             >
               <div>
                 <i className="fab fa-github text-center"></i>
@@ -263,7 +263,7 @@ const Contact = () => {
             </a>
             <a
               href="https://codepen.io/chadh28"
-              className="contact-card code-pen"
+              className="contact-card code-pen" data-aos="zoom-in-up" data-aos-duration="2400"
             >
               <div>
                 <i className="fab fa-codepen"></i>

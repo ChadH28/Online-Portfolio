@@ -9,9 +9,9 @@ const Testimonials = () => {
   return (
     <section id="testimonials">
       <h2 className="section-title">Testimonials</h2>
-      <p className="section-sub">What other people think of me or my work</p>
+      <p className="section-sub" data-aos="fade-right">What other people think of me or my work</p>
 
-      <div id="demo" class="carousel slide" data-ride="carousel">
+      <div id="demo" class="carousel slide" data-ride="carousel" data-aos="zoom-in-left">
         <ul class="carousel-indicators">
           <li class="indicator" data-target="#demo" data-slide-to="0" class="active"></li>
           <li data-target="#demo" data-slide-to="1"></li>

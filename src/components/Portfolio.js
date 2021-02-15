@@ -21,10 +21,10 @@ const Portfolio = () => {
   return (
     <section id="portfolio" className="mywork">
       <h2 className="section-title">My Portfolio</h2>
-      <p className="section-sub">
+      <p className="section-sub" data-aos="fade-left">
         A special selection of my range of work through coding
       </p>
-      <div className="gallery">
+      <div className="gallery" data-aos="zoom-out-up">
         <div
           class="row row-cols-sm-1 row-cols-md-2"
           // data-masonry='{"percentPosition": true }'

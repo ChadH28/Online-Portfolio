@@ -75,10 +75,6 @@ ul.timeline > li:before {
   z-index: 800;
 }
 
-.experience,
-.education {
-  margin-top: 25px;
-}
 
 ul.timeline span {
   font-style: italic;
@@ -117,6 +113,7 @@ ul.timeline p {
 
 .findme{
   text-align: center;
+  margin-bottom: 35px;
 }
 
 .download-link:hover {

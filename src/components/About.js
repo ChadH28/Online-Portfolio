@@ -10,16 +10,18 @@ import nodejs from "./img/nodejs.png";
 import javascript from "./img/javascript.png";
 import sql from "./img/sql-server.png";
 
+
 const About = () => {
+
   return (
     <section id="aboutme" className="about-me">
       <h2 className="section-title">About Me</h2>
 
-      <p className="section-sub">
+      <p className="section-sub" data-aos="fade-right">
         Developer & Entrepreneur in the making, based out of Sunny Cape Town
       </p>
       <div className="row">
-        <div className="col-sm-12 paragraph">
+        <div className="col-sm-12 paragraph" data-aos="fade-left">
           <p>
             An eager, motivated and a business-minded person who always looks
             for positivity and a way to improve - whether it's in certain skills
@@ -30,7 +32,7 @@ const About = () => {
           </p>
         </div>
 
-        <div className="col-sm-6 bio">
+        <div className="col-sm-6 bio" data-aos="fade-down-right" data-aos="fade-right">
           <h4>Bio</h4>
           <h5>Birthday</h5>
           <p>
@@ -48,7 +50,7 @@ const About = () => {
         <div className="col-sm-6">
           <h4>Languages</h4>
           <div className="row row-cols-md-3 row-cols-sm-2">
-            <div className="col">
+            <div className="col" data-aos="fade-down-right">
               <div
                 className="language-card"
                 data-toggle="modal"
@@ -59,7 +61,7 @@ const About = () => {
                 </div>
               </div>
             </div>
-            <div className="col">
+            <div className="col" data-aos="fade-down">
               <div
                 class="language-card"
                 data-toggle="modal"
@@ -70,7 +72,7 @@ const About = () => {
                 </div>
               </div>
             </div>
-            <div className="col">
+            <div className="col" data-aos="fade-down-left">
               <div
                 className="language-card"
                 data-toggle="modal"
@@ -81,7 +83,7 @@ const About = () => {
                 </div>
               </div>
             </div>
-            <div className="col">
+            <div className="col" data-aos="fade-left">
               <div
                 className="language-card"
                 data-toggle="modal"
@@ -92,7 +94,7 @@ const About = () => {
                 </div>
               </div>
             </div>
-            <div className="col">
+            <div className="col"  data-aos="fade-up">
               <div
                 class="language-card"
                 data-toggle="modal"
@@ -103,7 +105,7 @@ const About = () => {
                 </div>
               </div>
             </div>
-            <div className="col">
+            <div className="col" data-aos="fade-left">
               <div
                 class="language-card"
                 data-toggle="modal"
@@ -114,7 +116,7 @@ const About = () => {
                 </div>
               </div>
             </div>
-            <div className="col">
+            <div className="col" data-aos="fade-up-right">
               <div
                 class="language-card"
                 data-toggle="modal"
@@ -125,7 +127,7 @@ const About = () => {
                 </div>
               </div>
             </div>
-            <div className="col">
+            <div className="col" data-aos="fade-up">
               <div
                 class="language-card"
                 data-toggle="modal"
@@ -142,19 +144,19 @@ const About = () => {
 
       <div className="col-sm-12 findme">
         <a href={CV} download>
-          <button className="btn download-link">DOWNLOAD CV</button>
+          <button className="btn download-link" data-aos="fade-right">DOWNLOAD CV</button>
         </a>
         <a href="#contactme">
-          <button className=" btn download-link">HIRE ME</button>
+          <button className=" btn download-link" data-aos="fade-left">HIRE ME</button>
         </a>
       </div>
 
       <div className="row">
-        <div className="col-sm-6 education">
+        <div className="col-sm-6" data-aos="zoom-in-right" data-aos-duration="1700">
           <h4>Education</h4>
           <ul className="timeline">
             <li>
-              <div className="card mb-3">
+              <div className="card mb-3" data-aos="flip-left">
                 <div className="card-header">Lifechoices</div>
                 <div className="card-body">
                   <p className="card-text">
@@ -167,12 +169,12 @@ const About = () => {
                   </p>
                 </div>
                 <div className="card-footer">
-                  <span className="float-right">Feb 2020 - Current</span>
+                  <span className="float-right">Feb 2020 - Aug 2020</span>
                 </div>
               </div>
             </li>
             <li>
-              <div className="card mb-3">
+              <div className="card mb-3" data-aos="flip-left">
                 <div class="card-header">
                   Cape Peninsula University of Technology (Bellville Campus)
                 </div>
@@ -189,7 +191,7 @@ const About = () => {
               </div>
             </li>
             <li>
-              <div className="card mb-3">
+              <div className="card mb-3" data-aos="flip-left">
                 <div className="card-header">Oude Molen Technical High School</div>
                 <div className="card-body">
                   <p className="card-text">
@@ -204,11 +206,28 @@ const About = () => {
             </li>
           </ul>
         </div>
-        <div className="col-sm-6 experience animate__animated animate__slideInRight animate__slow">
+        <div className="col-sm-6" data-aos="zoom-in-left"  data-aos-duration="1700">
           <h4>Work Experience</h4>
           <ul className="timeline">
+          <li>
+              <div className="card mb-3" data-aos="flip-right">
+                <div className="card-header">Masterparts</div>
+                <div className="card-body">
+                  <h5 className="card-title">Role</h5>
+                  <p className="card-text">Junior web developer</p>
+                  <h5 className="card-title">Duties</h5>
+                  <p className="card-text">Worked on website UX.</p>
+                  <p className="card-text">
+                    Was assigned projects to better shape my coding experience.
+                  </p>
+                </div>
+                <div className="card-footer">
+                  <span className="float-right">Sep 2020 - Present</span>
+                </div>
+              </div>
+            </li>
             <li>
-              <div className="card mb-3">
+              <div className="card mb-3" data-aos="flip-right">
                 <div className="card-header">3i Solutions</div>
                 <div className="card-body">
                   <h5 className="card-title">Role</h5>
@@ -237,7 +256,7 @@ const About = () => {
               </div>
             </li>
             <li>
-              <div className="card mb-3">
+              <div className="card mb-3" data-aos="flip-right">
                 <div className="card-header">Impact Wholesalers</div>
                 <div className="card-body">
                   <h5 className="card-title">Role</h5>
@@ -256,7 +275,7 @@ const About = () => {
               </div>
             </li>
             <li>
-              <div className="card mb-3">
+              <div className="card mb-3" data-aos="flip-right">
                 <div className="card-header">Industaff Solutions</div>
                 <div className="card-body">
                   <h5 className="card-title">Role</h5>

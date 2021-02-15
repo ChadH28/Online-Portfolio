@@ -69,11 +69,11 @@
 
 
 /* Add media queries for responsiveness. This will center both the text and the image inside the testimonial */
-@media (max-width: 500px) {
+@media (max-width: 900px) {
   .testimonial {
     text-align: center;
     min-height: 500px;
-    font-size: 16px;
+    font-size: 20px;
   }
 
   .testimonial img {
