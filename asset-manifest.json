@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/Online-Portfolio/static/css/main.a3a9fc73.chunk.css",
-    "main.js": "/Online-Portfolio/static/js/main.3117e47a.chunk.js",
-    "main.js.map": "/Online-Portfolio/static/js/main.3117e47a.chunk.js.map",
+    "main.css": "/Online-Portfolio/static/css/main.a0ffb391.chunk.css",
+    "main.js": "/Online-Portfolio/static/js/main.4db60032.chunk.js",
+    "main.js.map": "/Online-Portfolio/static/js/main.4db60032.chunk.js.map",
     "runtime-main.js": "/Online-Portfolio/static/js/runtime-main.ebbbecde.js",
     "runtime-main.js.map": "/Online-Portfolio/static/js/runtime-main.ebbbecde.js.map",
-    "static/js/2.79dfd932.chunk.js": "/Online-Portfolio/static/js/2.79dfd932.chunk.js",
-    "static/js/2.79dfd932.chunk.js.map": "/Online-Portfolio/static/js/2.79dfd932.chunk.js.map",
+    "static/css/2.4707e12a.chunk.css": "/Online-Portfolio/static/css/2.4707e12a.chunk.css",
+    "static/js/2.18fdab1d.chunk.js": "/Online-Portfolio/static/js/2.18fdab1d.chunk.js",
+    "static/js/2.18fdab1d.chunk.js.map": "/Online-Portfolio/static/js/2.18fdab1d.chunk.js.map",
     "index.html": "/Online-Portfolio/index.html",
-    "precache-manifest.2ec4b374d435ae5549176156b8a93450.js": "/Online-Portfolio/precache-manifest.2ec4b374d435ae5549176156b8a93450.js",
+    "precache-manifest.f6cff7920a8349f264e5eff6b123bdb0.js": "/Online-Portfolio/precache-manifest.f6cff7920a8349f264e5eff6b123bdb0.js",
     "service-worker.js": "/Online-Portfolio/service-worker.js",
-    "static/css/main.a3a9fc73.chunk.css.map": "/Online-Portfolio/static/css/main.a3a9fc73.chunk.css.map",
-    "static/js/2.79dfd932.chunk.js.LICENSE.txt": "/Online-Portfolio/static/js/2.79dfd932.chunk.js.LICENSE.txt",
+    "static/css/2.4707e12a.chunk.css.map": "/Online-Portfolio/static/css/2.4707e12a.chunk.css.map",
+    "static/css/main.a0ffb391.chunk.css.map": "/Online-Portfolio/static/css/main.a0ffb391.chunk.css.map",
+    "static/js/2.18fdab1d.chunk.js.LICENSE.txt": "/Online-Portfolio/static/js/2.18fdab1d.chunk.js.LICENSE.txt",
     "static/media/CV.docx": "/Online-Portfolio/static/media/CV.fdcf9095.docx",
     "static/media/GitFinder.png": "/Online-Portfolio/static/media/GitFinder.9f0cf63b.png",
     "static/media/bootstrap-4.png": "/Online-Portfolio/static/media/bootstrap-4.584d9f32.png",
@@ -38,8 +40,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.ebbbecde.js",
-    "static/js/2.79dfd932.chunk.js",
-    "static/css/main.a3a9fc73.chunk.css",
-    "static/js/main.3117e47a.chunk.js"
+    "static/css/2.4707e12a.chunk.css",
+    "static/js/2.18fdab1d.chunk.js",
+    "static/css/main.a0ffb391.chunk.css",
+    "static/js/main.4db60032.chunk.js"
   ]
 }
