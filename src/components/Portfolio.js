@@ -114,9 +114,7 @@ const Portfolio = () => {
                   <i className="fab fa-github"></i>
                 </a>
                 <a
-                  data-toggle="modal"
-                  href='#nolink'
-                  data-target="#noLive-modal"
+                  href="https://replit.com/@ChadHoosain/Pongpygame"
                   className="card-link "
                   title="Visit live website"
                 >
@@ -152,10 +150,8 @@ const Portfolio = () => {
                   <i className="fab fa-github"></i>
                 </a>
                 <a
-                  data-toggle="modal"
-                  data-target="#noLive-modal"
+                  href="https://replit.com/@ChadHoosain/Waterslangpygame"
                   className="card-link "
-                  href='#nolink'
                   title="Visit live website"
                 >
                   <i className="fas fa-globe"></i>

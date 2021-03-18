@@ -32,7 +32,7 @@ const LandingPage = () => {
     "Aspiring Web Developer" //english
   ];
 
-  var timeGap = 1800000 // every 24hours (in 86,400,000 milliseconds) | every 30min (in 30000 milliseconds)
+  var timeGap = 120000 // every 24hours (in 86,400,000 milliseconds) | every 30min (in 30000 milliseconds)
 
   textSequence(0);
   function textSequence(i) {
