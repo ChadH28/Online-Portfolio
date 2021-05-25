@@ -34,7 +34,7 @@ const About = () => {
 
         <div className="col-sm-6 bio" data-aos="fade-right">
           <h4>Bio</h4>
-          <h5><i class="far fa-calendar-alt"></i> Birthday</h5>
+          <h5><i class="fas fa-birthday-cake"></i> Birthday</h5>
           <p>
             28<sup>th</sup> October 1997
           </p>
@@ -52,7 +52,7 @@ const About = () => {
           <div className="row row-cols-md-3 row-cols-sm-2">
             <div className="col" data-aos="fade-down-right">
               <div
-                className="language-card"
+                className="language-card html5"
                 data-toggle="modal"
                 data-target="#myModal"
               >
@@ -63,7 +63,7 @@ const About = () => {
             </div>
             <div className="col" data-aos="fade-down">
               <div
-                className="language-card"
+                className="language-card css3"
                 data-toggle="modal"
                 data-target="#myModal2"
               >
@@ -74,7 +74,7 @@ const About = () => {
             </div>
             <div className="col" data-aos="fade-down-left">
               <div
-                className="language-card"
+                className="language-card bootstrap4"
                 data-toggle="modal"
                 data-target="#myModal3"
               >
@@ -83,9 +83,9 @@ const About = () => {
                 </div>
               </div>
             </div>
-            <div className="col" data-aos="fade-left">
+            <div className="col" data-aos="fade-right">
               <div
-                className="language-card"
+                className="language-card reactjs"
                 data-toggle="modal"
                 data-target="#myModal4"
               >
@@ -96,7 +96,7 @@ const About = () => {
             </div>
             <div className="col"  data-aos="fade-up">
               <div
-                className="language-card"
+                className="language-card pythonJ"
                 data-toggle="modal"
                 data-target="#myModal5"
               >
@@ -107,7 +107,7 @@ const About = () => {
             </div>
             <div className="col" data-aos="fade-left">
               <div
-                className="language-card"
+                className="language-card nodejs"
                 data-toggle="modal"
                 data-target="#myModal6"
               >
@@ -118,7 +118,7 @@ const About = () => {
             </div>
             <div className="col" data-aos="fade-up-right">
               <div
-                className="language-card"
+                className="language-card database"
                 data-toggle="modal"
                 data-target="#myModal7"
               >
@@ -129,12 +129,23 @@ const About = () => {
             </div>
             <div className="col" data-aos="fade-up">
               <div
-                className="language-card"
+                className="language-card javascript"
                 data-toggle="modal"
                 data-target="#myModal8"
               >
                 <div>
-                  <i title="expand" className="fab fa-js"></i>
+                  <i title="expand" className="fab fa-js"></i>         
+                </div>
+              </div>
+            </div>
+            <div className="col" data-aos="fade-up-left">
+              <div
+                className="language-card vuejs"
+                data-toggle="modal"
+                data-target="#myModal9"
+              >
+                <div>
+                  <i title="expand" className="fab fa-vuejs"></i>
                 </div>
               </div>
             </div>
@@ -152,7 +163,7 @@ const About = () => {
       </div>
 
       <div className="row">
-        <div className="col-sm-6" data-aos="zoom-in-right" data-aos-duration="1700">
+        <div className="col-sm-6" data-aos="zoom-in-right" data-aos-duration="1800">
           <h4>Education</h4>
           <ul className="timeline">
             <li>
@@ -169,7 +180,7 @@ const About = () => {
                   </p>
                 </div>
                 <div className="card-footer">
-                  <span className="float-right">Feb 2020 - Aug 2020</span>
+                  <span className="float-right"><i class="far fa-calendar-check"></i> Feb 2020 - Aug 2020</span>
                 </div>
               </div>
             </li>
@@ -182,11 +193,11 @@ const About = () => {
                   <p className="card-text">
                     A university where I spent two years in the faculty of
                     engineering doing my studies and trade to be a Mechanical
-                    Engineer. (Course incomplete)
+                    Engineer. (Course incomplete - Financial constraints)
                   </p>
                 </div>
                 <div className="card-footer">
-                  <span className="float-right">2016 - 2018</span>
+                  <span className="float-right"><i class="far fa-calendar-check"></i> 2016 - 2018</span>
                 </div>
               </div>
             </li>
@@ -200,7 +211,7 @@ const About = () => {
                   </p>
                 </div>
                 <div className="card-footer">
-                  <span className="float-right">2011 - 2016</span>
+                  <span className="float-right"><i class="far fa-calendar-check"></i> 2011 - 2016</span>
                 </div>
               </div>
             </li>
@@ -209,6 +220,23 @@ const About = () => {
         <div className="col-sm-6" data-aos="zoom-in-left"  data-aos-duration="1700">
           <h4>Work Experience</h4>
           <ul className="timeline">
+          <li>
+              <div className="card mb-3" data-aos="flip-right">
+                <div className="card-header">LC Studio</div>
+                <div className="card-body">
+                  <h5 className="card-title">Role</h5>
+                  <p className="card-text">Junior web developer</p>
+                  <h5 className="card-title">Duties</h5>
+                  <p className="card-text">Worked on website UX with Vue and backend REST apis</p>
+                  <p className="card-text">
+                    Was assigned projects to cultivate my teamwork skills and broaden my coding skills
+                  </p>
+                </div>
+                <div className="card-footer">
+                  <span className="float-right"><i class="far fa-calendar-alt"></i> March 2021 - Present</span>
+                </div>
+              </div>
+            </li>
           <li>
               <div className="card mb-3" data-aos="flip-right">
                 <div className="card-header">Masterparts</div>
@@ -222,7 +250,7 @@ const About = () => {
                   </p>
                 </div>
                 <div className="card-footer">
-                  <span className="float-right">Sep 2020 - Present</span>
+                  <span className="float-right"><i class="far fa-calendar-check"></i> Sep 2020 - March 2021</span>
                 </div>
               </div>
             </li>
@@ -251,7 +279,7 @@ const About = () => {
                   </p>
                 </div>
                 <div className="card-footer">
-                  <span className="float-right">Jun 2018 - Jul 2019</span>
+                  <span className="float-right"><i class="far fa-calendar-check"></i> Jun 2018 - Jul 2019</span>
                 </div>
               </div>
             </li>
@@ -270,7 +298,7 @@ const About = () => {
                   <p className="card-text">Made rolls of toilet paper.</p>
                 </div>
                 <div className="card-footer">
-                  <span className="float-right">Dec 2017 - Feb 2018</span>
+                  <span className="float-right"><i class="far fa-calendar-check"></i> Dec 2017 - Feb 2018</span>
                 </div>
               </div>
             </li>
@@ -290,7 +318,7 @@ const About = () => {
                   </p>
                 </div>
                 <div className="card-footer">
-                  <span className="float-right">Dec 2014 - Dec 2015</span>
+                  <span className="float-right"><i class="far fa-calendar-check"></i> Dec 2014 - Dec 2015</span>
                 </div>
               </div>
             </li>
@@ -611,6 +639,46 @@ const About = () => {
                   <h6 className="modal-title">Skill level</h6>
                   <div className="progress">
                     <div className="skills js progress-bar-striped progress-bar-animated">
+                      60%
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* <!-- closing of modal content --> */}
+          {/* <!-- modal content(vue) --> */}
+          <div className="modal fade" id="myModal9">
+        <span data-dismiss="modal" className="closer">
+          &times;
+        </span>
+        <div className="modal-dialog"></div>
+        <div className="modal-section container">
+          <div className="row">
+            <div className="col-sm-6">
+              <div className="modal-content">
+                <img src={javascript} alt="Avatar" className="img-fluid" title="javascript" />
+              </div>
+            </div>
+            <div className="col-sm-6">
+              <div className="modal-content">
+                {/* <!-- Modal Header --> */}
+                <div className="modal-header">
+                  <h5 className="modal-title">Vue</h5>
+                </div>
+                {/* <!-- Modal body --> */}
+                <div className="modal-body">
+                  <h6 className="modal-title">Description</h6>
+                  <p>
+                    JavaScript is a text-based programming language used both on
+                    the client-side and server-side that allows you to make web
+                    pages interactive.
+                  </p>
+                  <h6 className="modal-title">Skill level</h6>
+                  <div className="progress">
+                    <div className="skills vue progress-bar-striped progress-bar-animated">
                       60%
                     </div>
                   </div>

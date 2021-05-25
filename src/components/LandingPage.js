@@ -68,7 +68,7 @@ const LandingPage = () => {
       {/* <img src={chad} alt='intro-image' className='intro-img'/> */}
       <div class="landing-container">
         <div class="row">
-          <div id="left" class="col-sm-8">
+          <div id="left" class="col-sm-8 hero">
             <h1
               id="sequence"
               className="animate__animated animate__bounce header "
@@ -81,7 +81,7 @@ const LandingPage = () => {
               Aspiring Web Developer
             </p>
           </div>
-          <div id="right" className="col-sm-4" data-aos="zoom-out-down">
+          <div id="right" className="col-sm-4 hero-img" data-aos="zoom-out-down">
             <img src={chad} alt="CH" className="landing-img" />
           </div>
         </div>

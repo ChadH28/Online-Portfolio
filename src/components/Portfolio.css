@@ -19,7 +19,7 @@
 .project-img {
   transition: all 0.5s ease-in-out;
   height: 250px;
-  max-width: 400px;
+  max-width: 350px;
   width: auto;
   opacity: 250ms linear;
 }
@@ -56,8 +56,8 @@
 /* Container needed to position the overlay. Adjust the width as needed */
 .image-container {
   position: relative;
-  width: 100%;
-  height: 400px;
+  width: 500px;
+  height: 350px;
   margin-bottom: 15px;
 }
 
@@ -65,7 +65,7 @@
   margin-top: 8px;  
   /* vertical-align: middle; */
   width: 100%;
-  min-height: 400px;
+  min-height: 350px;
   min-width: 200px;
   flex-grow: initial;
   display: block;

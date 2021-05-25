@@ -41,11 +41,11 @@ const Navbar = () => {
           </span>
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav justify-content-end" id="nav-cont">
+          <ul className="navbar-nav nav-menu justify-content-end" id="nav-cont">
             <li className="nav-item ">
               <a
                 href="#aboutme"
-                className="nav-link"
+                className="nav-link color1"
                 data-aos="fade-right"
                 data-aos-duration="1800"
               >
@@ -55,7 +55,7 @@ const Navbar = () => {
             <li className="nav-item">
               <a
                 href="#portfolio"
-                className="nav-link"
+                className="nav-link color1"
                 data-aos="fade-right"
                 data-aos-duration="2000"
               >
@@ -65,7 +65,7 @@ const Navbar = () => {
             <li className="nav-item">
               <a
                 href="#testimonials"
-                className="nav-link"
+                className="nav-link color1"
                 data-aos="fade-right"
                 data-aos-duration="2200"
               >
@@ -73,14 +73,14 @@ const Navbar = () => {
               </a>
             </li>
             {/* <li className="nav-item">
-            <a href="#services" className="nav-link">
+            <a href="#services" className="nav-link color1">
               Services
             </a>
           </li> */}
             <li className="nav-item">
               <a
                 href="#contactme"
-                className="nav-link"
+                className="nav-link color1"
                 data-aos="fade-right"
                 data-aos-duration="2400"
               >
@@ -91,6 +91,35 @@ const Navbar = () => {
         </div>
       </div>
     </nav>
+
+/* <nav id="nav-menu-container">
+          <ul class="nav-menu">
+            <li class="menu-active"><a href="index.html">Home</a></li>
+            <li><a class="color1" href="#about">About Us</a></li>
+            <li><a class="color2" href="#services">Services</a></li>
+            <li><a class="color3" href="#team">Our Sitters</a></li>
+            <li><a class="color4" href="#contact">Contact Us</a></li>
+            <li>
+              <a class="color1" href="../node registerMk3/public/login.html"
+                >Login</a
+              >
+            </li>
+            <li>
+              <a class="color2" href="../node registerMk3/public/register.html"
+                >Become a sitter</a
+              >
+            </li>
+          </ul>
+        </nav> */
+
+
+
+
+
+
+
+
+
   );
 };
 

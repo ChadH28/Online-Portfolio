@@ -1,26 +1,22 @@
-.navbar-toggler{
+/* .navbar-toggler {
     color: #b71c1c;
 }
 
-.nav-item > *:hover{
+.nav-item>*:hover {
     color: #b71c1c;
-}
-
-.active {
-    color: #b71c1c !important;
 }
 
 
 .nav-item a {
-    color:white;
+    color: white;
     font-size: 24px;
     margin-right: 20px;
-}
+} */
 
 
 .navbar {
     background-color: rgba(33, 33, 33,0.8);
-    /* background-color: rgba(255, 255, 255,0.8); */
+    /* background-color: rgba(255, 255, 255, 0.8); */
     height: auto;
     width: 100%;
     padding: 0px;
@@ -31,10 +27,83 @@
 
 .navbar img {
     max-height: 100px;
+    margin-top: 10px;
     width: auto;
     z-index: unset;
 }
 
 *:focus {
     outline: 0 !important;
-  }
+}
+
+/* 
+* Nav Meu Styling */
+ .nav-menu a {
+    padding: 0 8px 10px 8px;
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    outline: none;
+}
+
+.nav-menu>li {
+    margin-left: 10px;
+}
+
+.nav-menu>li>a:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #ff7278;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.nav-menu .color1:before {
+    background-color: rgba(183, 28, 28,0.8);
+}
+
+.nav-menu a:hover:before,
+.nav-menu li:hover>a:before,
+.nav-menu .menu-active>a:before {
+    visibility: visible;
+    transform: scaleX(1);
+}
+
+.nav-menu ul {
+    margin: 4px 0 0 0;
+    border: 1px solid #e7e7e7;
+}
+
+.nav-menu ul li {
+    background: #fff;
+}
+
+.nav-menu ul li:first-child {
+    border-top: 0;
+}
+
+.nav-menu ul li a {
+    padding: 10px;
+    color: #333;
+    transition: 0.3s;
+    display: block;
+    font-size: 13px;
+    text-transform: none;
+}
+
+.nav-menu ul li a:hover {
+    background: #2dc997;
+    color: #fff;
+}
+
+.nav-menu ul ul {
+    margin: 0;
+}
