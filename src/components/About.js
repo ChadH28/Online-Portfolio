@@ -34,17 +34,17 @@ const About = () => {
 
         <div className="col-sm-6 bio" data-aos="fade-right">
           <h4>Bio</h4>
-          <h5>Birthday</h5>
+          <h5><i class="far fa-calendar-alt"></i> Birthday</h5>
           <p>
             28<sup>th</sup> October 1997
           </p>
-          <h5>Location (suburb)</h5>
+          <h5><i class="fas fa-map-marked-alt"></i> Location (suburb)</h5>
           <p>Kensington (Northern Suburbs) , Cape Town</p>
-          <h5>Nationality</h5>
+          <h5><i class="fas fa-globe-africa"></i> Nationality</h5>
           <p>South African</p>
-          <h5>Direct Contact</h5>
+          <h5><i class="fas fa-sms"></i> Direct Contact</h5>
           <p>(+27) 84 466 4783</p>
-          <h5>Willing to relocate</h5>
+          <h5><i class="fas fa-plane-departure"></i> Willing to relocate</h5>
           <p className="travel">Yes, anywhere locally or abroad</p>
         </div>
         <div className="col-sm-6">
@@ -57,7 +57,7 @@ const About = () => {
                 data-target="#myModal"
               >
                 <div>
-                  <i className="fab fa-html5"></i>
+                  <i title="expand" className="fab fa-html5"></i>
                 </div>
               </div>
             </div>
@@ -68,7 +68,7 @@ const About = () => {
                 data-target="#myModal2"
               >
                 <div>
-                  <i className="fab fa-css3-alt"></i>
+                  <i title="expand" className="fab fa-css3-alt"></i>
                 </div>
               </div>
             </div>
@@ -79,7 +79,7 @@ const About = () => {
                 data-target="#myModal3"
               >
                 <div>
-                  <i className="fab fa-bootstrap"></i>
+                  <i title="expand" className="fab fa-bootstrap"></i>
                 </div>
               </div>
             </div>
@@ -90,7 +90,7 @@ const About = () => {
                 data-target="#myModal4"
               >
                 <div>
-                  <i className="fab fa-react"></i>
+                  <i title="expand" className="fab fa-react"></i>
                 </div>
               </div>
             </div>
@@ -101,7 +101,7 @@ const About = () => {
                 data-target="#myModal5"
               >
                 <div>
-                  <i className="fab fa-python"></i>
+                  <i title="expand" className="fab fa-python"></i>
                 </div>
               </div>
             </div>
@@ -112,7 +112,7 @@ const About = () => {
                 data-target="#myModal6"
               >
                 <div>
-                  <i className="fab fa-node"></i>
+                  <i title="expand" className="fab fa-node"></i>
                 </div>
               </div>
             </div>
@@ -123,7 +123,7 @@ const About = () => {
                 data-target="#myModal7"
               >
                 <div>
-                  <i className="fas fa-database"></i>
+                  <i title="expand" className="fas fa-database"></i>
                 </div>
               </div>
             </div>
@@ -134,7 +134,7 @@ const About = () => {
                 data-target="#myModal8"
               >
                 <div>
-                  <i className="fab fa-js"></i>
+                  <i title="expand" className="fab fa-js"></i>
                 </div>
               </div>
             </div>

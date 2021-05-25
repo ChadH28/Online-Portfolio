@@ -32,7 +32,8 @@ const LandingPage = () => {
     "Aspiring Web Developer" //english
   ];
 
-  var timeGap = 120000 // every 24hours (in 86,400,000 milliseconds) | every 30min (in 30000 milliseconds)
+
+  var timeGap = 100000 // every 24hours (in 86,400,000 milliseconds) | every 30min (in 30000 milliseconds)
 
   textSequence(0);
   function textSequence(i) {
@@ -62,9 +63,12 @@ const LandingPage = () => {
 
   return (
     <section className="intro">
-      <div className="container">
-        <div className="row">
-          <div id="left" className="col-sm-8">
+      {/* <h1 className='section-mainTitle animate__animated animate__bounce'>Hello World, I am <strong>Chad Hoosain</strong></h1> */}
+      {/* <p className='section-sub'>Aspiring Full-Stack Developer</p> */}
+      {/* <img src={chad} alt='intro-image' className='intro-img'/> */}
+      <div class="landing-container">
+        <div class="row">
+          <div id="left" class="col-sm-8">
             <h1
               id="sequence"
               className="animate__animated animate__bounce header "
