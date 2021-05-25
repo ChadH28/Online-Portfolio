@@ -8,7 +8,6 @@ init("user_AmU6cE2ngPIZ8voZHTlON");
 const Contact = () => {
   // For the form validation
   (function () {
-    "use strict";
     window.addEventListener(
       "load",
       function () {
@@ -59,32 +58,32 @@ const Contact = () => {
 
   return (
     <section id="contactme" className="contact">
-      <h2 className="section-title">Lets Interact</h2>
-      <p className="section-sub">
+      <h2 className="section-title" >Lets Interact</h2>
+      <p className="section-sub" data-aos="fade-left">
         Swing by for a cup of coffee at my favourite Boristas, or leave me a
         message
       </p>
       <div className="row">
         <div className="col-sm-12">
-          <div className="form-container">
+          <div className="form-container" data-aos="zoom-in-right">
             <form
-              class="needs-validation"
+              className="needs-validation"
               id="form"
               noValidate
               onSubmit={sendEmail}
             >
-              <div class="form-row">
-                <div class="form-group col-md-6">
-                  <div class="input-group">
-                    <div class="input-group-prepend">
-                      <span class="input-group-text" id="inputGroupPrepend">
-                        <i class="fas fa-user"></i>
+              <div className="form-row">
+                <div className="form-group col-md-6">
+                  <div className="input-group">
+                    <div className="input-group-prepend">
+                      <span className="input-group-text" id="inputGroupPrepend">
+                        <i className="fas fa-user"></i>
                       </span>
                     </div>
                     <input
                       type="text"
                       name="name"
-                      class="form-control"
+                      className="form-control"
                       id="inputName name"
                       aria-describedby="inputGroupPrepend"
                       placeholder="First Name"
@@ -92,13 +91,13 @@ const Contact = () => {
                       required
                     />
                     <div
-                      class="valid-feedback alert alert-success"
+                      className="valid-feedback alert alert-success"
                       role="alert"
                     >
                       Looks good!
                     </div>
                     <div
-                      class="invalid-feedback alert alert-danger"
+                      className="invalid-feedback alert alert-danger"
                       role="alert"
                     >
                       Please provide your valid Name, no numbers or symbols are
@@ -106,16 +105,16 @@ const Contact = () => {
                     </div>
                   </div>
                 </div>
-                <div class="form-group col-md-6">
-                  <div class="input-group">
-                    <div class="input-group-prepend">
-                      <span class="input-group-text" id="inputGroupPrepend">
-                        <i class="far fa-user"></i>
+                <div className="form-group col-md-6">
+                  <div className="input-group">
+                    <div className="input-group-prepend">
+                      <span className="input-group-text" id="inputGroupPrepend">
+                        <i className="far fa-user"></i>
                       </span>
                     </div>
                     <input
                       type="text"
-                      class="form-control"
+                      className="form-control"
                       name="lastname"
                       id="inputLastName lastname"
                       placeholder="Last Name"
@@ -124,13 +123,13 @@ const Contact = () => {
                       required
                     />
                     <div
-                      class="valid-feedback alert alert-success"
+                      className="valid-feedback alert alert-success"
                       role="alert"
                     >
                       Looks good!
                     </div>
                     <div
-                      class="invalid-feedback alert alert-danger"
+                      className="invalid-feedback alert alert-danger"
                       role="alert"
                     >
                       Please provide your valid Last Name, no numbers or symbols
@@ -139,17 +138,17 @@ const Contact = () => {
                   </div>
                 </div>
               </div>
-              <div class="form-row">
-                <div class="form-group col-md-12">
-                  <div class="input-group">
-                    <div class="input-group-prepend">
-                      <span class="input-group-text" id="inputGroupPrepend">
-                        <i class="far fa-envelope"></i>
+              <div className="form-row">
+                <div className="form-group col-md-12">
+                  <div className="input-group">
+                    <div className="input-group-prepend">
+                      <span className="input-group-text" id="inputGroupPrepend">
+                        <i className="far fa-envelope"></i>
                       </span>
                     </div>
                     <input
                       type="email"
-                      class="form-control"
+                      className="form-control"
                       name="email"
                       id="inputEmail email"
                       placeholder="user@example.com"
@@ -158,29 +157,29 @@ const Contact = () => {
                       required
                     />
                     <div
-                      class="valid-feedback alert alert-success"
+                      className="valid-feedback alert alert-success"
                       role="alert"
                     >
                       Looks good!
                     </div>
                     <div
-                      class="invalid-feedback alert alert-danger"
+                      className="invalid-feedback alert alert-danger"
                       role="alert"
                     >
                       Please provide a valid email. eg: user@example.com
                     </div>
                   </div>
                 </div>
-                <div class="form-group col-md-12">
-                  <div class="input-group">
-                    <div class="input-group-prepend">
-                      <span class="input-group-text" id="inputGroupPrepend">
-                        <i class="fas fa-phone"></i>
+                <div className="form-group col-md-12">
+                  <div className="input-group">
+                    <div className="input-group-prepend">
+                      <span className="input-group-text" id="inputGroupPrepend">
+                        <i className="fas fa-phone"></i>
                       </span>
                     </div>
                     <input
                       type="tel"
-                      class="form-control"
+                      className="form-control"
                       name="mobile"
                       id="inputContact mobile"
                       placeholder="123 456 7891"
@@ -190,13 +189,13 @@ const Contact = () => {
                       required
                     />
                     <div
-                      class="valid-feedback alert alert-success"
+                      className="valid-feedback alert alert-success"
                       role="alert"
                     >
                       Looks good!
                     </div>
                     <div
-                      class="invalid-feedback alert alert-danger"
+                      className="invalid-feedback alert alert-danger"
                       role="alert"
                     >
                       Please provide a valid contact number with the required 10
@@ -204,10 +203,10 @@ const Contact = () => {
                     </div>
                   </div>
                 </div>
-                <div class="form-group col-md-12">
+                <div className="form-group col-md-12">
                   <textarea
                     name="message"
-                    class="form-control"
+                    className="form-control"
                     id="exampleFormControlTextarea1 message"
                     placeholder="Your Message Here..."
                     rows="3"
@@ -220,9 +219,9 @@ const Contact = () => {
                 data-action="submit"
                 type="submit"
                 id="button-send"
-                class="btn g-recaptcha send"
+                className="btn g-recaptcha send"
               >
-                Send <i class="fas fa-paper-plane"></i>
+                Send <i className="fas fa-paper-plane"></i>
               </button>
             </form>
           </div>
@@ -230,7 +229,7 @@ const Contact = () => {
         <div className="col-sm-12">
           {/* <h3>Socials</h3> */}
           <div className="grid-2 contact-container">
-            <div class="contact-card call">
+            <div className="contact-card call" data-aos="zoom-in-up" data-aos-duration="1600">
               <div>
                 <a href="tel:084-466-4783">
                   <i className="fas fa-phone"></i>
@@ -239,7 +238,7 @@ const Contact = () => {
             </div>
             <a
               href="https://mail.google.com/mail/u/0/#inbox?compose=new"
-              className="contact-card google"
+              className="contact-card google" data-aos="zoom-in-up" data-aos-duration="1800"
             >
               <div>
                 <i className="far fa-envelope"></i>
@@ -247,7 +246,7 @@ const Contact = () => {
             </a>
             <a
               href="https://www.linkedin.com/in/chad-hoosain-3660641a6/"
-              className="contact-card linkedin"
+              className="contact-card linkedin" data-aos="zoom-in-up" data-aos-duration="2000"
             >
               <div>
                 <i className="fab fa-linkedin-in"></i>
@@ -255,7 +254,7 @@ const Contact = () => {
             </a>
             <a
               href="https://github.com/ChadH28"
-              className="contact-card github"
+              className="contact-card github" data-aos="zoom-in-up" data-aos-duration="2200"
             >
               <div>
                 <i className="fab fa-github text-center"></i>
@@ -263,7 +262,7 @@ const Contact = () => {
             </a>
             <a
               href="https://codepen.io/chadh28"
-              className="contact-card code-pen"
+              className="contact-card code-pen" data-aos="zoom-in-up" data-aos-duration="2400"
             >
               <div>
                 <i className="fab fa-codepen"></i>
