@@ -9,6 +9,7 @@ import react from "./img/react.png";
 import nodejs from "./img/nodejs.png";
 import javascript from "./img/javascript.png";
 import sql from "./img/sql-server.png";
+import vue from "./img/vue2.png";
 
 
 const About = () => {
@@ -581,14 +582,14 @@ const About = () => {
           <div className="row">
             <div className="col-sm-6">
               <div className="modal-content">
-                <img src={sql} alt="Avatar" className="img-fluid" title="sqlserver" />
+                <img src={sql} alt="Avatar" className="img-fluid" title="server" />
               </div>
             </div>
             <div className="col-sm-6">
               <div className="modal-content">
                 {/* <!-- Modal Header --> */}
                 <div className="modal-header">
-                  <h5 className="modal-title">mySQL database</h5>
+                  <h5 className="modal-title">Databases</h5>
                 </div>
                 {/* <!-- Modal body --> */}
                 <div className="modal-body">
@@ -659,7 +660,7 @@ const About = () => {
           <div className="row">
             <div className="col-sm-6">
               <div className="modal-content">
-                <img src={javascript} alt="Avatar" className="img-fluid" title="javascript" />
+                <img src={vue} alt="Avatar" className="img-fluid" title="vue" />
               </div>
             </div>
             <div className="col-sm-6">
