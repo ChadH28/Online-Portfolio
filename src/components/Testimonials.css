@@ -14,7 +14,9 @@
   transition: 0.3s;
 }
 
-
+.paracont{
+  text-align: center;
+}
 
 /* Clear floats after testimonials */
 .testimonial::after {
@@ -42,8 +44,6 @@
 .carousel-control-next {
   cursor: pointer;
   position: absolute;
-  width: auto;
-  height: auto;
   padding: 16px;
   transition: 0.6s ease;
 }
@@ -57,11 +57,11 @@
 }
 
 
-.carousel-indicators {
+/* .carousel-indicators {
     position: absolute;
     top: 95%;
 
-}
+} */
 
 .carousel {
     margin-top: 80px;
@@ -84,3 +84,40 @@
 }
 
 
+.Tcard{
+  text-align: center;
+  margin: auto;
+  height: 580px;
+}
+
+.Tcard h5{
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.Tcard img {
+  margin: auto;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+}
+
+.Tcard .card-text{
+  width: 450px;
+  text-align: center;
+  margin: auto;
+  font-size: 26px;
+}
+
+.fa-quote-right {
+  margin-left: 5px;
+}
+
+
+.fa-quote-left {
+  margin-right: 5px;
+}
+
+.Tcard span {
+  font-size: 24px;
+  color:#b71c1c;
+}

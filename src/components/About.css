@@ -6,20 +6,17 @@
 
 .paragraph {
   margin-top: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
   padding: 20px;
   padding-bottom: 10px;
   border-radius: 12px;
   font-size: 18px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
 }
 
 
 
-.bio h5 {
-  font-weight: bold;
-  margin-top: 50px;
-}
+
 
 .progress {
   width: 100%;
@@ -104,6 +101,7 @@ ul.timeline p {
 .download-link {
   border-radius: 5.5px;
   margin-top: 40px;
+  margin-bottom: 20px;
   margin-right: 20px;
   width: 100%;
   max-width: 420px;
@@ -341,6 +339,10 @@ ul.timeline p {
   }
 }
 
+.bio h5{
+  font-weight: bold;
+  margin-top: 50px;
+}
 
 .bio p {
   padding-left: 5px;
@@ -350,8 +352,13 @@ ul.timeline p {
 .bio {
   padding: 20px;
   border-radius: 12px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
   background-color: rgba(33, 33, 33, 0.6);
+  margin-bottom: 25px;
+  height: auto;
+}
+
+.language{
   margin-bottom: 25px;
 }
 
@@ -453,9 +460,24 @@ ul.timeline p {
   padding-right: 4px;
 }
 
-.modal-title h6 {
-  margin-bottom: 10px;
+.modal-body h6{
+  margin-top: 10px;
+  margin-bottom: 15px;
+  font-size: 24px;
+  font-weight: bolder;
 }
+
+.modal-body p{
+  margin-left: 8px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.modal-header h5 {
+  font-size: 36px;
+  font-weight: bolder;
+}
+
 
 .timeline .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);

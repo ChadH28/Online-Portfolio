@@ -48,7 +48,7 @@ const About = () => {
           <h5><i class="fas fa-plane-departure"></i> Willing to relocate</h5>
           <p className="travel">Yes, anywhere locally or abroad</p>
         </div>
-        <div className="col-sm-6">
+        <div className="col-sm-6 language">
           <h4>Languages</h4>
           <div className="row row-cols-md-3 row-cols-sm-2">
             <div className="col" data-aos="fade-down-right">
@@ -673,9 +673,7 @@ const About = () => {
                 <div className="modal-body">
                   <h6 className="modal-title">Description</h6>
                   <p>
-                    JavaScript is a text-based programming language used both on
-                    the client-side and server-side that allows you to make web
-                    pages interactive.
+                  Vue is a progressive framework for building user interfaces. Unlike other monolithic frameworks, Vue is designed from the ground up to be incrementally adoptable. The core library is focused on the view layer only, and is easy to pick up and integrate with other libraries or existing projects. On the other hand, Vue is also perfectly capable of powering sophisticated Single-Page Applications when used in combination with modern tooling and supporting libraries.
                   </p>
                   <h6 className="modal-title">Skill level</h6>
                   <div className="progress">

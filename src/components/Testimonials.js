@@ -11,65 +11,69 @@ const Testimonials = () => {
       <p className="section-sub" data-aos="fade-right">What other people think of me or my work</p>
 
       <div id="demo" className="carousel slide" data-ride="carousel" data-aos="zoom-in-left">
-        <ul className="carousel-indicators">
+        {/* <ul className="carousel-indicators">
           <li className="indicator active" data-target="#demo" data-slide-to="0"></li>
           <li data-target="#demo" data-slide-to="1"></li>
           <li data-target="#demo" data-slide-to="2"></li>
-        </ul>
+        </ul> */}
 
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <div className="testimonial  h-100">
-              <img
-                src={godwin}
-                alt="Avatar"
-                style={{ width: "120px", height: "120px" }}
-              />
-              <p>
-                <span>-Godwin P Dzvapatsva</span>Head of Curriculum and Learning
-              </p>
-              <p>
-                Chad is a responsive, skilled and confident learner. Over the
-                period that I have interacted with him, I have seen the respect
-                and attention to detail that he accords to whatever he does.
-                Highly recommendable developer.
-              </p>
+            <div class="Tcard">
+              <h5 class="card-title">Head of Curriculum and Learning</h5>
+              <img src={godwin} class="card-img-top " alt="..." style={{ width: "120px", height: "120px" }} />
+              <div class="card-body">
+                <p class="card-text">
+                  <i class="fas fa-quote-left"></i>
+                  Chad is a responsive, skilled and confident learner. Over the
+                  period that I have interacted with him, I have seen the respect
+                  and attention to detail that he accords to whatever he does.
+                  Highly recommendable developer.
+                  <i class="fas fa-quote-right"></i>
+                </p>
+              </div>
+              <div class="footer">
+                <h5 class="card-title"><span>-Godwin P Dzvapatsva</span></h5>
+              </div>
             </div>
           </div>
+          
           <div className="carousel-item">
-            <div className="testimonial  h-100">
-              <img
-                src={oslin}
-                alt="Avatar"
-                style={{ width: "120px", height: "120px" }}
-              />
-              <p>
-                <span>-Oslin Johnson</span>Fellow Peer
-              </p>
-              <p>
-                Chad is a great person to have on one's team a real innovator
+          <div class="Tcard">
+              <h5 class="card-title">Fellow Peer</h5>
+              <img src={oslin} class="card-img-top " alt="..." style={{ width: "120px", height: "120px" }} />
+              <div class="card-body">
+                <p class="card-text">
+                  <i class="fas fa-quote-left"></i>
+                  Chad is a great person to have on one's team a real innovator
                 and critical thinker. He takes the time to dive into things and
                 always gives his everything as there is some perfectionist in
                 him, with all that qualities it relates in his work as a
                 developer making the journey seem effortless.
-              </p>
+                  <i class="fas fa-quote-right"></i>
+                </p>
+              </div>
+              <div class="footer">
+                <h5 class="card-title"><span>-Oslin Johnson</span></h5>
+              </div>
             </div>
           </div>
           <div className="carousel-item">
-            <div className="testimonial  h-100">
-              <img
-                src={sajjaad}
-                alt="Avatar"
-                style={{ width: "120px", height: "120px" }}
-              />
-              <p>
-                <span>-Sajjaad Francis</span>Fellow Peer
-              </p>
-              <p>
-                Chad is a critical thinker, a hard worker, a problem solver, and
-                lastly, extremely creative. I am sure that he will be a valuable
-                asset to any and every company out there.
-              </p>
+            <div class="Tcard">
+              <h5 class="card-title">Fellow Peer</h5>
+              <img src={sajjaad} class="card-img-top " alt="..." style={{ width: "120px", height: "120px" }} />
+              <div class="card-body">
+                <p class="card-text">
+                  <i class="fas fa-quote-left"></i>
+                    Chad is a critical thinker, a hard worker, a problem solver, and
+                    lastly, extremely creative. I am sure that he will be a valuable
+                    asset to any and every company out there.
+                  <i class="fas fa-quote-right"></i>
+                </p>
+              </div>
+              <div class="footer">
+                <h5 class="card-title"><span>-Sajjaad Francis</span></h5>
+              </div>
             </div>
           </div>
         </div>

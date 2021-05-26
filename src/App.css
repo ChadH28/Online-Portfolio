@@ -23,6 +23,17 @@ section {
   padding: 5em 2em;
 }
 
+#testimonials {
+  padding: 0px;
+  padding-top: 6em;
+}
+
+#contactme{
+  padding: 0px;
+  padding-bottom: 4em;
+  padding-top: 2em;
+}
+
 .section-mainTitle {
   position: relative;
   line-height: 1.2em;

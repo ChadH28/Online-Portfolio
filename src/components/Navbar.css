@@ -1,6 +1,4 @@
-/* .navbar-toggler {
-    color: #b71c1c;
-}
+/* 
 
 .nav-item>*:hover {
     color: #b71c1c;
@@ -13,6 +11,9 @@
     margin-right: 20px;
 } */
 
+.navbar-toggler {
+    color: #b71c1c;
+}
 
 .navbar {
     background-color: rgba(33, 33, 33,0.8);

@@ -59,6 +59,7 @@
   width: 500px;
   height: 350px;
   margin-bottom: 15px;
+  margin-right: 10px;
 }
 
 .image-container img {
@@ -112,6 +113,7 @@
 /* When you mouse over the container, fade in the overlay title */
 .image-container:hover .overlay-top {
   opacity: 1;
+  z-index: 6;
 }
 
 .image-container:hover img {
@@ -163,3 +165,4 @@
   border-radius:12px;
  margin: auto;
 }
+
