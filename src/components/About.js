@@ -95,7 +95,7 @@ const About = () => {
                 </div>
               </div>
             </div>
-            <div className="col"  data-aos="fade-up">
+            <div className="col" data-aos="fade-up">
               <div
                 className="language-card pythonJ"
                 data-toggle="modal"
@@ -135,7 +135,7 @@ const About = () => {
                 data-target="#myModal8"
               >
                 <div>
-                  <i title="expand" className="fab fa-js"></i>         
+                  <i title="expand" className="fab fa-js"></i>
                 </div>
               </div>
             </div>
@@ -218,10 +218,10 @@ const About = () => {
             </li>
           </ul>
         </div>
-        <div className="col-sm-6" data-aos="zoom-in-left"  data-aos-duration="1700">
+        <div className="col-sm-6" data-aos="zoom-in-left" data-aos-duration="1700">
           <h4>Work Experience</h4>
           <ul className="timeline">
-          <li>
+            <li>
               <div className="card mb-3" data-aos="flip-right">
                 <div className="card-header">LC Studio</div>
                 <div className="card-body">
@@ -238,7 +238,7 @@ const About = () => {
                 </div>
               </div>
             </li>
-          <li>
+            <li>
               <div className="card mb-3" data-aos="flip-right">
                 <div className="card-header">Masterparts</div>
                 <div className="card-body">
@@ -593,9 +593,19 @@ const About = () => {
                 </div>
                 {/* <!-- Modal body --> */}
                 <div className="modal-body">
+                  <h6 className="modal-title">Type</h6>
+                  <p>
+                    SQL • postgreSQL • MongoDB
+                  </p>
                   <h6 className="modal-title">Description</h6>
                   <p>
                     MySQL is an open-source relational database management system like storing, manipulating and retrieving data in databases.
+                  </p>
+                  <p>
+                    MongoDB is a source-available cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with optional schemas. 
+                  </p>
+                  <p>
+                  PostgreSQL, also known as Postgres, is a free and open-source relational database management system emphasizing extensibility and SQL compliance.
                   </p>
                   <h6 className="modal-title">Skill level</h6>
                   <div className="progress">
@@ -650,8 +660,8 @@ const About = () => {
         </div>
       </div>
       {/* <!-- closing of modal content --> */}
-          {/* <!-- modal content(vue) --> */}
-          <div className="modal fade" id="myModal9">
+      {/* <!-- modal content(vue) --> */}
+      <div className="modal fade" id="myModal9">
         <span data-dismiss="modal" className="closer">
           &times;
         </span>
@@ -673,7 +683,7 @@ const About = () => {
                 <div className="modal-body">
                   <h6 className="modal-title">Description</h6>
                   <p>
-                  Vue is a progressive framework for building user interfaces. Unlike other monolithic frameworks, Vue is designed from the ground up to be incrementally adoptable. The core library is focused on the view layer only, and is easy to pick up and integrate with other libraries or existing projects. On the other hand, Vue is also perfectly capable of powering sophisticated Single-Page Applications when used in combination with modern tooling and supporting libraries.
+                    Vue is a progressive framework for building user interfaces. Unlike other monolithic frameworks, Vue is designed from the ground up to be incrementally adoptable. The core library is focused on the view layer only, and is easy to pick up and integrate with other libraries or existing projects. On the other hand, Vue is also perfectly capable of powering sophisticated Single-Page Applications when used in combination with modern tooling and supporting libraries.
                   </p>
                   <h6 className="modal-title">Skill level</h6>
                   <div className="progress">
