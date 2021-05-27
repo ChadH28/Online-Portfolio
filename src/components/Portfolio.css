@@ -2,14 +2,7 @@
   margin-bottom: 80px;
 }
 
-.project {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  max-width: 400px;
-  margin: 5px;
-  text-align: center;
-  padding: 10px;
-  background-color: #212121;
-}
+
 
 .title {
   color: white;
@@ -19,7 +12,7 @@
 .project-img {
   transition: all 0.5s ease-in-out;
   height: 250px;
-  max-width: 350px;
+  max-width: 300px;
   width: auto;
   opacity: 250ms linear;
 }
@@ -56,28 +49,35 @@
 /* Container needed to position the overlay. Adjust the width as needed */
 .image-container {
   position: relative;
-  width: 500px;
-  height: 350px;
-  margin-bottom: 15px;
-  margin-right: 10px;
+  width: 450px;
+  height: 300px;
+  margin-bottom: 60px;
 }
 
-.image-container img {
-  margin-top: 8px;  
+.image-container img { 
   /* vertical-align: middle; */
   width: 100%;
-  min-height: 350px;
+  min-height: 300px;
   min-width: 200px;
   flex-grow: initial;
-  display: block;
   opacity: 0.8;
   object-fit: fill;
   border-radius: 8px;
 }
 
+
+
+/* When you mouse over the container, fade in the overlay title */
+.image-container:hover .overlay {
+  opacity: 1;
+  cursor: pointer;
+}
+
 /* The overlay effect - lays on top of the container and over the image */
 .overlay {
   position: absolute;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
   bottom: 0;
   background: rgba(0, 0, 0, 0.6);
   /* Black see-through */
@@ -88,16 +88,13 @@
   font-size: 20px;
   padding: 15px;
   text-align: center;
-}
-
-/* When you mouse over the container, fade in the overlay title */
-.image-container:hover .overlay {
-  opacity: 1;
-  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.6) 0px 5px 30px;
 }
 
 .overlay-top {
   position: absolute;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
   top: 0;
   background: rgba(0, 0, 0, 0.6);
   /* Black see-through */
@@ -108,6 +105,7 @@
   font-size: 20px;
   padding: 15px;
   text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.6) 0px 5px 15px;
 }
 
 /* When you mouse over the container, fade in the overlay title */
@@ -119,7 +117,7 @@
 .image-container:hover img {
   opacity: 1;
   scale: 1.01;
-  box-shadow: rgba(0, 0, 0, 0.4) 0px 5px 15px;
+  box-shadow: rgba(0, 0, 0, 0.6) 0px 5px 15px;
 }
 
 
@@ -133,7 +131,7 @@
   overflow-x: hidden;
   overflow-x: hidden;
   position: static;
-  padding:10px;
+  padding:20px;
 }
 
 .card-link i{
@@ -163,6 +161,6 @@
 .modal-body img{
   border: solid white 3px;
   border-radius:12px;
- margin: auto;
+  margin: auto;
 }
 

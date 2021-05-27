@@ -40,6 +40,7 @@
 /* 
 * Nav Meu Styling */
  .nav-menu a {
+     margin-top: 20px;
     padding: 0 8px 10px 8px;
     text-decoration: none;
     display: inline-block;

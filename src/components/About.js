@@ -1,14 +1,14 @@
 import React from "react";
 import "./About.css";
 import CV from "./img/Resume.pdf";
-import html5 from "./img/html-5.png";
-import css3 from "./img/css.png";
-import bootstrap4 from "./img/bootstrap-4.png";
+import html5 from "./img/html5.png";
+import css3 from "./img/css3.png";
+import bootstrap4 from "./img/bootstrap.png";
 import python from "./img/python.png";
-import react from "./img/react.png";
+import react from "./img/reactjs.png";
 import nodejs from "./img/nodejs.png";
-import javascript from "./img/javascript.png";
-import sql from "./img/sql-server.png";
+import javascript from "./img/javascript5.png";
+import sql from "./img/database.jpeg";
 import vue from "./img/vue2.png";
 
 
