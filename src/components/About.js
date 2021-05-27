@@ -35,17 +35,17 @@ const About = () => {
 
         <div className="col-sm-6 bio" data-aos="fade-right">
           <h4>Bio</h4>
-          <h5><i class="fas fa-birthday-cake"></i> Birthday</h5>
+          <h5><i className="fas fa-birthday-cake"></i> Birthday</h5>
           <p>
             28<sup>th</sup> October 1997
           </p>
-          <h5><i class="fas fa-map-marked-alt"></i> Location (suburb)</h5>
+          <h5><i className="fas fa-map-marked-alt"></i> Location (suburb)</h5>
           <p>Kensington (Northern Suburbs) , Cape Town</p>
-          <h5><i class="fas fa-globe-africa"></i> Nationality</h5>
+          <h5><i className="fas fa-globe-africa"></i> Nationality</h5>
           <p>South African</p>
-          <h5><i class="fas fa-sms"></i> Direct Contact</h5>
+          <h5><i className="fas fa-sms"></i> Direct Contact</h5>
           <p>(+27) 84 466 4783</p>
-          <h5><i class="fas fa-plane-departure"></i> Willing to relocate</h5>
+          <h5><i className="fas fa-plane-departure"></i> Willing to relocate</h5>
           <p className="travel">Yes, anywhere locally or abroad</p>
         </div>
         <div className="col-sm-6 language">
@@ -181,7 +181,7 @@ const About = () => {
                   </p>
                 </div>
                 <div className="card-footer">
-                  <span className="float-right"><i class="far fa-calendar-check"></i> Feb 2020 - Aug 2020</span>
+                  <span className="float-right"><i className="far fa-calendar-check"></i> Feb 2020 - Aug 2020</span>
                 </div>
               </div>
             </li>
@@ -198,7 +198,7 @@ const About = () => {
                   </p>
                 </div>
                 <div className="card-footer">
-                  <span className="float-right"><i class="far fa-calendar-check"></i> 2016 - 2018</span>
+                  <span className="float-right"><i className="far fa-calendar-check"></i> 2016 - 2018</span>
                 </div>
               </div>
             </li>
@@ -212,7 +212,7 @@ const About = () => {
                   </p>
                 </div>
                 <div className="card-footer">
-                  <span className="float-right"><i class="far fa-calendar-check"></i> 2011 - 2016</span>
+                  <span className="float-right"><i className="far fa-calendar-check"></i> 2011 - 2016</span>
                 </div>
               </div>
             </li>
@@ -234,7 +234,7 @@ const About = () => {
                   </p>
                 </div>
                 <div className="card-footer">
-                  <span className="float-right"><i class="far fa-calendar-alt"></i> March 2021 - Present</span>
+                  <span className="float-right"><i className="far fa-calendar-alt"></i> March 2021 - Present</span>
                 </div>
               </div>
             </li>
@@ -251,7 +251,7 @@ const About = () => {
                   </p>
                 </div>
                 <div className="card-footer">
-                  <span className="float-right"><i class="far fa-calendar-check"></i> Sep 2020 - March 2021</span>
+                  <span className="float-right"><i className="far fa-calendar-check"></i> Sep 2020 - March 2021</span>
                 </div>
               </div>
             </li>
@@ -280,7 +280,7 @@ const About = () => {
                   </p>
                 </div>
                 <div className="card-footer">
-                  <span className="float-right"><i class="far fa-calendar-check"></i> Jun 2018 - Jul 2019</span>
+                  <span className="float-right"><i className="far fa-calendar-check"></i> Jun 2018 - Jul 2019</span>
                 </div>
               </div>
             </li>
@@ -299,7 +299,7 @@ const About = () => {
                   <p className="card-text">Made rolls of toilet paper.</p>
                 </div>
                 <div className="card-footer">
-                  <span className="float-right"><i class="far fa-calendar-check"></i> Dec 2017 - Feb 2018</span>
+                  <span className="float-right"><i className="far fa-calendar-check"></i> Dec 2017 - Feb 2018</span>
                 </div>
               </div>
             </li>
@@ -319,7 +319,7 @@ const About = () => {
                   </p>
                 </div>
                 <div className="card-footer">
-                  <span className="float-right"><i class="far fa-calendar-check"></i> Dec 2014 - Dec 2015</span>
+                  <span className="float-right"><i className="far fa-calendar-check"></i> Dec 2014 - Dec 2015</span>
                 </div>
               </div>
             </li>
@@ -602,10 +602,10 @@ const About = () => {
                     MySQL is an open-source relational database management system like storing, manipulating and retrieving data in databases.
                   </p>
                   <p>
-                    MongoDB is a source-available cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with optional schemas. 
+                    MongoDB is a source-available cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with optional schemas.
                   </p>
                   <p>
-                  PostgreSQL, also known as Postgres, is a free and open-source relational database management system emphasizing extensibility and SQL compliance.
+                    PostgreSQL, also known as Postgres, is a free and open-source relational database management system emphasizing extensibility and SQL compliance.
                   </p>
                   <h6 className="modal-title">Skill level</h6>
                   <div className="progress">
