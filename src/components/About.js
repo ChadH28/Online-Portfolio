@@ -9,7 +9,7 @@ import react from "./img/reactjs.png";
 import nodejs from "./img/nodejs.png";
 import javascript from "./img/javascript5.png";
 import sql from "./img/database.jpeg";
-import vue from "./img/vue2.png";
+import vue from "./img/vuejs.png";
 
 
 const About = () => {
