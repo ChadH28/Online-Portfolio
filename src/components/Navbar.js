@@ -92,25 +92,25 @@ const Navbar = () => {
       </div>
     </nav>
 
-/* <nav id="nav-menu-container">
-          <ul class="nav-menu">
-            <li class="menu-active"><a href="index.html">Home</a></li>
-            <li><a class="color1" href="#about">About Us</a></li>
-            <li><a class="color2" href="#services">Services</a></li>
-            <li><a class="color3" href="#team">Our Sitters</a></li>
-            <li><a class="color4" href="#contact">Contact Us</a></li>
-            <li>
-              <a class="color1" href="../node registerMk3/public/login.html"
-                >Login</a
-              >
-            </li>
-            <li>
-              <a class="color2" href="../node registerMk3/public/register.html"
-                >Become a sitter</a
-              >
-            </li>
-          </ul>
-        </nav> */
+    /* <nav id="nav-menu-container">
+              <ul className="nav-menu">
+                <li className="menu-active"><a href="index.html">Home</a></li>
+                <li><a className="color1" href="#about">About Us</a></li>
+                <li><a className="color2" href="#services">Services</a></li>
+                <li><a className="color3" href="#team">Our Sitters</a></li>
+                <li><a className="color4" href="#contact">Contact Us</a></li>
+                <li>
+                  <a className="color1" href="../node registerMk3/public/login.html"
+                    >Login</a
+                  >
+                </li>
+                <li>
+                  <a className="color2" href="../node registerMk3/public/register.html"
+                    >Become a sitter</a
+                  >
+                </li>
+              </ul>
+            </nav> */
 
 
 

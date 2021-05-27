@@ -19,60 +19,60 @@ const Testimonials = () => {
 
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <div class="Tcard">
-              <h5 class="card-title">Head of Curriculum and Learning</h5>
-              <img src={godwin} class="card-img-top " alt="..." style={{ width: "120px", height: "120px" }} />
-              <div class="card-body">
-                <p class="card-text">
-                  <i class="fas fa-quote-left"></i>
+            <div className="Tcard">
+              <h5 className="card-title">Head of Curriculum and Learning</h5>
+              <img src={godwin} className="card-img-top " alt="..." style={{ width: "120px", height: "120px" }} />
+              <div className="card-body">
+                <p className="card-text">
+                  <i className="fas fa-quote-left"></i>
                   Chad is a responsive, skilled and confident learner. Over the
                   period that I have interacted with him, I have seen the respect
                   and attention to detail that he accords to whatever he does.
                   Highly recommendable developer.
-                  <i class="fas fa-quote-right"></i>
+                  <i className="fas fa-quote-right"></i>
                 </p>
               </div>
-              <div class="footer">
-                <h5 class="card-title"><span>-Godwin P Dzvapatsva</span></h5>
+              <div className="footer">
+                <h5 className="card-title"><span>-Godwin P Dzvapatsva</span></h5>
               </div>
             </div>
           </div>
-          
+
           <div className="carousel-item">
-          <div class="Tcard">
-              <h5 class="card-title">Fellow Peer</h5>
-              <img src={oslin} class="card-img-top " alt="..." style={{ width: "120px", height: "120px" }} />
-              <div class="card-body">
-                <p class="card-text">
-                  <i class="fas fa-quote-left"></i>
+            <div className="Tcard">
+              <h5 className="card-title">Fellow Peer</h5>
+              <img src={oslin} className="card-img-top " alt="..." style={{ width: "120px", height: "120px" }} />
+              <div className="card-body">
+                <p className="card-text">
+                  <i className="fas fa-quote-left"></i>
                   Chad is a great person to have on one's team a real innovator
                 and critical thinker. He takes the time to dive into things and
                 always gives his everything as there is some perfectionist in
                 him, with all that qualities it relates in his work as a
                 developer making the journey seem effortless.
-                  <i class="fas fa-quote-right"></i>
+                  <i className="fas fa-quote-right"></i>
                 </p>
               </div>
-              <div class="footer">
-                <h5 class="card-title"><span>-Oslin Johnson</span></h5>
+              <div className="footer">
+                <h5 className="card-title"><span>-Oslin Johnson</span></h5>
               </div>
             </div>
           </div>
           <div className="carousel-item">
-            <div class="Tcard">
-              <h5 class="card-title">Fellow Peer</h5>
-              <img src={sajjaad} class="card-img-top " alt="..." style={{ width: "120px", height: "120px" }} />
-              <div class="card-body">
-                <p class="card-text">
-                  <i class="fas fa-quote-left"></i>
+            <div className="Tcard">
+              <h5 className="card-title">Fellow Peer</h5>
+              <img src={sajjaad} className="card-img-top " alt="..." style={{ width: "120px", height: "120px" }} />
+              <div className="card-body">
+                <p className="card-text">
+                  <i className="fas fa-quote-left"></i>
                     Chad is a critical thinker, a hard worker, a problem solver, and
                     lastly, extremely creative. I am sure that he will be a valuable
                     asset to any and every company out there.
-                  <i class="fas fa-quote-right"></i>
+                  <i className="fas fa-quote-right"></i>
                 </p>
               </div>
-              <div class="footer">
-                <h5 class="card-title"><span>-Sajjaad Francis</span></h5>
+              <div className="footer">
+                <h5 className="card-title"><span>-Sajjaad Francis</span></h5>
               </div>
             </div>
           </div>

@@ -7,13 +7,13 @@ const Services = () => {
       <h2 className="section-title">My Services</h2>
 
 
-      <div is='services-container' class="row row-cols-1 row-cols-md-3">
-        <div class="col service-column">
-          <div class="card service-block">
-            <img src="..." class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">
+      <div is='services-container' className="row row-cols-1 row-cols-md-3">
+        <div className="col service-column">
+          <div className="card service-block">
+            <img src="..." className="card-img-top" alt="..." />
+            <div className="card-body">
+              <h5 className="card-title">Card title</h5>
+              <p className="card-text">
                 This is a longer card with supporting text below as a natural
                 lead-in to additional content. This content is a little bit
                 longer.
@@ -21,12 +21,12 @@ const Services = () => {
             </div>
           </div>
         </div>
-        <div class="col service-column">
-          <div class="card service-block">
-            <img src="..." class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">
+        <div className="col service-column">
+          <div className="card service-block">
+            <img src="..." className="card-img-top" alt="..." />
+            <div className="card-body">
+              <h5 className="card-title">Card title</h5>
+              <p className="card-text">
                 This is a longer card with supporting text below as a natural
                 lead-in to additional content. This content is a little bit
                 longer.
@@ -34,12 +34,12 @@ const Services = () => {
             </div>
           </div>
         </div>
-        <div class="col service-column">
-          <div class="card service-block">
-            <img src="..." class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">
+        <div className="col service-column">
+          <div className="card service-block">
+            <img src="..." className="card-img-top" alt="..." />
+            <div className="card-body">
+              <h5 className="card-title">Card title</h5>
+              <p className="card-text">
                 This is a longer card with supporting text below as a natural
                 lead-in to additional content. This content is a little bit
                 longer.
@@ -47,12 +47,12 @@ const Services = () => {
             </div>
           </div>
         </div>
-        <div class="col service-column">
-          <div class="card service-block">
-            <img src="..." class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">
+        <div className="col service-column">
+          <div className="card service-block">
+            <img src="..." className="card-img-top" alt="..." />
+            <div className="card-body">
+              <h5 className="card-title">Card title</h5>
+              <p className="card-text">
                 This is a longer card with supporting text below as a natural
                 lead-in to additional content. This content is a little bit
                 longer.
@@ -60,12 +60,12 @@ const Services = () => {
             </div>
           </div>
         </div>
-        <div class="col service-column">
-          <div class="card service-block">
-            <img src="..." class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">
+        <div className="col service-column">
+          <div className="card service-block">
+            <img src="..." className="card-img-top" alt="..." />
+            <div className="card-body">
+              <h5 className="card-title">Card title</h5>
+              <p className="card-text">
                 This is a longer card with supporting text below as a natural
                 lead-in to additional content. This content is a little bit
                 longer.
@@ -73,12 +73,12 @@ const Services = () => {
             </div>
           </div>
         </div>
-        <div class="col service-column">
-          <div class="card service-block">
-            <img src="..." class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">
+        <div className="col service-column">
+          <div className="card service-block">
+            <img src="..." className="card-img-top" alt="..." />
+            <div className="card-body">
+              <h5 className="card-title">Card title</h5>
+              <p className="card-text">
                 This is a longer card with supporting text below as a natural
                 lead-in to additional content. This content is a little bit
                 longer.
@@ -89,15 +89,15 @@ const Services = () => {
 
       </div>
 
-      <div class="container-fluid main-box " id="services">
-        <h2 class="main-header-text"></h2>
+      <div className="container-fluid main-box " id="services">
+        <h2 className="main-header-text"></h2>
 
-        <div class="container-fluid services-main-box">
-          <div class="container ">
-            <div class="services-box services-bg">
-              <div class="row">
+        <div className="container-fluid services-main-box">
+          <div className="container ">
+            <div className="services-box services-bg">
+              <div className="row">
                 <div
-                  class="col-lg col-md col-sm services-md services-md-odd"
+                  className="col-lg col-md col-sm services-md services-md-odd"
                   data-aos="fade-down-right"
                   data-aos-duration="1500"
                 >
@@ -114,7 +114,7 @@ const Services = () => {
                 </div>
 
                 <div
-                  class="col-lg col-md col-sm services-md"
+                  className="col-lg col-md col-sm services-md"
                   data-aos="fade-down-left"
                   data-aos-duration="1500"
                 >
@@ -128,7 +128,7 @@ const Services = () => {
                 </div>
 
                 <div
-                  class="col-lg col-md col-sm services-md services-md-odd"
+                  className="col-lg col-md col-sm services-md services-md-odd"
                   data-aos="fade-right"
                   data-aos-duration="1500"
                 >
@@ -146,9 +146,9 @@ const Services = () => {
                 </div>
               </div>
 
-              <div class="row">
+              <div className="row">
                 <div
-                  class="col-lg col-md col-sm services-md"
+                  className="col-lg col-md col-sm services-md"
                   data-aos="fade-left"
                   data-aos-duration="1500"
                 >
@@ -165,7 +165,7 @@ const Services = () => {
                 </div>
 
                 <div
-                  class="col-lg col-md col-sm services-md services-md-even"
+                  className="col-lg col-md col-sm services-md services-md-even"
                   data-aos="fade-up-right"
                   data-aos-duration="1500"
                 >
@@ -183,7 +183,7 @@ const Services = () => {
                 </div>
 
                 <div
-                  class="col-lg col-md col-sm services-md"
+                  className="col-lg col-md col-sm services-md"
                   data-aos="fade-up-left"
                   data-aos-duration="1500"
                 >

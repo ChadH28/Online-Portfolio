@@ -4,7 +4,7 @@ import chad from "./img/chad-removebg.png";
 import $ from "jquery";
 
 const LandingPage = () => {
-  
+
   $('.intro-img').onclick = () =>
     function () {
       $(".intro-img").ripples("show");
@@ -66,9 +66,9 @@ const LandingPage = () => {
       {/* <h1 className='section-mainTitle animate__animated animate__bounce'>Hello World, I am <strong>Chad Hoosain</strong></h1> */}
       {/* <p className='section-sub'>Aspiring Full-Stack Developer</p> */}
       {/* <img src={chad} alt='intro-image' className='intro-img'/> */}
-      <div class="landing-container">
-        <div class="row">
-          <div id="left" class="col-sm-8 hero">
+      <div className="landing-container">
+        <div className="row">
+          <div id="left" className="col-sm-8 hero">
             <h1
               id="sequence"
               className="animate__animated animate__bounce header "
