@@ -271,8 +271,7 @@ const About = () => {
                     can improve
                   </p>
                   <p className="card-text">
-                    Took on Sales calls to sell a certain product based in the
-                    UK.
+                    Took on cold calls for 2 weeks as a sales agent in the sales department.
                   </p>
                   <p className="card-text">
                     Data Captured customers details onto a google spreadsheet
@@ -314,8 +313,7 @@ const About = () => {
                     Street clean various areas around Cape Town.
                   </p>
                   <p className="card-text">
-                    Pick up bags filled with dirt and transport it to the
-                    Rubbish Truck.
+                    Picked up bags filled with dirt and transported it to the Compact truck.
                   </p>
                 </div>
                 <div className="card-footer">

@@ -70,16 +70,17 @@
 
 /* Add media queries for responsiveness. This will center both the text and the image inside the testimonial */
 @media (max-width: 900px) {
-  .testimonial {
+  .Tcard {
     text-align: center;
-    min-height: 500px;
-    font-size: 20px;
   }
 
-  .testimonial img {
+  .Tcard img {
     margin: auto;
-    float: none;
-    display: block;
+  }
+
+  .Tcard .card-text{
+    width: 270px;
+    font-size: 14px;
   }
 }
 
