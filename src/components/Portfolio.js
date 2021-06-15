@@ -26,7 +26,7 @@ const Portfolio = () => {
       </p>
       <div className="gallery" data-aos="zoom-out-up">
         <div
-          className="row row-cols-sm-1 row-cols-md-2"
+          className="row row-cols-sm-1 row-cols-md-1 row-cols-lg-2"
           // data-masonry='{"percentPosition": true }'
         >
           <div className="col">

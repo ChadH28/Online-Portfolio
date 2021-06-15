@@ -59,7 +59,6 @@
   /* vertical-align: middle; */
   width: 100%;
   min-height: 300px;
-  min-width: 200px;
   flex-grow: initial;
   opacity: 0.8;
   object-fit: fill;
@@ -165,3 +164,6 @@
   margin: auto;
 }
 
+.row-cols-md-1{
+  margin: auto;
+}

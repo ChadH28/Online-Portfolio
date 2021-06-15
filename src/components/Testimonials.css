@@ -84,6 +84,13 @@
   }
 }
 
+@media (max-width: 580px) {
+  .Tcard .card-text{
+    width: 270px;
+    font-size: 12px;
+  }
+}
+
 
 .Tcard{
   text-align: center;
