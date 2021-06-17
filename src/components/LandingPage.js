@@ -32,34 +32,67 @@ const LandingPage = () => {
     "Aspiring Web Developer" //english
   ];
 
+  var span_example = [
+    "Hardworking",
+    "Dedicated",
+    "Analytical",
+    "Friendly",
+    "Aspiring",
+  ];
+
+
 
   var timeGap = 100000 // every 24hours (in 86,400,000 milliseconds) | every 30min (in 30000 milliseconds)
 
-  textSequence(0);
-  function textSequence(i) {
-    if (example.length > i) {
+  // textSequence(0);
+  // function textSequence(i) {
+  //   if (example.length > i) {
+  //     setTimeout(function () {
+  //       document.getElementById("sequence").innerHTML = example[i];
+  //       textSequence(++i);
+  //     }, timeGap); // every 24hours (in 86,400,000 milliseconds)
+  //   } else if (example.length === i) {
+  //     // Loop
+  //     textSequence(0);
+  //   }
+  // }
+
+  // textSequence2(0);
+  // function textSequence2(i) {
+  //   if (sub_example.length > i) {
+  //     setTimeout(function () {
+  //       document.getElementById("sub-sequence").innerHTML = sub_example[i];
+  //       textSequence2(++i);
+  //     }, timeGap); // every 24hours (in 86,400,000 milliseconds)
+  //   } else if (sub_example.length === i) {
+  //     // Loop
+  //     textSequence2(0);
+  //   }
+  // }
+
+  textSequence3(0);
+  function textSequence3(i) {
+    if (span_example .length > i) {
       setTimeout(function () {
-        document.getElementById("sequence").innerHTML = example[i];
-        textSequence(++i);
-      }, timeGap); // every 24hours (in 86,400,000 milliseconds)
-    } else if (example.length === i) {
+        document.getElementById("span-sequence").innerHTML = span_example [i];
+        textSequence3(++i);
+      }, 5000);
+    } else if (span_example.length === i) {
       // Loop
-      textSequence(0);
+      textSequence3(0);
     }
   }
 
-  textSequence2(0);
-  function textSequence2(i) {
-    if (sub_example.length > i) {
-      setTimeout(function () {
-        document.getElementById("sub-sequence").innerHTML = sub_example[i];
-        textSequence2(++i);
-      }, timeGap); // every 24hours (in 86,400,000 milliseconds)
-    } else if (sub_example.length === i) {
-      // Loop
-      textSequence2(0);
-    }
+  var i = 0;
+var speed = 50;
+
+function typeWriter() {
+  if (i < span_example.length) {
+    document.getElementById("span-sequence").innerHTML += span_example.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
   }
+}
 
   return (
     <section className="intro">
@@ -70,15 +103,19 @@ const LandingPage = () => {
         <div className="row">
           <div id="left" className="col-sm-8 hero">
             <h1
-              id="sequence"
+              // id="sequence"
               className="animate__animated animate__bounce header "
             >
               Hello World, I am <br />
               <strong>Chad Hoosain</strong>
             </h1>
             <hr />
-            <p id="sub-sequence" className="sub-header" data-aos="zoom-in-right">
-              Aspiring Web Developer
+            <p 
+              // id="sub-sequence" 
+              className="sub-header" 
+              data-aos="zoom-in-right"
+            >
+              <span id="span-sequence" data-aos="zoom-out-down" >Aspiring</span> Web Developer
             </p>
           </div>
           <div id="right" className="col-sm-4 hero-img" data-aos="zoom-out-down">

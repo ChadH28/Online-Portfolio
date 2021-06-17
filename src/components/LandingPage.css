@@ -177,3 +177,7 @@ hr {
     margin-bottom: 0.25em;
     font-size: 65px;
 }
+
+.sub-header span {
+    color: #b71c1c;
+}
