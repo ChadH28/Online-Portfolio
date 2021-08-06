@@ -164,7 +164,7 @@ const About = () => {
       </div>
 
       <div className="row">
-        <div className="col-sm-6" data-aos="zoom-in-right" data-aos-duration="1800">
+        <div className="col-sm-12 col-md-6" data-aos="zoom-in-right" data-aos-duration="1800">
           <h4>Education</h4>
           <ul className="timeline">
             <li>
@@ -218,7 +218,7 @@ const About = () => {
             </li>
           </ul>
         </div>
-        <div className="col-sm-6" data-aos="zoom-in-left" data-aos-duration="1700">
+        <div className="col-sm-12 col-md-6" data-aos="zoom-in-left" data-aos-duration="1700">
           <h4>Work Experience</h4>
           <ul className="timeline">
             <li>
@@ -359,6 +359,7 @@ const About = () => {
                       90%
                     </div>
                   </div>
+                  <span className="float-right"><b>Experienced</b> - 1 year, 6 months | <span className='text-muted'>Current</span></span>
                 </div>
               </div>
             </div>
@@ -398,6 +399,7 @@ const About = () => {
                       75%
                     </div>
                   </div>
+                  <span className="float-right"><b>Experienced</b> - 1 year, 6 months | <span className='text-muted'>Current</span></span>
                 </div>
               </div>
             </div>
@@ -437,6 +439,7 @@ const About = () => {
                       80%
                     </div>
                   </div>
+                  <span className="float-right"><b>Experienced</b> - 1 year, 6 months | <span className='text-muted'>Current</span></span>
                 </div>
               </div>
             </div>
@@ -480,6 +483,7 @@ const About = () => {
                       50%
                     </div>
                   </div>
+                  <span className="float-right"><b>Skillful</b> - 6 months | <span className='text-muted'>Current</span></span>
                 </div>
               </div>
             </div>
@@ -523,6 +527,7 @@ const About = () => {
                       75%
                     </div>
                   </div>
+                  <span className="float-right"><b>Skillful</b> - 6 months | <span className='text-muted'>Current</span></span>
                 </div>
               </div>
             </div>
@@ -563,6 +568,7 @@ const About = () => {
                       65%
                     </div>
                   </div>
+                    <span className="float-right"><b>Skillful</b> - 1 year | <span className='text-muted'>Current</span></span>
                 </div>
               </div>
             </div>
@@ -611,6 +617,7 @@ const About = () => {
                       90%
                     </div>
                   </div>
+                  <span className="float-right"><b>Experienced</b> - 1 year, 6 months | <span className='text-muted'>Current</span></span>
                 </div>
               </div>
             </div>
@@ -651,6 +658,7 @@ const About = () => {
                       60%
                     </div>
                   </div>
+                  <span className="float-right"><b>Skillful</b> - 1 year, 6 months | <span className='text-muted'>Current</span></span>
                 </div>
               </div>
             </div>
@@ -689,6 +697,7 @@ const About = () => {
                       60%
                     </div>
                   </div>
+                  <span className="float-right"><b>Skillful</b> - 6 months | <span className='text-muted'><span className='text-muted'>Current</span></span></span>
                 </div>
               </div>
             </div>
