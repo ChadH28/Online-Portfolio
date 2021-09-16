@@ -22,8 +22,7 @@ section {
 
 #testimonials {
   padding-top: 6em;
-  height: 70vh;
-  margin-bottom: 3em;
+  height: auto;
 }
 
 #contactme,
@@ -34,7 +33,7 @@ section {
 
 
 #contactme{
-  padding-bottom: 6em;
+  padding-bottom: 4em;
   padding-top: 2em;
 }
 

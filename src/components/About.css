@@ -13,10 +13,6 @@
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
 }
 
-
-
-
-
 .progress {
   width: 100%;
   /* Full width */
@@ -36,12 +32,10 @@
   border-radius: 50px;
 }
 
-
 ul.timeline {
   list-style-type: none;
   position: relative;
 }
-
 
 ul.timeline:before {
   content: " ";
@@ -55,12 +49,12 @@ ul.timeline:before {
   z-index: 400;
 }
 
-ul.timeline>li {
+ul.timeline > li {
   margin: 20px 0;
   padding-left: 20px;
 }
 
-ul.timeline>li:before {
+ul.timeline > li:before {
   content: " ";
   background: rgba(183, 28, 28, 0.8);
   box-shadow: 0 0 4px 4px rgba(183, 28, 28, 0.3);
@@ -73,7 +67,6 @@ ul.timeline>li:before {
   height: 20px;
   z-index: 800;
 }
-
 
 ul.timeline span {
   font-style: italic;
@@ -158,13 +151,12 @@ ul.timeline p {
   color: white;
 }
 
-
 .javascript:hover {
   box-shadow: rgb(251, 214, 1) 0px 18px 50px -5px;
 }
 
 .javascript:hover i {
-  color: #FBD601;
+  color: #fbd601;
 }
 
 .html5:hover {
@@ -176,77 +168,67 @@ ul.timeline p {
 }
 
 .css3:hover {
-  box-shadow: #146EB1 0px 18px 50px -5px;
+  box-shadow: #146eb1 0px 18px 50px -5px;
 }
 
 .css3:hover i {
-  color: #146EB1;
+  color: #146eb1;
 }
 
 .bootstrap4:hover {
-  box-shadow: #533B78 0px 18px 50px -5px;
+  box-shadow: #533b78 0px 18px 50px -5px;
 }
 
 .bootstrap4:hover i {
-  color: #533B78;
+  color: #533b78;
 }
 
 .bootstrap4:hover {
-  box-shadow: #533B78 0px 18px 50px -5px;
+  box-shadow: #533b78 0px 18px 50px -5px;
 }
 
 .bootstrap4:hover i {
-  color: #533B78;
+  color: #533b78;
 }
 
 .reactjs:hover {
-  box-shadow: #5ED3F3 0px 18px 50px -5px;
+  box-shadow: #5ed3f3 0px 18px 50px -5px;
 }
 
 .reactjs:hover i {
-  color: #5ED3F3;
+  color: #5ed3f3;
 }
 
 .pythonJ:hover {
   box-shadow: rgb(54, 110, 155) 0px 18px 50px -5px;
-
 }
 
 .pythonJ:hover i {
   color: rgb(238, 214, 65);
-
 }
 
 .nodejs:hover {
-  box-shadow: #539E43 0px 18px 50px -5px;
-
+  box-shadow: #539e43 0px 18px 50px -5px;
 }
 
 .nodejs:hover i {
-  color: #539E43;
-
+  color: #539e43;
 }
 
-
 .database:hover {
-  box-shadow: #58A3DA 0px 18px 50px -5px;
-
+  box-shadow: #58a3da 0px 18px 50px -5px;
 }
 
 .database:hover i {
-  color: #58A3DA;
-
+  color: #58a3da;
 }
 
-
 .vuejs:hover {
-  box-shadow: #41B883 0px 18px 50px -5px;
-
+  box-shadow: #41b883 0px 18px 50px -5px;
 }
 
 .vuejs:hover i {
-  color: #41B883;
-
+  color: #41b883;
 }
 
 #html5 {
@@ -259,69 +241,64 @@ ul.timeline p {
 }
 
 #css {
-  color: #146EB1;
+  color: #146eb1;
 }
 
 .css {
   width: 75%;
-  background-color: #146EB1;
+  background-color: #146eb1;
 }
 
 #bootstrap {
-  color: #533B78;
+  color: #533b78;
 }
 
 .bootstrap {
   width: 80%;
-  background-color: #533B78;
+  background-color: #533b78;
 }
 
 #react {
-  color: #5ED3F3;
+  color: #5ed3f3;
 }
 
 .react {
   width: 50%;
-  background-color: #5ED3F3;
+  background-color: #5ed3f3;
 }
 
 .vue {
   width: 60%;
-  background-color: #539E43;
+  background-color: #539e43;
 }
 
 .python {
   width: 75%;
-  background-color: rgb(54, 110, 155)
+  background-color: rgb(54, 110, 155);
 }
 
 #python {
-  color: linear-gradient(45deg,
-      rgb(54, 110, 155),
-      rgb(238, 214, 65));
-  color: rgb(54, 110, 155)
+  color: linear-gradient(45deg, rgb(54, 110, 155), rgb(238, 214, 65));
+  color: rgb(54, 110, 155);
 }
-
 
 .node {
   width: 65%;
-  background-color: #539E43
+  background-color: #539e43;
 }
 
 #node {
-  color: #539E43;
+  color: #539e43;
 }
 
 .js {
   width: 60%;
-  background-color: #FBD601;
+  background-color: #fbd601;
 }
-
-
 
 .mysql {
   width: 80%;
-  background-color: #58A3DA;
+  background-color: #58a3da;
 }
 
 @media (max-width: 500px) {
@@ -330,7 +307,6 @@ ul.timeline p {
   }
 }
 
-
 /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
 @media screen and (max-width: 500px) {
   .modal-content i {
@@ -338,7 +314,7 @@ ul.timeline p {
   }
 }
 
-.bio h5{
+.bio h5 {
   font-weight: bold;
   margin-top: 50px;
 }
@@ -346,7 +322,6 @@ ul.timeline p {
 .bio p {
   padding-left: 5px;
 }
-
 
 .bio {
   padding: 20px;
@@ -357,11 +332,9 @@ ul.timeline p {
   height: auto;
 }
 
-.language{
+.language {
   margin-bottom: 25px;
 }
-
-
 
 /* The Modal (background) */
 .modal {
@@ -459,14 +432,14 @@ ul.timeline p {
   padding-right: 4px;
 }
 
-.modal-body h6{
+.modal-body h6 {
   margin-top: 10px;
   margin-bottom: 15px;
   font-size: 24px;
   font-weight: bolder;
 }
 
-.modal-body p{
+.modal-body p {
   margin-left: 8px;
   font-size: 20px;
   font-weight: 500;
@@ -477,11 +450,10 @@ ul.timeline p {
   font-weight: bolder;
 }
 
-
 .timeline .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   background-color: rgba(33, 33, 33, 0.6);
-  border-radius: 18px
+  border-radius: 18px;
 }
 
 .timeline .card:hover {
@@ -490,7 +462,7 @@ ul.timeline p {
 
 .card-header {
   background-color: rgba(183, 28, 28, 0.8);
-  border-radius: 25px
+  border-radius: 25px;
 }
 
 .card-footer {
@@ -501,8 +473,7 @@ ul.timeline p {
   margin: auto;
 }
 
-
-.modal-content img{
+.modal-content img {
   margin: auto;
   vertical-align: middle;
   width: 100%;
