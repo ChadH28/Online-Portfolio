@@ -10,7 +10,6 @@
 .project-img {
   transition: all 0.5s ease-in-out;
   height: 250px;
-  max-width: 300px;
   width: auto;
   opacity: 250ms linear;
 }
@@ -47,7 +46,7 @@
 /* Container needed to position the overlay. Adjust the width as needed */
 .image-container {
   position: relative;
-  width: 450px;
+  min-width: 200px;
   height: 300px;
   margin-bottom: 60px;
 }
@@ -121,14 +120,13 @@
 /* ads section */
 .gallery {
   margin: auto;
-  max-width: 1300px;
   width: 100%;
   min-width: 300px;
   height: 600px;
   overflow-x: hidden;
   overflow-x: hidden;
   position: static;
-  padding:20px;
+  padding:15px;
 }
 
 .card-link i{

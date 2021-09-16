@@ -21,13 +21,20 @@ section {
 }
 
 #testimonials {
-  padding: 0px;
   padding-top: 6em;
+  height: 70vh;
+  margin-bottom: 3em;
 }
 
-#contactme{
+#contactme,
+#testimonials
+{
   padding: 0px;
-  padding-bottom: 4em;
+}
+
+
+#contactme{
+  padding-bottom: 6em;
   padding-top: 2em;
 }
 

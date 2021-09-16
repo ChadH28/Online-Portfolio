@@ -19,7 +19,7 @@ const Testimonials = () => {
 
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <div className="Tcard">
+            <div className="Tcard container">
               <h5 className="card-title">Head of Curriculum and Learning</h5>
               <img src={godwin} className="card-img-top " alt="..." style={{ width: "120px", height: "120px" }} />
               <div className="card-body">

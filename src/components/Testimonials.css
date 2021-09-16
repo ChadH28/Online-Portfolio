@@ -1,12 +1,10 @@
 /* Style the testimonial with a rounded border, grey background and some padding and margin */
 .testimonial {
   /* border: 1px solid #ccc; */
-  background-color: rgba(238, 238, 238,0,05);
+  background-color: rgba(238, 238, 238, 0, 05);
   height: auto;
-  min-height: 250px;
-  max-height: 500px;
   border-radius: 5px;
-  font-size: 22px;
+  font-size: 18px;
   padding: 16px;
   margin: 16px 0;
   color: white;
@@ -14,7 +12,7 @@
   transition: 0.3s;
 }
 
-.paracont{
+.paracont {
   text-align: center;
 }
 
@@ -35,10 +33,9 @@
 /* Increase the font-size of a span element */
 .testimonial span {
   font-size: 20px;
-  color:#b71c1c;
+  color: #b71c1c;
   margin-right: 15px;
 }
-
 
 .carousel-control-prev,
 .carousel-control-next {
@@ -49,24 +46,17 @@
 }
 
 .carousel-control-prev {
-    left: -5%;
+  left: -5%;
 }
 
 .carousel-control-next {
-    right: -5%;
+  right: -5%;
 }
 
-
-/* .carousel-indicators {
-    position: absolute;
-    top: 95%;
-
-} */
 
 .carousel {
-    margin-top: 80px;
+  margin-top: 80px;
 }
-
 
 /* Add media queries for responsiveness. This will center both the text and the image inside the testimonial */
 @media (max-width: 900px) {
@@ -78,27 +68,26 @@
     margin: auto;
   }
 
-  .Tcard .card-text{
+  .Tcard .card-text {
     width: 270px;
     font-size: 14px;
   }
 }
 
 @media (max-width: 580px) {
-  .Tcard .card-text{
+  .Tcard .card-text {
     width: 270px;
     font-size: 12px;
   }
 }
 
-
-.Tcard{
+.Tcard {
   text-align: center;
   margin: auto;
-  height: 580px;
+  padding: 10px;
 }
 
-.Tcard h5{
+.Tcard h5 {
   font-size: 24px;
   font-weight: bold;
 }
@@ -109,17 +98,16 @@
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
 }
 
-.Tcard .card-text{
-  width: 450px;
+.Tcard .card-text {
   text-align: center;
   margin: auto;
-  font-size: 26px;
+  font-size: 22px;
+  max-width: 450px;
 }
 
 .fa-quote-right {
   margin-left: 5px;
 }
-
 
 .fa-quote-left {
   margin-right: 5px;
@@ -127,5 +115,5 @@
 
 .Tcard span {
   font-size: 24px;
-  color:#b71c1c;
+  color: #b71c1c;
 }
