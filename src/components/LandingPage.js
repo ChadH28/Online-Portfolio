@@ -37,7 +37,7 @@ const LandingPage = () => {
     "Dedicated",
     "Analytical",
     "Friendly",
-    "Aspiring",
+    "Communicative",
     "Creative"
   ];
 
