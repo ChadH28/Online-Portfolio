@@ -1,6 +1,4 @@
-*,
-*::before,
-*::after {
+* {
   box-sizing: border-box;
 }
 
@@ -11,7 +9,6 @@ body {
 }
 
 
-/* #212121 */
 
 img {
   display: block;
