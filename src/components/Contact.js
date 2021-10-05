@@ -59,10 +59,10 @@ const Contact = () => {
   return (
     <section id="contactme" className="contact">
       <h2 className="section-title" >Lets Interact</h2>
-      <p className="section-sub" data-aos="fade-left">
+      <h3 className="section-sub" data-aos="fade-left">
         Swing by for a cup of coffee at my favourite Boristas, or leave me a
         message
-      </p>
+      </h3>
       <div className="row">
         <div className="col-sm-12">
           <div className="form-container" data-aos="zoom-in-right">

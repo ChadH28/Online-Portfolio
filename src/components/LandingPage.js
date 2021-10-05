@@ -85,7 +85,7 @@ const LandingPage = () => {
   }
 
   var i = 0;
-var speed = 50;
+var speed = 20;
 
 function typeWriter() {
   if (i < span_example.length) {
@@ -100,7 +100,7 @@ function typeWriter() {
       {/* <h1 className='section-mainTitle animate__animated animate__bounce'>Hello World, I am <strong>Chad Hoosain</strong></h1> */}
       {/* <p className='section-sub'>Aspiring Full-Stack Developer</p> */}
       {/* <img src={chad} alt='intro-image' className='intro-img'/> */}
-      <div className="landing-container">
+      <div className="container-fluid">
         <div className="row">
           <div id="left" className="col-sm-8 hero">
             <h1

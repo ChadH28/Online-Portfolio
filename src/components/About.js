@@ -15,12 +15,12 @@ import vue from "./img/vuejs.png";
 const About = () => {
 
   return (
-    <section id="aboutme" className="about-me">
+    <section id="aboutme" className="container about-me">
       <h2 className="section-title">About Me</h2>
 
-      <p className="section-sub" data-aos="fade-right">
+      <h3 className="section-sub" data-aos="fade-right">
         Developer & Entrepreneur in the making, based out of Sunny Cape Town
-      </p>
+      </h3>
       <div className="row">
         <div className="col-sm-12 paragraph" data-aos="fade-left">
           <p>
@@ -568,7 +568,7 @@ const About = () => {
                       65%
                     </div>
                   </div>
-                    <span className="float-right"><b>Skillful</b> - 1 year | <span className='text-muted'>Current</span></span>
+                  <span className="float-right"><b>Skillful</b> - 1 year | <span className='text-muted'>Current</span></span>
                 </div>
               </div>
             </div>
@@ -576,7 +576,7 @@ const About = () => {
         </div>
       </div>
       {/* <!-- closing of modal content --> */}
-      {/* <!-- modal content(sql) --> */}
+      {/* <!-- modal content(sqledit) --> */}
       <div className="modal fade" id="myModal7">
         <span data-dismiss="modal" className="closer">
           &times;
@@ -597,8 +597,7 @@ const About = () => {
                 </div>
                 {/* <!-- Modal body --> */}
                 <div className="modal-body">
-                  <h6 className="modal-title">Type</h6>
-                  <p>
+                  <p className="modal-language"> 
                     SQL • postgreSQL • MongoDB
                   </p>
                   <h6 className="modal-title">Description</h6>
@@ -613,8 +612,8 @@ const About = () => {
                   </p>
                   <h6 className="modal-title">Skill level</h6>
                   <div className="progress">
-                    <div className="skills mysql progress-bar-striped progress-bar-animated">
-                      90%
+                    <div className="skills node progress-bar-striped progress-bar-animated">
+                      65%
                     </div>
                   </div>
                   <span className="float-right"><b>Experienced</b> - 1 year, 6 months | <span className='text-muted'>Current</span></span>

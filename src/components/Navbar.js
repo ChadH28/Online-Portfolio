@@ -17,7 +17,7 @@ const Navbar = () => {
   }
 
   return (
-    <nav className="navbar navbar-expand-sm fixed-top" id="navbar">
+    <nav className="navbar navbar-expand-sm navbar-expand-md navbar-expand-lg fixed-top" id="navbar">
       <div className="container">
         <a
           className="navbar-brand"

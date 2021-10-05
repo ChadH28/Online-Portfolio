@@ -16,26 +16,31 @@ img {
   max-height: 100%;
 }
 
+/* profile sections */
 section {
   padding: 5em 2em;
 }
 
 #testimonials {
   padding-top: 6em;
-  height: auto;
+  height: 750px;
+  margin-bottom: 50px;
 }
 
-#contactme,
-#testimonials
-{
-  padding: 0px;
+#aboutme{
+  padding-top: 6em;
 }
 
+#portfolio{
+  padding-top: 6em;
+}
 
 #contactme{
   padding-bottom: 4em;
-  padding-top: 2em;
+  padding-top: 6em;
 }
+/* profile sections END */
+
 
 .section-mainTitle {
   position: relative;
@@ -79,7 +84,8 @@ h4:before {
   background:rgba(183, 28, 28,0.8);
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   text-align: center;
-  font-size: 16px;
+  font-size: 20px;
+  border-radius: 5px;
   
 }
 

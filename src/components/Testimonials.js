@@ -6,11 +6,11 @@ import "./Testimonials.css";
 
 const Testimonials = () => {
   return (
-    <section id="testimonials">
+    <section id="testimonials" className='container'>
       <div class='testi-container'>
 
         <h2 className="section-title">Testimonials</h2>
-        <p className="section-sub" data-aos="fade-right">What other people think of me or my work</p>
+        <h3 className="section-sub" data-aos="fade-right">What other people think of me or my work</h3>
 
         <div id="demo" className="carousel slide" data-ride="carousel" data-aos="zoom-in-left">
           {/* <ul className="carousel-indicators">

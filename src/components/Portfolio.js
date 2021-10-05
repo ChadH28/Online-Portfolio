@@ -19,11 +19,11 @@ import lmj_qrcode from "./img/lmj_qrcode.png";
 
 const Portfolio = () => {
   return (
-    <section id="portfolio" className="mywork">
+    <section id="portfolio" className="mywork container">
       <h2 className="section-title">My Portfolio</h2>
-      <p className="section-sub" data-aos="fade-left">
+      <h3 className="section-sub" data-aos="fade-left">
         A special selection of my range of work through coding
-      </p>
+      </h3>
       <div className="gallery" data-aos="zoom-out-up">
         <div
           className="row row-cols-sm-1 row-cols-xs-1 row-cols-md-1 row-cols-lg-2"
