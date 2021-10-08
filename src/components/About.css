@@ -107,6 +107,10 @@ ul.timeline p {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
+.education{
+  margin-bottom: 50px;
+}
+
 .findme {
   text-align: center;
   margin-bottom: 35px;

@@ -173,7 +173,7 @@ title="expand">
       </div>
 
       <div className="row">
-        <div className="col-sm-12 col-md-6" data-aos="zoom-in-right" data-aos-duration="1800">
+        <div className="col-sm-12 col-md-6 education" data-aos="zoom-in-right" data-aos-duration="1800">
           <h4>Education</h4>
           <ul className="timeline">
             <li>

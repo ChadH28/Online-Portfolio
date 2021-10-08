@@ -32,18 +32,8 @@ const LandingPage = () => {
   //   "Aspiring Web Developer" //english
   // ];
 
-  var personality_span = [
-    "Hardworking",
-    "Dedicated",
-    "Analytical",
-    "Friendly",
-    "Communicative",
-    "Creative"
-  ];
 
-
-
-  var timeGap = 100000 // every 24hours (in 86,400,000 milliseconds) | every 30min (in 30000 milliseconds)
+  // var timeGap = 100000 // every 24hours (in 86,400,000 milliseconds) | every 30min (in 30000 milliseconds)
 
   // textSequence(0);
   // function textSequence(i) {
@@ -72,8 +62,16 @@ const LandingPage = () => {
   // }
 
 
-  var i = 0;
-  var speed = 20;
+
+
+  var personality_span = [
+    "Hardworking",
+    "Dedicated",
+    "Analytical",
+    "Friendly",
+    "Communicative",
+    "Creative"
+  ];
 
   textSequence3(0);
   function textSequence3(i) {
@@ -90,6 +88,8 @@ const LandingPage = () => {
 
 
   // function typeWriter() {
+    // var i = 0;
+    // var speed = 20;
   //   if (i < personality_span.length) {
   //     document.getElementById("span-sequence").innerHTML += personality_span.charAt(i);
   //     i++;
