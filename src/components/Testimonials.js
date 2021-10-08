@@ -12,11 +12,11 @@ const Testimonials = () => {
         <h2 className="section-title">Testimonials</h2>
         <h3 className="section-sub" data-aos="fade-right">What other people think of me or my work</h3>
 
-        <div id="demo" className="carousel slide" data-ride="carousel" data-aos="zoom-in-left">
+        <div id="testimonial-slider" className="carousel slide" data-ride="carousel" data-aos="zoom-in-left">
           {/* <ul className="carousel-indicators">
-          <li className="indicator active" data-target="#demo" data-slide-to="0"></li>
-          <li data-target="#demo" data-slide-to="1"></li>
-          <li data-target="#demo" data-slide-to="2"></li>
+          <li className="indicator active" data-target="#testimonial-slider" data-slide-to="0"></li>
+          <li data-target="#testimonial-slider" data-slide-to="1"></li>
+          <li data-target="#testimonial-slider" data-slide-to="2"></li>
         </ul> */}
 
           <div className="carousel-inner">
@@ -79,13 +79,14 @@ const Testimonials = () => {
               </div>
             </div>
           </div>
-
-          <a className="carousel-control-prev" href="#demo" data-slide="prev">
+          <div>
+          <a className="carousel-control-prev" href="#testimonial-slider" data-slide="prev">
             <span className="carousel-control-prev-icon"></span>
           </a>
-          <a className="carousel-control-next" href="#demo" data-slide="next">
+          <a className="carousel-control-next" href="#testimonial-slider" data-slide="next">
             <span className="carousel-control-next-icon"></span>
           </a>
+          </div>
         </div>
       </div>
     </section>

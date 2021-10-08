@@ -131,7 +131,8 @@ ul.timeline p {
 }
 
 .language-card {
-  margin-bottom: 20px;
+  margin-bottom: 50px;
+  margin-left: 8px;
   padding: 30px;
   width: 100px;
   height: 100px;
@@ -326,7 +327,7 @@ ul.timeline p {
   padding: 20px;
   border-radius: 12px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
-  background-color: rgba(33, 33, 33, 0.6);
+  /* background-color: rgba(33, 33, 33, 0.6); */
   margin-bottom: 25px;
   height: auto;
 }
@@ -455,7 +456,8 @@ ul.timeline p {
 
 .timeline .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  background-color: rgba(33, 33, 33, 0.6);
+  background-color: rgba(33, 33, 33, 0.6); 
+  background-color: #303E52; 
   border-radius: 18px;
 }
 
@@ -464,8 +466,7 @@ ul.timeline p {
 }
 
 .card-header {
-  background-color: rgba(183, 28, 28, 0.8);
-  border-radius: 25px;
+  background-color: rgba(183, 28, 28, 0.95);
 }
 
 .card-footer {

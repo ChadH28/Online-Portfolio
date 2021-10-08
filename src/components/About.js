@@ -56,9 +56,10 @@ const About = () => {
                 className="language-card html5"
                 data-toggle="modal"
                 data-target="#myModal"
-              >
+
+title="expand">
                 <div>
-                  <i title="expand" className="fab fa-html5"></i>
+                  <i className="fab fa-html5"></i>
                 </div>
               </div>
             </div>
@@ -67,9 +68,10 @@ const About = () => {
                 className="language-card css3"
                 data-toggle="modal"
                 data-target="#myModal2"
+                title="expand"
               >
                 <div>
-                  <i title="expand" className="fab fa-css3-alt"></i>
+                  <i className="fab fa-css3-alt"></i>
                 </div>
               </div>
             </div>
@@ -78,9 +80,10 @@ const About = () => {
                 className="language-card bootstrap4"
                 data-toggle="modal"
                 data-target="#myModal3"
+                title="expand"
               >
                 <div>
-                  <i title="expand" className="fab fa-bootstrap"></i>
+                  <i className="fab fa-bootstrap"></i>
                 </div>
               </div>
             </div>
@@ -89,9 +92,10 @@ const About = () => {
                 className="language-card reactjs"
                 data-toggle="modal"
                 data-target="#myModal4"
+                title="expand"
               >
                 <div>
-                  <i title="expand" className="fab fa-react"></i>
+                  <i className="fab fa-react"></i>
                 </div>
               </div>
             </div>
@@ -100,9 +104,10 @@ const About = () => {
                 className="language-card pythonJ"
                 data-toggle="modal"
                 data-target="#myModal5"
+                title="expand"
               >
                 <div>
-                  <i title="expand" className="fab fa-python"></i>
+                  <i className="fab fa-python"></i>
                 </div>
               </div>
             </div>
@@ -111,9 +116,10 @@ const About = () => {
                 className="language-card nodejs"
                 data-toggle="modal"
                 data-target="#myModal6"
+                title="expand"
               >
                 <div>
-                  <i title="expand" className="fab fa-node"></i>
+                  <i className="fab fa-node"></i>
                 </div>
               </div>
             </div>
@@ -122,9 +128,10 @@ const About = () => {
                 className="language-card database"
                 data-toggle="modal"
                 data-target="#myModal7"
+                title="expand"
               >
                 <div>
-                  <i title="expand" className="fas fa-database"></i>
+                  <i className="fas fa-database"></i>
                 </div>
               </div>
             </div>
@@ -133,9 +140,10 @@ const About = () => {
                 className="language-card javascript"
                 data-toggle="modal"
                 data-target="#myModal8"
+                title="expand"
               >
                 <div>
-                  <i title="expand" className="fab fa-js"></i>
+                  <i className="fab fa-js"></i>
                 </div>
               </div>
             </div>
@@ -144,9 +152,10 @@ const About = () => {
                 className="language-card vuejs"
                 data-toggle="modal"
                 data-target="#myModal9"
+                title="expand"
               >
                 <div>
-                  <i title="expand" className="fab fa-vuejs"></i>
+                  <i className="fab fa-vuejs"></i>
                 </div>
               </div>
             </div>

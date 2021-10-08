@@ -73,9 +73,9 @@ const LandingPage = () => {
 
   textSequence3(0);
   function textSequence3(i) {
-    if (span_example .length > i) {
+    if (span_example.length > i) {
       setTimeout(function () {
-        document.getElementById("span-sequence").innerHTML = span_example [i];
+        document.getElementById("span-sequence").innerHTML = span_example[i];
         textSequence3(++i);
       }, 5000);
     } else if (span_example.length === i) {
@@ -85,15 +85,15 @@ const LandingPage = () => {
   }
 
   var i = 0;
-var speed = 20;
+  var speed = 20;
 
-function typeWriter() {
-  if (i < span_example.length) {
-    document.getElementById("span-sequence").innerHTML += span_example.charAt(i);
-    i++;
-    setTimeout(typeWriter, speed);
+  function typeWriter() {
+    if (i < span_example.length) {
+      document.getElementById("span-sequence").innerHTML += span_example.charAt(i);
+      i++;
+      setTimeout(typeWriter, speed);
+    }
   }
-}
 
   return (
     <section className="intro">
@@ -102,7 +102,7 @@ function typeWriter() {
       {/* <img src={chad} alt='intro-image' className='intro-img'/> */}
       <div className="container-fluid">
         <div className="row">
-          <div id="left" className="col-sm-8 hero">
+          <div id="left" className="col-sm-8 col-md-8 col-lg-8 hero">
             <h1
               // id="sequence"
               className="animate__animated animate__bounce header "
@@ -111,15 +111,15 @@ function typeWriter() {
               <strong>Chad Hoosain</strong>
             </h1>
             <hr />
-            <p 
+            <p
               // id="sub-sequence" 
-              className="sub-header" 
+              className="sub-header"
               data-aos="zoom-in-right"
             >
-              <span id="span-sequence" data-aos="zoom-out-down" >Aspiring</span> Web Developer
+              <span id="span-sequence" data-aos="zoom-out-down" >Aspiring</span> <span className='profession'>Web Developer</span> 
             </p>
           </div>
-          <div id="right" className="col-sm-4 hero-img" data-aos="zoom-out-down">
+          <div id="right" className="col-sm-4 col-md-4 col-lg-4 hero-img" data-aos="zoom-out-down">
             <img src={chad} alt="CH" className="landing-img" />
           </div>
         </div>
