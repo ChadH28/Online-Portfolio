@@ -41,7 +41,7 @@
   margin-left: 10px;
 }
 
-.nav-menu > li > a:before {
+.nav-link:before {
   content: "";
   position: absolute;
   height: 2px;
@@ -53,9 +53,6 @@
   transition: all 0.3s ease-in-out 0s;
 }
 
-.nav-menu .color1:before {
-  background-color: rgba(183, 28, 28, 0.8);
-}
 
 .nav-menu a:hover:before,
 .nav-menu li:hover > a:before,
@@ -64,20 +61,7 @@
   transform: scaleX(1);
 }
 
-.nav-menu ul {
-  margin: 4px 0 0 0;
-  border: 1px solid #e7e7e7;
-}
-
-.nav-menu ul li {
-  background: #fff;
-}
-
-.nav-menu ul li:first-child {
-  border-top: 0;
-}
-
-.nav-menu ul li a {
+.nav-link {
   padding: 10px;
   color: #333;
   transition: 0.3s;
@@ -86,11 +70,8 @@
   text-transform: none;
 }
 
-.nav-menu ul li a:hover {
-  background: #2dc997;
-  color: #fff;
+.nav-link:hover {
+  color: #b71c1c;
+  
 }
 
-.nav-menu ul ul {
-  margin: 0;
-}

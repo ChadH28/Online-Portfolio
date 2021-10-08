@@ -15,7 +15,7 @@ import { useEffect } from "react";
 const App = () => {
 
   useEffect(() => {
-    aos.init({ duration: 1000});
+    aos.init({ duration: 1500});
   }, []);
 
 

@@ -41,7 +41,7 @@ const Navbar = () => {
           </span>
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav nav-menu justify-content-end" id="nav-cont">
+          <ul className="navbar-nav nav-menu " id="nav-cont">
             <li className="nav-item ">
               <a
                 href="#aboutme"
