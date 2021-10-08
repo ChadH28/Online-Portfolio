@@ -71,7 +71,8 @@ hr {
 
 .hero-img{
     width:1300px;
-    background-color: rgba(183, 28, 28, 0.59);
+    /* background-color: rgba(183, 28, 28, 0.59); */
+    background-color:#2a3749;   /* blue */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     border-radius: 12px;
 }

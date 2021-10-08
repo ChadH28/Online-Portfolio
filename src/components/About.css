@@ -70,7 +70,8 @@ ul.timeline > li:before {
 ul.timeline span {
   font-style: italic;
   color: #b71c1c;
-  text-shadow: 0 0 2.5px #ffffff56;
+  font-weight: 700;
+  text-shadow: 0 0 2.5px #00000056;
   font-size: 18px;
 }
 

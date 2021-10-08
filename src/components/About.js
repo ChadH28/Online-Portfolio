@@ -40,7 +40,7 @@ const About = () => {
             28<sup>th</sup> October 1997
           </p>
           <h5><i className="fas fa-map-marked-alt"></i> Location (suburb)</h5>
-          <p>Kensington (Northern Suburbs) , Cape Town</p>
+          <p>Northern Suburbs, Cape Town</p>
           <h5><i className="fas fa-globe-africa"></i> Nationality</h5>
           <p>South African</p>
           <h5><i className="fas fa-sms"></i> Direct Contact</h5>

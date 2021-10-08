@@ -51,6 +51,8 @@
 .Tcard h5 {
   font-size: 24px;
   font-weight: bold;
+  text-shadow: 0 0 2.5px #00000056;
+  font-weight: 700;
 }
 
 .Tcard img {
@@ -64,6 +66,8 @@
   margin: auto;
   font-size: 20px;
   max-width: 500px;
+  text-shadow: 0 0 2.5px #00000056;
+  font-weight: 700;
 }
 
 .fa-quote-right {
@@ -76,5 +80,7 @@
 
 .Tcard span {
   font-size: 24px;
+  text-shadow: 0 0 2.5px #00000056;
+  font-weight: 700;
   color: #b71c1c;
 }
