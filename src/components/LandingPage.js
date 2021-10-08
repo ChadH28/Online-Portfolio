@@ -5,34 +5,34 @@ import $ from "jquery";
 
 const LandingPage = () => {
 
-  $('.intro-img').onclick = () =>
+  $('.hero-img').onclick = () =>
     function () {
-      $(".intro-img").ripples("show");
+      $(".landing-img").ripples("show");
     };
 
-  var example = [
-    "Hallo wêreld, ek is <br/> <strong>Chad Hoosain</strong>", //afrinkaans
-    "Molo weHlabathi, ndinguye <br/> <strong>Chad Hoosain</strong>", //xhosa
-    "Sawubona Mhlaba, nginguye <br/> <strong>Chad Hoosain</strong>", //zulu
-    "Nǐ hǎo shìjiè, wǒ shì <br/> <strong>Chad Hoosain</strong>", //chinese
-    "Hola mundo, soy <br/> <strong>Chad Hoosain</strong>", //spanish
-    "Kon'nichiwa sekai, watashi wa <br/> <strong>Chad Hoosain</strong>", // japanese
-    "Olá mundo estou <br/> <strong>Chad Hoosain</strong>", //portuguese
-    "Hello World, I am <br/> <strong>Chad Hoosain</strong>" //english
-  ];
+  // var example = [
+  //   "Hallo wêreld, ek is <br/> <strong>Chad Hoosain</strong>", //afrinkaans
+  //   "Molo weHlabathi, ndinguye <br/> <strong>Chad Hoosain</strong>", //xhosa
+  //   "Sawubona Mhlaba, nginguye <br/> <strong>Chad Hoosain</strong>", //zulu
+  //   "Nǐ hǎo shìjiè, wǒ shì <br/> <strong>Chad Hoosain</strong>", //chinese
+  //   "Hola mundo, soy <br/> <strong>Chad Hoosain</strong>", //spanish
+  //   "Kon'nichiwa sekai, watashi wa <br/> <strong>Chad Hoosain</strong>", // japanese
+  //   "Olá mundo estou <br/> <strong>Chad Hoosain</strong>", //portuguese
+  //   "Hello World, I am <br/> <strong>Chad Hoosain</strong>" //english
+  // ];
 
-  var sub_example = [
-    "Voornemende webontwikkelaar", //afrinkaans
-    "Umnqweno wewebhu", //xhosa
-    "Ufisa unjiniyela wewebhu", //zulu
-    "Yǒu bàofù de Web kāifā rényuán", //chinese
-    "Aspirante a desarrollador web", //spanish
-    "Iyoku-tekina u~ebu kaihatsu-sha", // japanese
-    "Aspirante a desenvolvedor web", //portuguese
-    "Aspiring Web Developer" //english
-  ];
+  // var sub_example = [
+  //   "Voornemende webontwikkelaar", //afrinkaans
+  //   "Umnqweno wewebhu", //xhosa
+  //   "Ufisa unjiniyela wewebhu", //zulu
+  //   "Yǒu bàofù de Web kāifā rényuán", //chinese
+  //   "Aspirante a desarrollador web", //spanish
+  //   "Iyoku-tekina u~ebu kaihatsu-sha", // japanese
+  //   "Aspirante a desenvolvedor web", //portuguese
+  //   "Aspiring Web Developer" //english
+  // ];
 
-  var span_example = [
+  var personality_span = [
     "Hardworking",
     "Dedicated",
     "Analytical",
@@ -71,29 +71,31 @@ const LandingPage = () => {
   //   }
   // }
 
+
+  var i = 0;
+  var speed = 20;
+
   textSequence3(0);
   function textSequence3(i) {
-    if (span_example.length > i) {
+    if (personality_span.length > i) {
       setTimeout(function () {
-        document.getElementById("span-sequence").innerHTML = span_example[i];
+        document.getElementById("span-sequence").innerHTML = personality_span[i];
         textSequence3(++i);
       }, 5000);
-    } else if (span_example.length === i) {
+    } else if (personality_span.length === i) {
       // Loop
       textSequence3(0);
     }
   }
 
-  var i = 0;
-  var speed = 20;
 
-  function typeWriter() {
-    if (i < span_example.length) {
-      document.getElementById("span-sequence").innerHTML += span_example.charAt(i);
-      i++;
-      setTimeout(typeWriter, speed);
-    }
-  }
+  // function typeWriter() {
+  //   if (i < personality_span.length) {
+  //     document.getElementById("span-sequence").innerHTML += personality_span.charAt(i);
+  //     i++;
+  //     setTimeout(typeWriter, speed);
+  //   }
+  // }
 
   return (
     <section className="intro">
