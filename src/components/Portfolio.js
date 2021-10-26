@@ -27,10 +27,10 @@ const Portfolio = () => {
       <div className="gallery" data-aos="zoom-out-up">
         <div
           className="row row-cols-sm-1 row-cols-xs-1 row-cols-md-1 row-cols-lg-2"
-          // data-masonry='{"percentPosition": true }'
         >
           <div className="col">
             <div className="image-container">
+              {/* <div className="overflow"></div> */}
               <div className="overlay-top container">Gitfinder</div>
               <img
                 src={gitfinder}

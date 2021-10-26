@@ -22,8 +22,6 @@ const Testimonials = () => {
           <div className="carousel-inner">
             <div className="carousel-item active">
               <div className="Tcard container">
-                <h5 className="card-title">Head of Curriculum and Learning</h5>
-                <img src={godwin} className="card-img-top " alt="..." style={{ width: "120px", height: "120px" }} />
                 <div className="card-body">
                   <p className="card-text">
                     <i className="fas fa-quote-left"></i>
@@ -35,15 +33,21 @@ const Testimonials = () => {
                   </p>
                 </div>
                 <div className="footer">
-                  <h5 className="card-title"><span>-Godwin P Dzvapatsva</span></h5>
+                  <div className='row'>
+                    <div className='col-sm-3'>
+                      <img src={godwin} className="card-img-top " alt="..." style={{ width: "100px", height: "100px" }} />
+                    </div>
+                    <div className='col-sm-8 card-header'>
+                      <h6 >Head of Curriculum and Learning</h6>
+                      <h6 ><span>- Godwin P Dzvapatsva</span></h6>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
 
             <div className="carousel-item">
               <div className="Tcard">
-                <h5 className="card-title">Fellow Peer</h5>
-                <img src={oslin} className="card-img-top " alt="..." style={{ width: "120px", height: "120px" }} />
                 <div className="card-body">
                   <p className="card-text">
                     <i className="fas fa-quote-left"></i>
@@ -56,14 +60,20 @@ const Testimonials = () => {
                   </p>
                 </div>
                 <div className="footer">
-                  <h5 className="card-title"><span>-Oslin Johnson</span></h5>
+                  <div className='row'>
+                    <div className='col-sm-3'>
+                      <img src={oslin} className="card-img-top " alt="..." style={{ width: "100px", height: "100px" }} />
+                    </div>
+                    <div className='col-sm-8 card-header'>
+                      <h6 >Fellow Peer</h6>
+                      <h6 ><span>- Oslin Johnson</span></h6>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
             <div className="carousel-item">
               <div className="Tcard">
-                <h5 className="card-title">Fellow Peer</h5>
-                <img src={sajjaad} className="card-img-top " alt="..." style={{ width: "120px", height: "120px" }} />
                 <div className="card-body">
                   <p className="card-text">
                     <i className="fas fa-quote-left"></i>
@@ -74,17 +84,25 @@ const Testimonials = () => {
                   </p>
                 </div>
                 <div className="footer">
-                  <h5 className="card-title"><span>-Sajjaad Francis</span></h5>
+                  <div className='row'>
+                    <div className='col-sm-3'>
+                      <img src={sajjaad} className="card-img-top " alt="..." style={{ width: "100px", height: "100px" }} />
+                    </div>
+                    <div className='col-sm-8 card-header'>
+                      <h6 >Fellow Peer</h6>
+                      <h6 ><span>- Sajjaad Francis</span></h6>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
           <div>
           <a className="carousel-control-prev" href="#testimonial-slider" data-slide="prev">
-            <span className="carousel-control-prev-icon"></span>
+            {/* <span className="carousel-control-prev-icon"></span> */}
           </a>
           <a className="carousel-control-next" href="#testimonial-slider" data-slide="next">
-            <span className="carousel-control-next-icon"></span>
+            {/* <span className="carousel-control-next-icon"></span> */}
           </a>
           </div>
         </div>

@@ -5,8 +5,6 @@ const Services = () => {
   return (
     <section id="services">
       <h2 className="section-title">My Services</h2>
-
-
       <div is='services-container' className="row row-cols-1 row-cols-md-3">
         <div className="col service-column">
           <div className="card service-block">

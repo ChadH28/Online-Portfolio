@@ -1,98 +1,67 @@
-.intro {
-    padding-top: 150px;
-    padding-bottom: 65px;
-    /* background-color: rgba(255, 255, 255,0.4); */
+.landing-page .section-title {
+  margin-bottom: 0.25em;
 }
 
 
-.intro .section-title {
-    margin-bottom: 0.25em;
+
+
+
+.header {
+  margin-top: 0.75em;
+  font-size: 65px;
+  line-height: 62px;
+  font-weight: 700;
 }
+
 
 strong {
-    color: #b71c1c;
+  color: #b71c1c;
+
 }
 
-@media (min-width: 600px) {
-    .intro {
-        display: grid;
-        width: min-content;
-        margin: auto;
-        grid-column-gap: 1em;
-        grid-template-areas:
-            'img title'
-            'img subtitle';
-        grid-template-columns: min-content max-content;
-    }
+#span-sequence {
+  color: #b71c1c;
 }
 
-.intro>.section-sub {
-    color: #fff;
-    align-self: start;
-    letter-spacing: 0.5px;
-    margin-bottom: 0.5em;
-    margin-top: 0.5em;
-    grid-column: -1 / 1;
-    grid-row: 2;
-    text-align: right;
+.hero h2{
+    margin-bottom: 2.75em;
+    font-size: 70px;
+    line-height: 62px;
+    margin-left: 25px;
     font-size: 36px;
-    font-weight: 40px;
-    position: relative;
-    left: 2.5em;
-    width: calc(75% + 1.5em)
-}
-
-
-#span-sequence{
-    color: #b71c1c;
-
-}
-
-.profession{
-
-
 }
 
 .sub-header {
-    margin-top: 0.75em;
-    font-size: 46px;
-    font-weight: 40px;
+  margin-top: 0.75em;
+  font-size: 46px;
+  margin-left: 15px;
+  font-weight: 40px;
 }
 
 hr {
-    border-color: white;
-    width: auto;    
+  border-color: white;
+  width: auto;
 }
 
-
-.hero{
-    width: 600px;    
+.hero {
+  width: 100%;
 }
 
-.hero-img{
-    width:1300px;
-    /* background-color: rgba(183, 28, 28, 0.59); */
-    background-color:#2a3749;   /* blue */
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    border-radius: 12px;
+.hero-img {
+  /* background-color: rgba(183, 28, 28, 0.59); */
+  /* background-color: #2a374936; blue */
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 12px; */
 }
 
 .landing-img {
-    display: block;
-    min-width: 350px;
-    width: 100%;
-    height: 680px;
-    margin: auto;
-    margin-bottom: 12px;
-    object-fit: fill;
+  display: block;
+  width: 100%;
+  height: 680px;
+  
+  margin: auto;
+  /* margin-bottom: 5px; */
+  object-fit: fill;
 }
 
-.header {
-    margin-bottom: 0.25em;
-    margin-top: 0.75em;
-    font-size: 65px;
-}
 
-.sub-header span {
-    
-}

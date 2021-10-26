@@ -57,7 +57,7 @@ const Contact = () => {
   }
 
   return (
-    <section id="contactme" className="contact">
+    <section id="contactme" className="contact container">
       <h2 className="section-title" >Lets Interact</h2>
       <h3 className="section-sub" data-aos="fade-left">
         Swing by for a cup of coffee at my favourite Boristas, or leave me a

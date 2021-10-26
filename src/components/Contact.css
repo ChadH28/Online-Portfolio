@@ -1,21 +1,33 @@
+/* On screens that are 600px or less */
+@media screen and (max-width: 400px) {
+  .contact-card  {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+
 .contact-card {
   width: 140px;
   height: 140px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   /* transition: 0.3s; */
-  border-radius: 50%;
+  border-radius: 100%;
   cursor: pointer;
 }
 
 .contact-card i{
   margin: auto;
+  color: black !important; 
   margin-top:25%;
   text-align: center;
   vertical-align: middle;
 }
 
 
-
+.contact{
+  margin: auto;
+}
 
 .contact-card:hover {
   /* box-shadow:  inset 0 8px 16px 0 rgba(0, 0, 0, 0.3); */
@@ -27,7 +39,7 @@
   box-shadow: 0 0 15px #2c4762 inset;
 }
 .code-pen:hover i{
-  color: #2c4762;
+  color: #2c4762 !important;
 }
 
 /* .github:hover {
@@ -39,7 +51,7 @@
   box-shadow: 0 0 15px #6e5494 inset;
 }
 .github:hover i{
-  color: #6e5494;
+  color: #6e5494 !important;
 }
 
 /* .call:hover {
@@ -50,7 +62,7 @@
   box-shadow: 0 0 15px  #f40083 inset;
 }
 .call:hover i{
-  color:  #f40083;
+  color:  #f40083 !important;
 }
 
 .maps:hover {
@@ -66,7 +78,7 @@
   box-shadow: 0 0 15px #007bb5 inset;
 }
 .linkedin:hover i{
-  color: #007bb5;
+  color: #007bb5 !important;
 }
 
 /* .google:hover {
@@ -78,7 +90,7 @@
   box-shadow: 0 0 15px #dd4b39 inset;
 }
 .google:hover i{
-  color: #dd4b39;
+  color: #dd4b39 !important;
 }
 
 
@@ -131,6 +143,10 @@ form:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
 }
 
+input{
+  color:black;
+}
+
 #button-send {
   padding: 14px 20px;
   margin: 8px 0;
@@ -162,12 +178,13 @@ form:hover {
   background-color: rgba(164, 198, 57, 0);
   box-shadow: inset 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   border: none;
+  color: black;
   border-right: #b71c1c 1px solid;
 }
 
 *[placeholder] {
   font-size: small;
-  color: white;
+ 
   background-color: rgba(164, 198, 57, 0);
   box-shadow: inset 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   border: none;
@@ -176,7 +193,6 @@ form:hover {
 
 *[placeholder]:focus {
   font-size: small;
-  color: white;
   background-color: rgba(164, 198, 57, 0);
   box-shadow: inset 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   border: none;
@@ -269,4 +285,8 @@ form:hover {
 .send:hover i {
   animation-name: send;
   animation-duration: 0.7s;
+}
+
+.send{
+  background-color:black
 }

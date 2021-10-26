@@ -16,21 +16,33 @@ const About = () => {
 
   return (
     <section id="aboutme" className="container about-me">
-      <h2 className="section-title">About Me</h2>
-
-      <h3 className="section-sub" data-aos="fade-right">
-        Developer & Entrepreneur in the making, based out of Sunny Cape Town
-      </h3>
       <div className="row">
-        <div className="col-sm-12 paragraph" data-aos="fade-left">
-          <p>
+        <div className="col-sm-6" data-aos="fade-left">
+          <h2 className="section-title">About Me</h2>
+
+          <h3 className="section-sub" data-aos="fade-right">
+            Developer & Entrepreneur in the making, based out of Sunny Cape Town
+          </h3>
+          <p className='paragraph'>
             An eager, motivated and a business-minded person who always looks
-            for positivity and a way to improve - whether it's in certain skills
+            for positivity and a way to improve whether it's in certain skills
             or my continuous character development. I like problem solving and
             visual imagery which is why I have a strong liking towards gaming
             and the gaming development aspects of coding. I feel that seeing
             code translating to a functioning product is a work of art.
           </p>
+          <div className="row findme">
+            <div className="col-sm-6">
+              <a href={CV} download>
+                <button className="btn download-link" data-aos="fade-right">DOWNLOAD CV</button>
+              </a>
+            </div>
+            <div className="col-sm-6">
+              <a href="#contactme">
+                <button className=" btn download-link" data-aos="fade-left">HIRE ME</button>
+              </a>
+            </div>
+          </div>
         </div>
 
         <div className="col-sm-6 bio" data-aos="fade-right">
@@ -48,16 +60,16 @@ const About = () => {
           <h5><i className="fas fa-plane-departure"></i> Willing to relocate</h5>
           <p className="travel">Yes, anywhere locally or abroad</p>
         </div>
-        <div className="col-sm-6 language">
+        <div className="col-sm-12 language">
+         <hr/>
           <h4>Languages</h4>
-          <div className="row row-cols-md-3 row-cols-sm-2">
+          <div className="row row-cols-md-2 row-cols-lg-5 row-cols-sm-2 language-container">
             <div className="col" data-aos="fade-down-right">
               <div
                 className="language-card html5"
                 data-toggle="modal"
                 data-target="#myModal"
-
-title="expand">
+                title="expand">
                 <div>
                   <i className="fab fa-html5"></i>
                 </div>
@@ -162,24 +174,15 @@ title="expand">
           </div>
         </div>
       </div>
-
-      <div className="col-sm-12 findme">
-        <a href={CV} download>
-          <button className="btn download-link" data-aos="fade-right">DOWNLOAD CV</button>
-        </a>
-        <a href="#contactme">
-          <button className=" btn download-link" data-aos="fade-left">HIRE ME</button>
-        </a>
-      </div>
-
       <div className="row">
         <div className="col-sm-12 col-md-6 education" data-aos="zoom-in-right" data-aos-duration="1800">
           <h4>Education</h4>
           <ul className="timeline">
             <li>
               <div className="card mb-3" data-aos="flip-left">
-                <div className="card-header">Lifechoices</div>
+                <div className="card-header "><i className="far fa-calendar-check"></i> Feb 2020 - Aug 2020</div>
                 <div className="card-body">
+                <h5 className="card-title">Lifechoices</h5>
                   <p className="card-text">
                     A 6-month bootcamp where we focused on the following
                     languages HTML,CSS,JavaScript and Python. I feel that I had
@@ -189,39 +192,32 @@ title="expand">
                     want to learn coding.
                   </p>
                 </div>
-                <div className="card-footer">
-                  <span className="float-right"><i className="far fa-calendar-check"></i> Feb 2020 - Aug 2020</span>
-                </div>
               </div>
             </li>
             <li>
               <div className="card mb-3" data-aos="flip-left">
                 <div className="card-header">
-                  Cape Peninsula University of Technology (Bellville Campus)
+                  <i className="far fa-calendar-check"></i> 2016 - 2018
                 </div>
                 <div className="card-body">
+                  <h5 className="card-title">Cape Peninsula University of Technology (Bellville Campus)</h5>
                   <p className="card-text">
                     A university where I spent two years in the faculty of
                     engineering doing my studies and trade to be a Mechanical
                     Engineer. (Course incomplete - Financial constraints)
                   </p>
                 </div>
-                <div className="card-footer">
-                  <span className="float-right"><i className="far fa-calendar-check"></i> 2016 - 2018</span>
-                </div>
               </div>
             </li>
             <li>
               <div className="card mb-3" data-aos="flip-left">
-                <div className="card-header">Oude Molen Technical High School</div>
+                <div className="card-header"><i className="far fa-calendar-check"></i> 2011 - 2016</div>
                 <div className="card-body">
+                <h5 className="card-title">Oude Molen Technical High School</h5>
                   <p className="card-text">
                     A highschool where I spent five great years, made good
                     friends and recieved a bachelors pass.
                   </p>
-                </div>
-                <div className="card-footer">
-                  <span className="float-right"><i className="far fa-calendar-check"></i> 2011 - 2016</span>
                 </div>
               </div>
             </li>
@@ -232,48 +228,33 @@ title="expand">
           <ul className="timeline">
             <li>
               <div className="card mb-3" data-aos="flip-right">
-                <div className="card-header">LC Studio</div>
+                <div className="card-header"><i className="far fa-calendar-alt"></i> March 2021 - Present</div>
                 <div className="card-body">
-                  <h5 className="card-title">Role</h5>
-                  <p className="card-text">Junior web developer</p>
-                  <h5 className="card-title">Duties</h5>
+                  <h5 className="card-title"><span>Intern Junior web developer</span><br/><em>LC Studio</em></h5>
                   <p className="card-text">Worked on website UX with Vue and backend REST apis</p>
                   <p className="card-text">
                     Was assigned projects to cultivate my teamwork skills and broaden my coding skills
                   </p>
                 </div>
-                <div className="card-footer">
-                  <span className="float-right"><i className="far fa-calendar-alt"></i> March 2021 - Present</span>
-                </div>
               </div>
             </li>
             <li>
               <div className="card mb-3" data-aos="flip-right">
-                <div className="card-header">Masterparts</div>
+                <div className="card-header"><i className="far fa-calendar-check"></i> Sep 2020 - March 2021</div>
                 <div className="card-body">
-                  <h5 className="card-title">Role</h5>
-                  <p className="card-text">Junior web developer</p>
-                  <h5 className="card-title">Duties</h5>
+                  <h5 className="card-title"><span>Intern Junior web developer</span> <br/> <em>Masterparts</em></h5>
                   <p className="card-text">Worked on website UX.</p>
                   <p className="card-text">
                     Was assigned projects to better shape my coding experience.
                   </p>
                 </div>
-                <div className="card-footer">
-                  <span className="float-right"><i className="far fa-calendar-check"></i> Sep 2020 - March 2021</span>
-                </div>
               </div>
             </li>
             <li>
               <div className="card mb-3" data-aos="flip-right">
-                <div className="card-header">3i Solutions</div>
+                <div className="card-header"><i className="far fa-calendar-check"></i> Jun 2018 - Jul 2019</div>
                 <div className="card-body">
-                  <h5 className="card-title">Role</h5>
-                  <p className="card-text">
-                    Sales, Customer service in Quality Advising and data
-                    capturing
-                  </p>
-                  <h5 className="card-title">Duties</h5>
+                  <h5 className="card-title"><span>Call Centre Agent</span>  <br/> <em>3i Solutions</em></h5>
                   <p className="card-text">
                     Listened and rated one-on-one calls from the Sales Agent to
                     the Customer and give feedback to the Agent on where they
@@ -287,18 +268,13 @@ title="expand">
                     and updated information on the companies database.
                   </p>
                 </div>
-                <div className="card-footer">
-                  <span className="float-right"><i className="far fa-calendar-check"></i> Jun 2018 - Jul 2019</span>
-                </div>
               </div>
             </li>
             <li>
               <div className="card mb-3" data-aos="flip-right">
-                <div className="card-header">Impact Wholesalers</div>
+                <div className="card-header"><i className="far fa-calendar-check"></i> Dec 2017 - Feb 2018</div>
                 <div className="card-body">
-                  <h5 className="card-title">Role</h5>
-                  <p className="card-text">Floor and storeroom packer</p>
-                  <h5 className="card-title">Duties</h5>
+                  <h5 className="card-title"><span>Floor & Storeroom packer</span> <br/> <em>Impact Wholesalers</em></h5>
                   <p className="card-text">Did the packing and stock-taking</p>
                   <p className="card-text">
                     Off-loaded heavy boxes and packed accordingly in the
@@ -306,27 +282,19 @@ title="expand">
                   </p>
                   <p className="card-text">Made rolls of toilet paper.</p>
                 </div>
-                <div className="card-footer">
-                  <span className="float-right"><i className="far fa-calendar-check"></i> Dec 2017 - Feb 2018</span>
-                </div>
               </div>
             </li>
             <li>
               <div className="card mb-3" data-aos="flip-right">
-                <div className="card-header">Industaff Solutions</div>
+                <div className="card-header"><i className="far fa-calendar-check"></i> Dec 2014 - Dec 2015</div>
                 <div className="card-body">
-                  <h5 className="card-title">Role</h5>
-                  <p className="card-text">Sweeper and Maintenance</p>
-                  <h5 className="card-title">Duties</h5>
+                  <h5 className="card-title"><span>Sweeper & maintenance</span> <br/> <em>Industaff Solutions</em> </h5>
                   <p className="card-text">
                     Street clean various areas around Cape Town.
                   </p>
                   <p className="card-text">
                     Picked up bags filled with dirt and transported it to the Compact truck.
                   </p>
-                </div>
-                <div className="card-footer">
-                  <span className="float-right"><i className="far fa-calendar-check"></i> Dec 2014 - Dec 2015</span>
                 </div>
               </div>
             </li>
@@ -606,7 +574,7 @@ title="expand">
                 </div>
                 {/* <!-- Modal body --> */}
                 <div className="modal-body">
-                  <p className="modal-language"> 
+                  <p className="modal-language">
                     SQL • postgreSQL • MongoDB
                   </p>
                   <h6 className="modal-title">Description</h6>
