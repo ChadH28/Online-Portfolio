@@ -22,6 +22,9 @@ const Testimonials = () => {
           <div className="carousel-inner">
             <div className="carousel-item active">
               <div className="Tcard container">
+                <img src={godwin} className="card-img-top " alt="..." style={{ width: "120px", height: "120px" }} />
+                <h5 className="title"><span>-Godwin P Dzvapatsva</span></h5>
+                <h6 className="subtitle">Head of Curriculum and Learning</h6>
                 <div className="card-body">
                   <p className="card-text">
                     <i className="fas fa-quote-left"></i>
@@ -32,22 +35,14 @@ const Testimonials = () => {
                     <i className="fas fa-quote-right"></i>
                   </p>
                 </div>
-                <div className="footer">
-                  <div className='row'>
-                    <div className='col-sm-3'>
-                      <img src={godwin} className="card-img-top " alt="..." style={{ width: "100px", height: "100px" }} />
-                    </div>
-                    <div className='col-sm-8 card-header'>
-                      <h6 >Head of Curriculum and Learning</h6>
-                      <h6 ><span>- Godwin P Dzvapatsva</span></h6>
-                    </div>
-                  </div>
-                </div>
               </div>
             </div>
 
             <div className="carousel-item">
               <div className="Tcard">
+                <img src={oslin} className="card-img-top " alt="..." style={{ width: "120px", height: "120px" }} />
+                <h5 className="title"><span>-Oslin Johnson</span></h5>
+                <h6 className="subtitle">Fellow Peer</h6>
                 <div className="card-body">
                   <p className="card-text">
                     <i className="fas fa-quote-left"></i>
@@ -59,21 +54,13 @@ const Testimonials = () => {
                     <i className="fas fa-quote-right"></i>
                   </p>
                 </div>
-                <div className="footer">
-                  <div className='row'>
-                    <div className='col-sm-3'>
-                      <img src={oslin} className="card-img-top " alt="..." style={{ width: "100px", height: "100px" }} />
-                    </div>
-                    <div className='col-sm-8 card-header'>
-                      <h6 >Fellow Peer</h6>
-                      <h6 ><span>- Oslin Johnson</span></h6>
-                    </div>
-                  </div>
-                </div>
               </div>
             </div>
             <div className="carousel-item">
               <div className="Tcard">
+                <img src={sajjaad} className="card-img-top " alt="..." style={{ width: "120px", height: "120px" }} />
+                <h5 className=" title"><span>-Sajjaad Francis</span></h5>
+                <h6 className=" subtitle">Fellow Peer</h6>
                 <div className="card-body">
                   <p className="card-text">
                     <i className="fas fa-quote-left"></i>
@@ -82,17 +69,6 @@ const Testimonials = () => {
                     asset to any and every company out there.
                     <i className="fas fa-quote-right"></i>
                   </p>
-                </div>
-                <div className="footer">
-                  <div className='row'>
-                    <div className='col-sm-3'>
-                      <img src={sajjaad} className="card-img-top " alt="..." style={{ width: "100px", height: "100px" }} />
-                    </div>
-                    <div className='col-sm-8 card-header'>
-                      <h6 >Fellow Peer</h6>
-                      <h6 ><span>- Sajjaad Francis</span></h6>
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>

@@ -176,7 +176,27 @@ const About = () => {
       </div>
       <div className="row">
         <div className="col-sm-12 col-md-6 education" data-aos="zoom-in-right" data-aos-duration="1800">
-          <h4>Education</h4>
+        <h4>Summary</h4>
+          <ul className="timeline summaryXP">
+            <li>
+              <div className="card mb-3" data-aos="flip-left">
+                <div className="card-body">
+                <h5 className="card-title">Chad Hoosain</h5>
+                  <p className="card-text">
+                  Innovative and deadline-driven Web Developer with 1.5+ years of experience designing and developing web applications in Vuejs, Nodejs and React. Good background in HTML,CSS and its frameworks,Javascript and some its frameworks, and mySQL. Developed strong teamwork and communicative skills over the years.
+                  </p>
+                  <ul>
+                    <li>Kensington, Northern Suburbs</li>
+                    <li>#Open to Work</li>
+                    <li>Remote & In-office</li>
+                    <li>(+27) 84 466 4783</li>
+                    <li>chadhoosain@gmail.com</li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <h4 className='edu'>Education</h4>
           <ul className="timeline">
             <li>
               <div className="card mb-3" data-aos="flip-left">
@@ -230,7 +250,7 @@ const About = () => {
               <div className="card mb-3" data-aos="flip-right">
                 <div className="card-header"><i className="far fa-calendar-alt"></i> March 2021 - Present</div>
                 <div className="card-body">
-                  <h5 className="card-title"><span>Intern Junior web developer</span><br/><em>LC Studio</em></h5>
+                  <h5 className="card-title"><span>Junior web developer Intern </span><br/><em>LC Studio</em></h5>
                   <p className="card-text">Worked on website UX with Vue and backend REST apis</p>
                   <p className="card-text">
                     Was assigned projects to cultivate my teamwork skills and broaden my coding skills
@@ -242,7 +262,7 @@ const About = () => {
               <div className="card mb-3" data-aos="flip-right">
                 <div className="card-header"><i className="far fa-calendar-check"></i> Sep 2020 - March 2021</div>
                 <div className="card-body">
-                  <h5 className="card-title"><span>Intern Junior web developer</span> <br/> <em>Masterparts</em></h5>
+                  <h5 className="card-title"><span>Junior web developer Intern </span> <br/> <em>Masterparts</em></h5>
                   <p className="card-text">Worked on website UX.</p>
                   <p className="card-text">
                     Was assigned projects to better shape my coding experience.

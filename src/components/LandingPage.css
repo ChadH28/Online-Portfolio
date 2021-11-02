@@ -15,12 +15,14 @@
 
 
 strong {
-  color: #b71c1c;
+  /* color: #b71c1c; */
+  color: #2B7A77;
 
 }
 
 #span-sequence {
-  color: #b71c1c;
+  /* color: #b71c1c; */
+  color: #2B7A77;
 }
 
 .hero h2{
@@ -45,6 +47,7 @@ hr {
 
 .hero {
   width: 100%;
+  overflow: hidden;
 }
 
 .hero-img {
@@ -58,7 +61,8 @@ hr {
   display: block;
   width: 100%;
   height: 680px;
-  
+  scale: 2;
+  overflow: hidden;
   margin: auto;
   /* margin-bottom: 5px; */
   object-fit: fill;

@@ -6,7 +6,6 @@
   font-size: 18px;
   padding: 16px;
   margin: 20px 0;
-  color: white;
   box-shadow: inset 0 4px 8px 0 rgba(0, 0, 0, 0.4);
   transition: 0.3s;
 }
@@ -38,8 +37,8 @@
 .Tcard {
   text-align: center;
   margin: auto;
+  color: #2B7A77;
   padding: 10px;
-  max-width: 530px;
 }
 
 .Tcard h5 {
@@ -59,7 +58,7 @@
   text-align: center;
   margin: auto;
   font-size: 20px;
-  max-width: 450px;
+  max-width: 480px;
   text-shadow: 0 0 2.5px #00000056;
   font-weight: 700;
 }
@@ -75,10 +74,19 @@
 .Tcard span {
   /* font-size: 24px; */
   text-shadow: 0 0 2.5px #00000056;
-  font-weight: 700;
-  color: #b71c1c;
+  font-weight: 900;
+  color: #3AAFA9;
 }
 
 .card-header{
   text-align: left;
+}
+
+.title{
+ margin-bottom: 2px;
+ margin-top: 15px;
+}
+
+.subtitle{
+  margin-bottom: 5px;
 }
