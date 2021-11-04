@@ -55,16 +55,17 @@ hr {
   /* background-color: #2a374936; blue */
   /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   border-radius: 12px; */
+  overflow: hidden;
 }
 
 .landing-img {
   display: block;
   width: 100%;
   height: 680px;
-  scale: 2;
-  overflow: hidden;
+  scale: 1.6;
   margin: auto;
-  /* margin-bottom: 5px; */
+  padding-top: 120px;
+  padding-left: 15px;
   object-fit: fill;
 }
 
