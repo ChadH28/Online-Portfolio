@@ -3,7 +3,7 @@ import "./App.css";
 import Navbar from "./components/navbar/Navbar";
 import { BrowserRouter as Router } from "react-router-dom";
 // import Routes from "./components/Routes";
-import Landing from "./components/LandingPage";
+import Landing from "./components/landing/LandingPage";
 import About from "./components/about/About";
 import Portfolio from "./components/portfolio/Portfolio";
 import Testimonials from "./components/testimonials/Testimonials(2)";
