@@ -14,7 +14,10 @@ import reactor from "../assets/reactor_game.png";
 import reactor_qrcode from "../assets/reactor_qrcode.png";
 import contact_assist from "../assets/contact_assistant.png";
 import lmj from "../assets/module_project.png";
+import card_concentration from "../assets/card_concentration.png";
+import weather_widget from "../assets/weather-widget.png";
 import lmj_qrcode from "../assets/lmj_qrcode.png";
+
 
 
 const Portfolio = () => {
@@ -342,6 +345,72 @@ const Portfolio = () => {
                 <a
                   data-toggle="modal"
                   data-target="#detail-modal9"
+                  className="card-link "
+                  href='#nolink'
+                  title="Description"
+                >
+                  <i className="fas fa-info-circle"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="col">
+            <div className="image-container">
+              <div className="overlay-top container">
+                Weather Widget
+              </div>
+              <img src={weather_widget} alt="Avatar" className="img-fluid" title="Lmj" />
+              <div className="overlay container">
+                <a
+                  href="https://github.com/ChadH28/Weather-Widget"
+                  className="card-link "
+                  title="Visit github repository"
+                >
+                  <i className="fab fa-github"></i>
+                </a>
+                <a
+                  href="https://chadh28.github.io/Weather-Widget/#/"
+                  className="card-link "
+                  title="Visit live website"
+                >
+                  <i className="fas fa-globe"></i>
+                </a>
+                <a
+                  data-toggle="modal"
+                  data-target="#detail-modal10"
+                  className="card-link "
+                  href='#nolink'
+                  title="Description"
+                >
+                  <i className="fas fa-info-circle"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="col">
+            <div className="image-container">
+              <div className="overlay-top container">
+                Card Concentration: Test your card memory
+              </div>
+              <img src={card_concentration} alt="Avatar" className="img-fluid" title="Lmj" />
+              <div className="overlay container">
+                <a
+                  href="https://github.com/ChadH28/Card-Concentration"
+                  className="card-link "
+                  title="Visit github repository"
+                >
+                  <i className="fab fa-github"></i>
+                </a>
+                <a
+                  href="https://chadh28.github.io/Card-Concentration/#/"
+                  className="card-link "
+                  title="Visit live website"
+                >
+                  <i className="fas fa-globe"></i>
+                </a>
+                <a
+                  data-toggle="modal"
+                  data-target="#detail-modal11"
                   className="card-link "
                   href='#nolink'
                   title="Description"
@@ -700,6 +769,78 @@ const Portfolio = () => {
                   <p>
                     First end of Module task. Used form-validation, modals,
                     cards and a navbar. Used Bootstrap and custom css stylings.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* <!-- closing of modal content --> */}
+      {/* <!-- modal content(weather-widget) --> */}
+      <div className="modal fade" id="detail-modal10">
+        <span data-dismiss="modal" className="closer">
+          &times;
+        </span>
+        <div className="modal-dialog"></div>
+        <div className="modal-section container">
+          <div className="row">
+            <div className="col-sm-6">
+              <div className="modal-content">
+                <div className="modal-header">
+                  <h5 className="modal-title">Barcode</h5>
+                </div>
+                <div className="modal-body">
+                  <img src={lmj_qrcode} alt="Avatar" className="img-fluid" title="google QR code generator" />
+                </div>
+              </div>
+            </div>
+            <div className="col-sm-6">
+              <div className="modal-content">
+                {/* <!-- Modal Header --> */}
+                <div className="modal-header">
+                  <h5 className="modal-title">Description</h5>
+                </div>
+                {/* <!-- Modal body --> */}
+                <div className="modal-body">
+                  <p>
+                    Made with Vuejs and fetched data from openweatherapi (Daily forecast & 7 day forecast) 
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* <!-- closing of modal content --> */}
+      {/* <!-- modal content(card-concentration) --> */}
+      <div className="modal fade" id="detail-modal11">
+        <span data-dismiss="modal" className="closer">
+          &times;
+        </span>
+        <div className="modal-dialog"></div>
+        <div className="modal-section container">
+          <div className="row">
+            <div className="col-sm-6">
+              <div className="modal-content">
+                <div className="modal-header">
+                  <h5 className="modal-title">Barcode</h5>
+                </div>
+                <div className="modal-body">
+                  <img src={lmj_qrcode} alt="Avatar" className="img-fluid" title="google QR code generator" />
+                </div>
+              </div>
+            </div>
+            <div className="col-sm-6">
+              <div className="modal-content">
+                {/* <!-- Modal Header --> */}
+                <div className="modal-header">
+                  <h5 className="modal-title">Description</h5>
+                </div>
+                {/* <!-- Modal body --> */}
+                <div className="modal-body">
+                  <p>
+                    A 2-player Concentration game with a 52 deck card, user has to match a card with equal value and equal color pairs e.g (2 HEARTS + 2 DAIMONDS is a pair). Made with Vuejs
                   </p>
                 </div>
               </div>
