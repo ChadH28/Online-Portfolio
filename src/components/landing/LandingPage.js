@@ -32,7 +32,7 @@ const LandingPage = () => {
   }
 
   return (
-    <section className="landing-page container">
+    <section id='landing-page' className="container">
       <div className="row">
         <div className="col-sm-5 col-md-4 col-lg-4 hero-img" data-aos="zoom-out-down">
           <img src={chad} alt="CH" className="landing-img" />

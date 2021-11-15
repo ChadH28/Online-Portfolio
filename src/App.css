@@ -9,6 +9,8 @@ body {
   font-weight: 400;
   color: white;
   line-height: 1.6;
+  overflow-x: hidden;
+  width: 100%;
 }
 
 .hero{
@@ -76,8 +78,9 @@ color: #2B7A77;
   padding: 5px;
 }
 
-.landing-page {
+#landing-page {
   padding-top: 210px;
+  padding-right: 0px;
   /* padding-bottom: 65px; */
 }
 
