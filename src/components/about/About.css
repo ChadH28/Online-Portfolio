@@ -133,10 +133,7 @@ ul.timeline p {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7);
 }
 
-.language-container{
-  margin: auto;
-  max-width: 800px;
-}
+
 
 
 .education{
@@ -157,7 +154,23 @@ ul.timeline p {
   color: #f40083;
 }
 
-.language-card {
+.language-container{
+  margin: auto;
+  max-width: 800px;
+  /* padding: 30px; */
+  padding: 0;
+}
+
+.language-container .col{
+  /* padding: 30px; */
+  padding: 0;
+  border: 0.5px solid #4f938fb6 ;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+}
+
+
+
+/* .language-card {
   margin-bottom: 50px;
   margin-left: 8px;
   padding: 30px;
@@ -166,6 +179,16 @@ ul.timeline p {
   border-radius: 12px;
   text-align: center;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+  transition: 0.3s;
+} */
+
+.language-card {
+  margin: 0;
+  padding: 50px;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3); */
   transition: 0.3s;
 }
 
