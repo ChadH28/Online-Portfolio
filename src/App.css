@@ -10,6 +10,7 @@ body {
   color: white;
   line-height: 1.6;
   overflow-x: hidden;
+  overflow-wrap: break-word;
   width: 100%;
 }
 
@@ -31,7 +32,8 @@ body {
 }
 .about-bg{
   background-color:#DEF2F1;  
-  color: #297B77;
+  /* color: #297B77; */
+  color: #1f5c59;
 }
 .portfolio-bg{
   background-color:rgba(222, 242, 241,0.7);
@@ -45,8 +47,12 @@ body {
 }
 
 .contact-bg{
-  background-color:#FEFFFF; 
-  
+  /* background-color:#FEFFFF;  */
+  /* background-image: url(./components/assets/contact-bg.jpg), rgba(254, 255, 255,0.4); */
+  background-attachment: fixed;
+  background-blend-mode: overlay;
+  background-image: url("./components/assets/contact-bg.jpg"), linear-gradient(rgba(254, 255, 255,0.85),rgba(254, 255, 255,0.85));
+  background-blend-mode: overlay;
 }
 
 
