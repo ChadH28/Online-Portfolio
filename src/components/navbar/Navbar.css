@@ -13,10 +13,16 @@
 
 .navbar img {
   max-height: 100px;
-  margin-top: 10px;
+  margin-top: 20px;
   margin-right: 80px;
   width: auto;
+  border-radius: 100%;
   z-index: unset;
+  opacity: 0.75;
+}
+
+.navbar :hover img{
+  opacity: 1;
 }
 
 *:focus {
