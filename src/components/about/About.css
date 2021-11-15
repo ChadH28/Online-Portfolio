@@ -133,9 +133,6 @@ ul.timeline p {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7);
 }
 
-
-
-
 .education{
   margin-bottom: 50px;
 }
@@ -169,7 +166,6 @@ ul.timeline p {
 }
 
 
-
 /* .language-card {
   margin-bottom: 50px;
   margin-left: 8px;
@@ -197,7 +193,8 @@ ul.timeline p {
 }
 
 .language-card i {
-  font-size: 32px;
+  /* font-size: 32px; */
+  font-size: 40px;
 }
 
 .javascript:hover {
