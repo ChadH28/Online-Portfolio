@@ -43,8 +43,12 @@ body {
   color: #1f5c59;
 }
 .portfolio-bg{
-  background-color:rgba(222, 242, 241,0.7);
-  /* background-color:#212121;  */
+  background-color:rgba(222, 242, 241,0.28);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("./components/assets/profile-bg2.jpg"), linear-gradient(rgba(222, 242, 241,1),rgba(222, 242, 241,1));
+  background-blend-mode: overlay;
 }
 
 .testimonial-bg{
