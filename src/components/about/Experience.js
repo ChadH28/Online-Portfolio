@@ -4,7 +4,7 @@ import React from "react";
 const Experience = () => {
   return (
     <section>
-      <div className="row">
+      <div className="row experience">
         <div className="col-sm-12 col-md-6 education" data-aos="zoom-in-right" data-aos-duration="1800">
         <h4>Summary</h4>
           <ul className="timeline summaryXP">
