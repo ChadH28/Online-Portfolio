@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Online-Portfolio/static/css/main.ba59676c.chunk.css",
-    "main.js": "/Online-Portfolio/static/js/main.dd627827.chunk.js",
-    "main.js.map": "/Online-Portfolio/static/js/main.dd627827.chunk.js.map",
+    "main.css": "/Online-Portfolio/static/css/main.ebb2d587.chunk.css",
+    "main.js": "/Online-Portfolio/static/js/main.8f748e4e.chunk.js",
+    "main.js.map": "/Online-Portfolio/static/js/main.8f748e4e.chunk.js.map",
     "runtime-main.js": "/Online-Portfolio/static/js/runtime-main.59a4d089.js",
     "runtime-main.js.map": "/Online-Portfolio/static/js/runtime-main.59a4d089.js.map",
     "static/css/2.7fc9bc2b.chunk.css": "/Online-Portfolio/static/css/2.7fc9bc2b.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.1d7c0528.chunk.js.map": "/Online-Portfolio/static/js/2.1d7c0528.chunk.js.map",
     "index.html": "/Online-Portfolio/index.html",
     "static/css/2.7fc9bc2b.chunk.css.map": "/Online-Portfolio/static/css/2.7fc9bc2b.chunk.css.map",
-    "static/css/main.ba59676c.chunk.css.map": "/Online-Portfolio/static/css/main.ba59676c.chunk.css.map",
+    "static/css/main.ebb2d587.chunk.css.map": "/Online-Portfolio/static/css/main.ebb2d587.chunk.css.map",
     "static/js/2.1d7c0528.chunk.js.LICENSE.txt": "/Online-Portfolio/static/js/2.1d7c0528.chunk.js.LICENSE.txt",
     "static/media/GitFinder.a13322d3.png": "/Online-Portfolio/static/media/GitFinder.a13322d3.png",
     "static/media/Resume.0c19d8aa.pdf": "/Online-Portfolio/static/media/Resume.0c19d8aa.pdf",
@@ -18,7 +18,7 @@
     "static/media/card_concentration.a3718191.png": "/Online-Portfolio/static/media/card_concentration.a3718191.png",
     "static/media/chad-removebg.8e460716.png": "/Online-Portfolio/static/media/chad-removebg.8e460716.png",
     "static/media/codeplayer.b293e8d9.png": "/Online-Portfolio/static/media/codeplayer.b293e8d9.png",
-    "static/media/App.css": "/Online-Portfolio/static/media/landing-bg.93685c5c.jpg",
+    "static/media/App.css": "/Online-Portfolio/static/media/profile-bg2.de2c8d54.jpg",
     "static/media/contact_assistant.2e08c66f.png": "/Online-Portfolio/static/media/contact_assistant.2e08c66f.png",
     "static/media/css3.6ae726b6.png": "/Online-Portfolio/static/media/css3.6ae726b6.png",
     "static/media/database.1d25bfe7.jpeg": "/Online-Portfolio/static/media/database.1d25bfe7.jpeg",
@@ -45,7 +45,7 @@
     "static/js/runtime-main.59a4d089.js",
     "static/css/2.7fc9bc2b.chunk.css",
     "static/js/2.1d7c0528.chunk.js",
-    "static/css/main.ba59676c.chunk.css",
-    "static/js/main.dd627827.chunk.js"
+    "static/css/main.ebb2d587.chunk.css",
+    "static/js/main.8f748e4e.chunk.js"
   ]
 }
