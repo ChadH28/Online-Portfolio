@@ -1,6 +1,6 @@
 import React from "react";
 import "./LandingPage.css";
-import chad from "../assets/landingpic.png";
+import chad from "../assets/landing-img.png";
 import $ from "jquery";
 
 const LandingPage = () => {

@@ -5,19 +5,26 @@
 .header {
   margin-top: 0.75em;
   font-size: 65px;
-  line-height: 62px;
+  line-height: 75px;
   font-weight: 700;
 }
 
 strong {
   /* color: #b71c1c; */
   color: #2B7A77;
+  margin-bottom: 20px;
 
 }
 
 #span-sequence {
   /* color: #b71c1c; */
+  margin-top: 20px;
   color: #2B7A77;
+  border: 4px #2B7A77 solid;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.08);
+  box-shadow: inset 0 4px 8px 0 rgba(0, 0, 0, 0.08);
+  width: fit-content;
+  padding: 8px;
 }
 
 .hero h2{
@@ -26,6 +33,7 @@ strong {
     line-height: 62px;
     margin-left: 25px;
     font-size: 36px;
+    text-shadow: 0 0 2.5px #0000004d;
 }
 
 .sub-header {
@@ -33,6 +41,7 @@ strong {
   font-size: 46px;
   margin-left: 15px;
   font-weight: 40px;
+  text-shadow: 0 0 2px #0000004b;
 }
 
 hr {
@@ -43,6 +52,7 @@ hr {
 .hero {
   width: 100%;
   overflow: hidden;
+  height: auto;
 }
 
 .hero-img {
@@ -50,15 +60,17 @@ hr {
   /* background-color: #2a374936; blue */
   /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   border-radius: 12px; */
-  overflow: hidden;
+  /* overflow: hidden; */
+  height: auto;
 }
 
 .landing-img {
   display: block;
   width: 100%;
-  height: 680px;
+  height: 640px;
   /* scale: 1.6; */
   margin: auto;
+  opacity: 0.95;
   margin-top: -180px;
   /* padding-left: 15px; */
   /* object-fit: fill; */
