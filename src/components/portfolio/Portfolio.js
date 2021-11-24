@@ -23,11 +23,11 @@ import lmj_qrcode from "../assets/lmj_qrcode.png";
 const Portfolio = () => {
   return (
     <section id="portfolio" className="mywork container">
-      <h2 className="section-title">Featured Work</h2>
+      <h2 className="section-title" data-aos="fade-right">Featured Work</h2>
       <h3 className="section-sub" data-aos="fade-left">
         A special selection of my range of work through coding
       </h3>
-      <div className="gallery" data-aos="zoom-out-up">
+      <div className="gallery" data-aos="zoom-in-right">
         <div
           className="row row-cols-sm-1 row-cols-xs-1 row-cols-md-1 row-cols-lg-2"
         >
