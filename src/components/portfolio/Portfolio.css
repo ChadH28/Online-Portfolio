@@ -7,8 +7,6 @@
   font-size: 18px;
 }
 
-
-
 .overflow {
   overflow: hidden;
   width: 100%;
@@ -43,7 +41,7 @@
   padding: 0px;
 }
 
-.image-container img { 
+.image-container img {
   /* vertical-align: middle; */
   width: 100%;
   height: 300px;
@@ -51,7 +49,7 @@
   opacity: 0.9;
   object-fit: fill;
   /* transition: transform .2s; */
-  transition: transform .2s ease-in-out;
+  transition: transform 0.2s ease-in-out;
   padding: 0px;
   /* border-radius: 8px; */
 }
@@ -59,10 +57,9 @@
 .image-container:hover img {
   opacity: 1;
   /* transform: rotate(5deg) scale(1.25); */
-  transform:  scale(1.05);
+  transform: scale(1.05);
   box-shadow: rgba(0, 0, 0, 0.4) 0px 5px 15px;
 }
-
 
 /* When you mouse over the container, fade in the overlay title */
 .image-container:hover .overlay {
@@ -118,7 +115,7 @@
   z-index: 2;
 }
 
-.overflow{
+.overflow {
   position: absolute;
   top: 0;
   background: rgba(255, 255, 255, 0.2);
@@ -127,11 +124,6 @@
   transition: 0.5s ease;
   opacity: 0;
 }
-
-
-
-
-
 
 /* ads section */
 .gallery {
@@ -146,15 +138,14 @@
   /* padding:15px; */
 }
 
-.card-link i{
+.card-link i {
   font-size: 35px;
   color: white;
   padding-left: 10px;
   padding-right: 10px;
 }
 
-
-.alert .btn-close{
+.alert .btn-close {
   position: absolute;
   top: -12px;
   right: 20px;
@@ -164,19 +155,18 @@
   z-index: 500;
 }
 
-
 #close:hover {
   opacity: 1;
   text-decoration: none;
   cursor: pointer;
 }
 
-.modal-body img{
+.modal-body img {
   border: solid white 3px;
-  border-radius:12px;
+  border-radius: 12px;
   margin: auto;
 }
 
-.row-cols-md-1{
+.row-cols-md-1 {
   margin: auto;
 }

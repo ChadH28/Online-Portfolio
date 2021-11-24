@@ -17,6 +17,8 @@ import lmj from "../assets/module_project.png";
 import card_concentration from "../assets/card_concentration.png";
 import weather_widget from "../assets/weather-widget.png";
 import lmj_qrcode from "../assets/lmj_qrcode.png";
+import card_qrcode from "../assets/card_qr.png";
+import weather_qrcode from "../assets/weather_qr.png";
 
 
 
@@ -791,7 +793,7 @@ const Portfolio = () => {
                   <h5 className="modal-title">Barcode</h5>
                 </div>
                 <div className="modal-body">
-                  <img src={lmj_qrcode} alt="Avatar" className="img-fluid" title="google QR code generator" />
+                  <img src={weather_qrcode} alt="Avatar" className="img-fluid" title="google QR code generator" />
                 </div>
               </div>
             </div>
@@ -827,7 +829,7 @@ const Portfolio = () => {
                   <h5 className="modal-title">Barcode</h5>
                 </div>
                 <div className="modal-body">
-                  <img src={lmj_qrcode} alt="Avatar" className="img-fluid" title="google QR code generator" />
+                  <img src={card_qrcode} alt="Avatar" className="img-fluid" title="google QR code generator" />
                 </div>
               </div>
             </div>
