@@ -7,9 +7,9 @@ import "./Testimonials.css";
 const Testimonials = () => {
   return (
     <section id="testimonials" className='container'>
-      <h2 className="section-title">Testimonials</h2>
+      <h2 className="section-title" data-aos="fade-left">Testimonials</h2>
       <h3 className="section-sub" data-aos="fade-right">What other people think of me or my work</h3>
-      <div className='row'>
+      <div className='row' data-aos="zoom-in-left">
         <div className='col-sm-12 col-md-12'>
           <div id="testimonial-slider" className="carousel slide" data-ride="carousel" >
             {/* <ul className="carousel-indicators">
