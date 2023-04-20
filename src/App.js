@@ -2,11 +2,10 @@ import React from "react";
 import "./App.css";
 import Navbar from "./components/navbar/Navbar";
 import { BrowserRouter as Router } from "react-router-dom";
-// import Routes from "./components/Routes";
 import Landing from "./components/landing/LandingPage";
 import About from "./components/about/About";
 import Portfolio from "./components/portfolio/Portfolio";
-import Testimonials from "./components/testimonials/Testimonials(2)";
+import Testimonials from "./components/testimonials/Testimonials";
 import Contact from "./components/contact/Contact";
 // import Services from "./components/Services";
 import aos from "aos";
@@ -46,5 +45,3 @@ const App = () => {
 };
 
 export default App;
-
-
